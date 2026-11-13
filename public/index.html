@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Community Directory</title>
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1d2330;--mut:#667085;--line:#e4e2dc;--chip:#f0eee9;--sbg:#e1ecf6;--sfg:#17496b;--fbg:#efe6f6;--ffg:#5b3a78;--okbg:#e2f3e8;--okfg:#1d6b3a;--acc:#1f5f8b;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15171c;--card:#1e2128;--ink:#eceef2;--mut:#9aa3b2;--line:#2e333d;--chip:#2a2f39;--sbg:#1b3346;--sfg:#9ccbee;--fbg:#35264a;--ffg:#d5b8f0;--okbg:#173a27;--okfg:#8fd9ab;--acc:#7db8e6;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15171c;--card:#1e2128;--ink:#eceef2;--mut:#9aa3b2;--line:#2e333d;--chip:#2a2f39;--sbg:#1b3346;--sfg:#9ccbee;--fbg:#35264a;--ffg:#d5b8f0;--okbg:#173a27;--okfg:#8fd9ab;--acc:#7db8e6;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+.wrap{max-width:1240px;margin:0 auto;padding:0 16px 40px}
+header.bar{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);z-index:5;padding:16px 0 12px;border-bottom:1px solid var(--line)}
+h1{font-size:22px;margin:0 0 10px;font-weight:600}
+.ctl{display:flex;gap:8px;flex-wrap:wrap}
+input,select,button{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+input{flex:2;min-width:200px}select{flex:1;min-width:130px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.chip{font-size:13px;padding:4px 10px;border-radius:999px;cursor:pointer;background:var(--chip);border:1px solid var(--line)}
+.chip.on{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+#count{font-size:13px;color:var(--mut);margin:12px 0}
+#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.name{font-weight:600;font-size:17px;margin:0}
+.sub{font-size:13px;color:var(--mut);margin:2px 0 0}
+.badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.b{font-size:12px;padding:3px 9px;border-radius:6px}
+.logo{background:#fff;border:1px solid var(--line);border-radius:6px;padding:4px 6px;flex:none}
+.logo img{height:34px;width:auto;display:block}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(105px,1fr));gap:8px}
+.stat{background:var(--chip);border-radius:8px;padding:8px 10px;display:flex;flex-direction:column;min-width:0}
+.stat span{font-size:12px;color:var(--mut)}.stat b{font-weight:600;overflow-wrap:anywhere}.stat i{font-size:12px;color:var(--mut);font-style:normal}
+.stat a{color:var(--acc);text-decoration:none}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.t{font-size:13px;padding:3px 9px;border-radius:6px;background:var(--chip)}
+.t.u{background:none;border:1px solid var(--line)}
+.lbl{font-size:12px;color:var(--mut);margin:0 0 6px}
+.row{display:flex;justify-content:space-between;gap:14px;font-size:14px}.row span:first-child{color:var(--mut);white-space:nowrap}.row span:last-child{text-align:right}
+.note{font-size:13px;color:var(--mut);margin:0}
+.panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.panel{border:1px solid var(--line);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:10px}
+.panel h3{font-size:13px;margin:0;font-weight:600}
+.sec{border-top:1px solid var(--line);padding-top:10px;display:flex;flex-direction:column;gap:10px}
+.hd{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}.hd h1{margin:0}
+.up{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--mut)}
+dialog{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:12px;max-width:480px;width:calc(100% - 32px);padding:18px}
+dialog h2{font-size:17px;margin:0 0 10px}dialog ul{margin:6px 0;padding-left:18px;font-size:14px}
+.dact{display:flex;justify-content:flex-end;gap:8px;margin-top:14px}
+#dyes{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="bar">
+<div class="hd"><h1>Community directory</h1><div class="up"><span id="src"></span><button id="upb" type="button">Preview a spreadsheet</button><input id="fi" type="file" accept=".xlsx,.xls,.csv" hidden></div></div>
+<div class="ctl">
+<input id="q" type="search" placeholder="Search by name, code, or address…" aria-label="Search communities">
+<select id="ty" aria-label="Site type"><option value="">All site types</option><option>Senior Site</option><option>Family Site</option></select>
+<select id="st" aria-label="State"><option value="">All states</option></select>
+<button id="clr" type="button">Clear</button>
+</div>
+<div class="chips" id="chips" aria-label="Filter by amenity"></div>
+</header>
+<p id="count"></p>
+<main id="grid"></main>
+</div>
+<dialog id="dlg"><h2 id="dt"></h2><div id="dbd"></div><p class="note" id="dn"></p><div class="dact"><button id="dno" type="button">Cancel</button><button id="dyes" type="button">Publish update</button></div></dialog>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+let D=[];const WHEEL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABMBAMAAAB9ilOYAAAAGFBMVEX////CwsK3t7empqaTk5OEhIR0dHQAAAD+V9mAAAAEsUlEQVR42r2YzWscZRjAf/OxWYTSTqQmHlqYgk1VtN0e0gS1uLWFeGhh9bLXFVJ67KZJ3L9hbUzWD5DgJegpBqQ3CaQSvDQxVRY0llibzMFCVdRBEZ3szqyH+diZ2Znd2Yn4ENiZyb6/fd7ned7nY+C/E6l9OTKZ0ZIuGziud2Odeo1jJ+sJUVPPPeyEie6FXACGk6GyU1DMxet18mmA0Y0kqDLAU389Cj2X3YsCAEIC1HDJ/pygHr1HBzKQHAUT+WiWlNSDbRSM5bvp1VNOlfx3Y4UolpUQVehy77JM+6OVELW5HqGnGPzyfleUt6WddQ/ms59n87vjAL92C3zP1Du34GFTtW8OeTHp6dUAYCkpCjbrvlMQ1Kt1dxw2tcQoeHDoSYdxbiMcC+KF2120mnDP309t3Yuqu6n5UIye0BW9LxTbxxRHs7E7Ab2uKWDU+kH5NWu+7c85CpCNQRVjUCy7O5GnfaxuB9L7daPDz4sebCYcq0oUSvBQESbwYFIiFl1QsBh3hvpHQbUjr/YWB1XpoNfKkXrpfRVEIaYO2XJhcHDw8cSsVkztcOrtiBN3aSTK9nL3rfTFIlRfrN3dnhxrdzfaj+EoW/E7L1oaK229AhV9PaHvhEjbDOfv+dzTLTJaK76NRbHkkuH8VwO2uu4m3nY2a9qzjEZ6EQmkLeUgfaEMUO5nRSX2tIvB5kY/qF5ngZq9z4tO0TPrKVl5cNzI0Uuugloq2w+0c1NbCun8KLgNgF8y6Vgl+C3Zme/NUrq3JP3YXkrcFNqy1r40wyzZNle4I1TjHPlV71wY7ghzKc+QBjA36akmKKB2fDVWU9Vj5bDnB3MxNKR0dBW9/ag6esXXquQxEZFmzHQBJkalhtSs3gPvgVmp7KVFZGY95RnSQA1nPi0HgaZ6r1ch2AdkdMiHWfUc5PwV95P09tKJCvzeLCvGZ0oKVqOvRrP3HkNJQTQ7XHSJzBvkRCQEQEAVriKiyjdQVRRpxgnJpsrx4GuJcw9fBPGXqy95o+Hso93Z++arX58fGt07r1HcLv0uXDn8oPT8VqZwZuPa6e+vbIAI9Y7ZJW8B4uu+5/qaZNwuAC+r6KCPcnlV1EHZ1OAMj60u2XtsAIHpPmoqelPEBPR92yivYCECCxWFxkWdbMlmWcCQf125M6kerpqM6PBnNgOgVMlgAi8slLA+QjBd29dA8GW/YciFM9ofldPZgp4t/7i6xEQZ4J1Kq14hO7WOoCvfTXttYgVYdpdnboDxWcE3rzqJ+4geSNOqxok994mquanlhxy4L7TkacBcGwcwA43+P8Ezr7t/XjKQAX4GKN7/1JvQawBbn/cZq0JUsTBqCEf04CuvzS9mG/MV62a2vPrNjDk/S7X8wTP3jKn3LmdV486X12tu3BuBhWato5cuV8+KxjbGu1x/Ky8aH1u1HUBVyoKoLDdq9aF6O0986F84FzEKICPlkPPstyTkkm0hXZHs1rxZWm+zrLmoQdVvilZL3kF6NvT8fbv8mc3Ae6abbv9fjUrQ3x5tCsYtjAX+fsIUmkugkFE0LAQlavaSipXKZEwGlCsIeShApoKYyyArZGfIUJJyFNK1kf+b/AtjRF4IogzLTwAAAABJRU5ErkJggg==",HOUSE="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABXBAMAAAB2GE/vAAAAGFBMVEX////ExMS8vLyxsbGfn5+Pj494eHgAAAAmi9tJAAADAUlEQVR42u3Wy2sUSRzA8W+/pi+CrbgElj20GvGibG8SNwoigzHmOqjB66CseFmojRPnb+gQ3fkPFG+enKsIMjfjAxkISgIK40HUkw2i2HFm2sN0V/f0dCeOL4Jal67Hh6IeXb8q+PKkXsypz6ycV7K5klGnVYBg4dO0Vul93YymXMzhR+831BLDxHNvA61XEoV9aZ7S+oW+4r63L9fRKQyj/bxPGxcG5jxqtHK0MSezt3dGuT+SXMvE1x/fOyT5bysZOolbdGO+I+ZSF2J8cwXo3o/5nmZKF/6Lca+tE/MtEdfycCbXcnE/P7AkdTaGzoODct/+Xgq1GeO7S317k+Da5B3QwBQxbqS2MsU1Rs7nY+g8cSQ/eEdZr2cARsoy66v2BphXdZktqBthWK0PRojVRm50iZv08CythR0kphEf+7vFVN9BZq/2p8QqmbyhNF+iA9UaQitqawjd1X03J/oODGMB1Oyg/FmzTK+gnir77ldbwW+q0+NOHP+Mq0dd99ayNu0sf0y9+f9Bdah/0Kj+2vnNp3+itA0mBipP9p4ZxWRRBarnhDlVMURBGBVGALNkOjOjwiybxcpkcd4UJqdHRai7bk24ywGgyueht981AfxFC1T43VVCrVaLHRoWYNV6UXWveNam2Xsl1OE5eqD8H+3lw+ihVrJLFkC7GcXiRV3AjTIULkYjueW90cRrFKyS5QE8bWzVcbDw/l0E1qy24iNHIq5W6Jjimu8qXlUAWMtVv22KplnxgBbvqsk3yYQWL1YvTYHuoEZPtuJ32ct/QB2H3Q4YZRj/C23XGDY2Dja2OjaBzbZwlpPb55g9Jjg1U1LnRoraseNlfXaaWU4ywwlK+vSUM8mZUB9x34Jr4F+2jVeXHfxLln81jLXFANZqq836dCfUbeow3aFwFOofoHC2Fd2UXSe8QNtjNXkuLRh7iPJnLVQyyn94ES5zR57iAiVwG/gLUDJh7YrTawpAvkqDSNeqvrwaTFGDADxoVLso7cEV3Jm45638W37Y9BGEbuYB9ZY/swAAAABJRU5ErkJggg==";
+const AM=["Community Room","Laundry Room","Off-Street Parking","On-Site Library","Game Room","Media Room","Outdoor Space","Fitness Center","Bus Access","Beauty Salon","Computer/Business Room","Activity/Craft Room","Controlled Access"];
+const $=s=>document.querySelector(s),e=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const sel=new Set();
+const stat=(l,v,n)=>v?`<div class="stat"><span>${l}</span><b>${v}</b>${n?`<i>${n}</i>`:""}</div>`:"";
+const tags=a=>a.length?`<div class="tags">${a.map(x=>`<span class="t">${e(x)}</span>`).join("")}</div>`:"";
+const row=(l,v)=>v?`<div class="row"><span>${l}</span><span>${e(v)}</span></div>`:"";
+function bld(b){
+  const ph=b.phone?`<a href="tel:${b.phone.replace(/\D/g,"")}">${e(b.phone)}</a>`:"";
+  let h=`<div class="stats">${stat("Phone",ph)}${stat("Total units",b.total!=null?e(b.total):"")}${stat("ADA units",b.ada?e(b.ada):"",b.ada==="Yes"?"Count not given":"")}${stat("Market rate",b.mr?e(b.mr):"")}</div>`;
+  if(b.mix.length)h+=`<div class="tags">${b.mix.map(m=>`<span class="t u">${m[1]} ${e(m[0])}</span>`).join("")}</div>`;
+  if(!b.resp)return h+`<p class="note">Survey details not yet collected.</p>`;
+  return h+`<div style="display:flex;flex-direction:column;gap:6px">${row("Utilities",b.util)}${row("Disability %",b.dis)}</div>`;
+}
+function card(c){
+  const bs=c.b,multi=bs.length>1;
+  const logo=c.logo==="Wheelchair & House"?WHEEL:c.logo==="House Only"?HOUSE:"";
+  const fam=c.type==="Family Site";
+  let h=`<article class="card"><div class="top"><div><p class="name">${e(c.name)}</p><p class="sub">${e(c.code)} · ${e(c.addr)}</p>
+  <div class="badges"><span class="b" style="background:var(--${fam?"fbg":"sbg"});color:var(--${fam?"ffg":"sfg"})">${e(c.type)}</span>${bs.some(b=>b.sc==="Yes")?`<span class="b" style="background:var(--okbg);color:var(--okfg)">Service coordinator</span>`:""}</div></div>
+  ${logo?`<div class="logo"><img src="${logo}" alt="Equal housing opportunity logo"></div>`:""}</div>`;
+  if(multi)h+=`<div class="panels">${bs.map(b=>`<div class="panel"><h3>${e(b.label)} building</h3>${bld(b)}</div>`).join("")}</div>`;
+  else h+=bld(bs[0]);
+  const L=bs.map(b=>b.am.concat(b.other));
+  if(bs.some(b=>b.resp)){
+    const com=L[0].filter(a=>L.every(l=>l.includes(a)));
+    h+=`<div class="sec"><div><p class="lbl">${multi?"Amenities in all buildings":"Amenities"}</p>${tags(com)||`<p class="note">None listed</p>`}</div>`;
+    if(multi)bs.forEach((b,i)=>{const x=L[i].filter(a=>!com.includes(a));if(x.length)h+=`<div><p class="lbl">${e(b.label)} building only</p>${tags(x)}</div>`});
+    h+=`</div>`;
+  }
+  return h+`</article>`;
+}
+function render(){
+  const q=$("#q").value.trim().toLowerCase(),ty=$("#ty").value,st=$("#st").value;
+  const r=D.filter(c=>(!q||(c.name+" "+c.code+" "+c.addr).toLowerCase().includes(q))&&(!ty||c.type===ty)&&(!st||c.state===st)&&[...sel].every(a=>c.b.some(b=>b.am.includes(a))));
+  $("#count").textContent=`${r.length} of ${D.length} communities`;
+  $("#grid").innerHTML=r.length?r.map(card).join(""):`<p class="note">No communities match these filters.</p>`;
+}
+function fillStates(){const cur=$("#st").value;$("#st").innerHTML='<option value="">All states</option>'+[...new Set(D.map(c=>c.state).filter(Boolean))].sort().map(s=>`<option>${e(s)}</option>`).join("");$("#st").value=cur}
+fillStates();
+AM.forEach(a=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=a;b.onclick=()=>{sel.has(a)?sel.delete(a):sel.add(a);b.classList.toggle("on");render()};$("#chips").appendChild(b)});
+["#q","#ty","#st"].forEach(s=>$(s).addEventListener("input",render));
+$("#clr").onclick=()=>{$("#q").value="";$("#ty").value="";$("#st").value="";sel.clear();document.querySelectorAll(".chip.on").forEach(x=>x.classList.remove("on"));render()};
+//NORM-START
+const REQ=["Community Code","Community","Phone Number","Site Type","Address","Units Total"];
+const MIXC=[["Efficiency Units","Efficiency"],["Studio Units","Studio"],["1-Bedroom Units","1-bedroom"],["2-Bedroom Units","2-bedroom"],["3-Bedroom Units","3-bedroom"],["4-Bedroom Units","4-bedroom"]];
+const S=v=>{if(v==null)return null;v=String(v).trim();return v||null};
+const num=v=>{const n=Number(v);return v!=null&&v!==""&&isFinite(n)?n:null};
+const truthy=v=>v===true||v===1||/^(true|1)$/i.test(String(v).trim());
+const utilN=v=>{v=S(v);if(!v)return null;if(/^full util/i.test(v))return"Full utilities";if(/^tenant paid$/i.test(v))return"Tenant paid";return v.replace(/^Partial[\s-]*(Paid)?:?\s*/,"Partial: ")};
+const disN=v=>{if(v==null||v==="")return null;if(typeof v==="number")return Math.round(v*100)+"%";v=String(v).trim();return/^(none|no|n\/a)$/i.test(v)?"No":v};
+function bldN(r){const oth=S(r["Other Amenities"])?String(r["Other Amenities"]).split(",").map(x=>x.trim()).filter(Boolean):[];
+return{phone:S(r["Phone Number"]),total:num(r["Units Total"]),mix:MIXC.filter(([c])=>num(r[c])>0).map(([c,l])=>[l,num(r[c])]),mr:S(r["Market Rate Units"]),ada:S(r["ADA Units"]),dis:disN(r["Disability %"]),util:utilN(r["Utilities"]),sc:S(r["Service Coordinator"]),resp:["Utilities","Service Coordinator","Community Room","Fair Housing Logo"].some(c=>S(r[c])!=null),am:AM.filter(a=>truthy(r[a])),other:oth}}
+function normalize(rows){const g=new Map();let skipped=0;
+rows.forEach(r0=>{const r={};for(const k in r0)r[k.trim()]=r0[k];const code=S(r["Community Code"]);if(!code||!S(r.Community)){skipped++;return}if(!g.has(code))g.set(code,[]);g.get(code).push(r)});
+const out=[];g.forEach((rs,code)=>{const f=rs[0],addr=S(f.Address)||"",m=addr.match(/\b([A-Z]{2})\b,?\s*\d{5}/);
+const bs=rs.map(r=>{const b=bldN(r),p=String(r.Community).match(/\((.*?)\)/);b.label=p?p[1].trim().replace(/\w\S*/g,w=>w[0].toUpperCase()+w.slice(1).toLowerCase()):"Main";return b});
+const nm=(rs.length>1?String(f.Community).replace(/\s*\(.*?\)\s*/g,""):String(f.Community)).trim().replace(/'/g,"\u2019");
+out.push({code,name:nm,addr,state:m?m[1]:/New York/.test(addr)?"NY":/Texas/.test(addr)?"TX":"",type:S(f["Site Type"])||"",logo:S(f["Fair Housing Logo"]),b:bs})});
+out.sort((a,b)=>a.name.toLowerCase()<b.name.toLowerCase()?-1:1);return{out,skipped}}
+//NORM-END
+const st=o=>JSON.stringify(o,(k,v)=>v&&typeof v==="object"&&!Array.isArray(v)?Object.keys(v).sort().reduce((a,x)=>(a[x]=v[x],a),{}):v);
+const setSrc=m=>{$("#src").textContent=m};setSrc("Loading…");
+const valid=a=>Array.isArray(a)&&a.length>0&&a.every(c=>c&&typeof c.name==="string"&&Array.isArray(c.b)&&c.b.length&&c.b.every(b=>b&&Array.isArray(b.am)&&Array.isArray(b.other)&&Array.isArray(b.mix)));
+let pend=null;
+async function loadData(){try{const r=await fetch("communities.json",{cache:"no-cache"});if(!r.ok)throw new Error(r.status);const a=await r.json();if(!valid(a))throw new Error("bad data");D=a;fillStates();render();setSrc("")}catch(x){setSrc("Couldn’t load the community data. Try refreshing.")}}
+function dlg(title,html,canSave){$("#dt").textContent=title;$("#dbd").innerHTML=html;$("#dn").textContent="";$("#dyes").hidden=!canSave;$("#dyes").disabled=false;if(!$("#dlg").open)$("#dlg").showModal()}
+$("#upb").onclick=()=>$("#fi").click();
+$("#fi").onchange=async ev=>{const f=ev.target.files[0];ev.target.value="";if(!f)return;pend=null;
+try{if(!window.XLSX)throw new Error("The spreadsheet reader didn’t load. Check your connection and try again.");
+const wb=XLSX.read(await f.arrayBuffer(),{type:"array"}),ws=wb.Sheets["Communities"]||wb.Sheets[wb.SheetNames[0]],rows=XLSX.utils.sheet_to_json(ws,{defval:null});
+const cols=new Set(Object.keys(rows[0]||{}).map(k=>k.trim())),miss=REQ.filter(c=>!cols.has(c));
+if(miss.length)throw new Error("Missing columns: "+miss.join(", "));
+const{out,skipped}=normalize(rows);if(!out.length)throw new Error("No communities with a code were found.");
+const o=new Map(D.map(c=>[c.code,st(c)])),n=new Map(out.map(c=>[c.code,st(c)])),nm=new Map(out.map(c=>[c.code,c.name]));
+const add=[...n.keys()].filter(k=>!o.has(k)),rem=[...o.keys()].filter(k=>!n.has(k)),chg=[...n.keys()].filter(k=>o.has(k)&&o.get(k)!==n.get(k));
+const li=(l,a)=>a.length?`<li>${l}: ${a.length}${a.length<=6?" ("+a.map(k=>e(nm.get(k)||k)).join(", ")+")":""}</li>`:"";
+pend={out,name:f.name};$("#dyes").textContent="Show in this browser";
+dlg("Preview this spreadsheet?",`<p>${e(f.name)}: ${rows.length} rows, ${out.length} communities.${skipped?` ${skipped} rows without a code were skipped.`:""}</p><ul>${li("Added",add)}${li("Changed",chg)}${li("Removed",rem)}${add.length+chg.length+rem.length?"":"<li>No differences from the current data.</li>"}</ul><p class="note">This only changes what you see in this browser. To update the site for everyone, upload the spreadsheet to the GitHub repo.</p>`,add.length+chg.length+rem.length>0)}
+catch(x){dlg("Couldn’t read that file",`<p>${e(x.message||x)}</p>`,false)}};
+$("#dno").onclick=()=>$("#dlg").close();
+$("#dyes").onclick=()=>{if(!pend)return;D=pend.out;fillStates();render();setSrc("Preview from "+pend.name+" (this browser only)");$("#dlg").close()};
+loadData();
+</script>
+</body>
+</html>

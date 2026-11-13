@@ -1,0 +1,8 @@
+{
+  "framework": null,
+  "outputDirectory": "public",
+  "headers": [
+    { "source": "/communities.json", "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }] },
+    { "source": "/communities-flat.json", "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }] }
+  ]
+}

@@ -1,0 +1,5013 @@
+[
+  {
+    "code": "EST",
+    "name": "1490 Estates",
+    "addr": "1500 Jefferson Avenue, Buffalo, NY 14208",
+    "state": "NY",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "716-881-6654",
+        "total": 60,
+        "mix": [
+          [
+            "1-bedroom",
+            59
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (12)",
+        "ada": "3",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Outdoor Space",
+          "Bus Access"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "AMH",
+    "name": "Amherst",
+    "addr": "467 John James Audubon Pkwy., Amherst, NY 14228",
+    "state": "NY",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "716-815-4660",
+        "total": 150,
+        "mix": [
+          [
+            "1-bedroom",
+            150
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "BAT",
+    "name": "Battlefield Tower",
+    "addr": "1451 E. Woodland Street, Springfield, MO 65804",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "417-887-7460",
+        "total": 92,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "BET1",
+    "name": "Bet Shalom 1",
+    "addr": "475 Chandler Street, Worcester, MA 01602",
+    "state": "MA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "508-791-1188",
+        "total": 71,
+        "mix": [
+          [
+            "1-bedroom",
+            71
+          ]
+        ],
+        "mr": "Yes (1: unit 202)",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Bus Access",
+          "Beauty Salon"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "BET2",
+    "name": "Bet Shalom 2",
+    "addr": "476 Chandler Street, Worcester, MA 01602",
+    "state": "MA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "508-791-1189",
+        "total": 24,
+        "mix": [
+          [
+            "1-bedroom",
+            24
+          ]
+        ],
+        "mr": "Yes (1:unit 202)",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Bus Access",
+          "Beauty Salon"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "BIR",
+    "name": "Birchwood Manor",
+    "addr": "2830 W. 27th Street Lane, Greeley, CO 80634",
+    "state": "CO",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "970-330-6206",
+        "total": 162,
+        "mix": [
+          [
+            "1-bedroom",
+            151
+          ],
+          [
+            "2-bedroom",
+            11
+          ]
+        ],
+        "mr": "None",
+        "ada": "15",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "BT",
+    "name": "Brashear Tower",
+    "addr": "17841 North Laurel Park Dr., Livonia, MI 48152",
+    "state": "MI",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "734-591-6622",
+        "total": 196,
+        "mix": [
+          [
+            "1-bedroom",
+            180
+          ],
+          [
+            "2-bedroom",
+            16
+          ]
+        ],
+        "mr": "None",
+        "ada": "12",
+        "dis": "No",
+        "util": "Partial: Electricity not covered, allowance for electric bill",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Game Room",
+          "Fitness Center",
+          "Activity/Craft Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "BRM",
+    "name": "Bridgeville Manor",
+    "addr": "601 McMillen St, Bridgeville, PA 15017",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "412-257-4844",
+        "total": 50,
+        "mix": [],
+        "mr": "None",
+        "ada": "6",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "BROD",
+    "name": "Broadview Senior Apartments",
+    "addr": "2915 W. 8th Street, Greeley, CO 80634",
+    "state": "CO",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "970-313-8576",
+        "total": 101,
+        "mix": [
+          [
+            "1-bedroom",
+            100
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes",
+        "ada": "11",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Bus Access"
+        ],
+        "other": [
+          "On-Site Meals"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "BM",
+    "name": "Burton Manor",
+    "addr": "601 Cornell St., Aberdeen, MD 21001",
+    "state": "MD",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "410-272-7250",
+        "total": 80,
+        "mix": [
+          [
+            "1-bedroom",
+            80
+          ]
+        ],
+        "mr": "None",
+        "ada": "8",
+        "dis": "10%",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [
+          "Trash Chute on Each Floor"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CAL",
+    "name": "Calvary Tower",
+    "addr": "1099 Clay St, Winter Park, FL 32789",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "407-645-1099",
+        "total": 156,
+        "mix": [
+          [
+            "1-bedroom",
+            156
+          ]
+        ],
+        "mr": "None",
+        "ada": "13",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Media Room",
+          "Outdoor Space"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CC",
+    "name": "Campbell Court",
+    "addr": "16650 Van Aken Blvd, Shaker Heights, OH 44120",
+    "state": "OH",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "216-921-8448",
+        "total": 82,
+        "mix": [
+          [
+            "Studio",
+            20
+          ],
+          [
+            "1-bedroom",
+            61
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (1: 104 - 2B)",
+        "ada": "6",
+        "dis": "1%",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Media Room",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CVT",
+    "name": "Capitol View Tower",
+    "addr": "1700 J Street, Lincoln, NE 68508",
+    "state": "NE",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "402-474-4003",
+        "total": 105,
+        "mix": [
+          [
+            "1-bedroom",
+            105
+          ]
+        ],
+        "mr": "Yes (1: unit 101)",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "AMS",
+    "name": "Casa De Amistad",
+    "addr": "155 De Chantle Rd, San Antonio, TX 78201",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "210-735-1388",
+        "total": 61,
+        "mix": [
+          [
+            "1-bedroom",
+            61
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": null,
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Outdoor Space"
+        ],
+        "other": [
+          "Grill"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "ESP",
+    "name": "Casa De Esperanza",
+    "addr": "8886 Abe Lincoln Rd, San Antonio, TX 78240",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "210-696-7299",
+        "total": 69,
+        "mix": [
+          [
+            "1-bedroom",
+            69
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Controlled Access"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CDPL",
+    "name": "Casa De Palma",
+    "addr": "302 E Palm Avenue, Tampa, FL 33602",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "813-223-2686",
+        "total": 24,
+        "mix": [
+          [
+            "1-bedroom",
+            24
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CLM",
+    "name": "Casa La Merced",
+    "addr": "140 N. Montebello Blvd., Montebello, CA 90640",
+    "state": "CA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "323-721-9668",
+        "total": 130,
+        "mix": [],
+        "mr": "None",
+        "ada": "Yes (2: 1B)",
+        "dis": "No",
+        "util": "Partial: Water and Trash are covered. Electricity is not.",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Game Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CH",
+    "name": "Cedar Hills",
+    "addr": "7401 Saint Vincent Avenue, Shreveport, LA 71106",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "318-861-6915",
+        "total": 143,
+        "mix": [
+          [
+            "Studio",
+            104
+          ],
+          [
+            "1-bedroom",
+            39
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [
+          "Community Transportation"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CP",
+    "name": "Center Place",
+    "addr": "101 Center Place, Dundalk, MD 21222",
+    "state": "MD",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "410-285-6666",
+        "total": 160,
+        "mix": [
+          [
+            "1-bedroom",
+            151
+          ],
+          [
+            "2-bedroom",
+            9
+          ]
+        ],
+        "mr": "None",
+        "ada": "9",
+        "dis": "No",
+        "util": "Partial: Residents pay water and cable",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CMH1",
+    "name": "Christian Manor 1",
+    "addr": "100 Riviera Drive, Hendersonville, TN 37075",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "615-824-9265",
+        "total": 80,
+        "mix": [
+          [
+            "1-bedroom",
+            79
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (1: 2B Unit)",
+        "ada": "8",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CMH2",
+    "name": "Christian Manor 2",
+    "addr": "100 Trident Place, Hendersonville, TN 37075",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "615-824-9266",
+        "total": 57,
+        "mix": [
+          [
+            "1-bedroom",
+            56
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (1: 2B Unit)",
+        "ada": "7",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GAL",
+    "name": "Christian Manor of Gallatin",
+    "addr": "143 Prince Street, Gallatin, TN 37066",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "615-452-9363",
+        "total": 55,
+        "mix": [
+          [
+            "1-bedroom",
+            54
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "6",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CTG",
+    "name": "Christian Towers of Gallatin",
+    "addr": "139 E. Franklin Street, Gallatin, TN 37066",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "615-452-9364",
+        "total": 100,
+        "mix": [
+          [
+            "1-bedroom",
+            100
+          ]
+        ],
+        "mr": "None",
+        "ada": "7",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CHR",
+    "name": "Christian Village",
+    "addr": "4225 Billie Bolin Dr., San Angelo, TX 76904",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "325-949-8575",
+        "total": 150,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CRT",
+    "name": "Christopher Towers",
+    "addr": "1805 Devine Street, Columbia, SC 29201",
+    "state": "SC",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "803-799-5876",
+        "total": 225,
+        "mix": [
+          [
+            "Studio",
+            71
+          ],
+          [
+            "1-bedroom",
+            154
+          ]
+        ],
+        "mr": "71 Voucher Units",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CTY",
+    "name": "City View Towers",
+    "addr": "256 South Camilla St, Memphis, TN 38104",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "901-521-1104",
+        "total": 430,
+        "mix": [
+          [
+            "Studio",
+            80
+          ],
+          [
+            "1-bedroom",
+            350
+          ]
+        ],
+        "mr": "Yes (1: unit 430)",
+        "ada": "20",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "COHV",
+    "name": "Coastal Haven Senior Apartments",
+    "addr": "4710 Middlecoff Road, Corpus Christi, TX 78413",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "361-852-0161",
+        "total": 106,
+        "mix": [
+          [
+            "Studio",
+            4
+          ],
+          [
+            "1-bedroom",
+            96
+          ],
+          [
+            "2-bedroom",
+            6
+          ]
+        ],
+        "mr": "Yes (4)",
+        "ada": "10",
+        "dis": "10%",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CPT1",
+    "name": "College Park Towers 1",
+    "addr": "5200 Eggleston Ave, Orlando, FL 32810",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "407-291-1542",
+        "total": 102,
+        "mix": [
+          [
+            "1-bedroom",
+            102
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes (One on each floor)",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity, Internet/Cable not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Media Room",
+          "Outdoor Space",
+          "Computer/Business Room"
+        ],
+        "other": [
+          "Dog Park"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CPT2",
+    "name": "College Park Towers 2",
+    "addr": "5201 Eggleston Ave, Orlando, FL 32810",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "407-291-1543",
+        "total": 68,
+        "mix": [
+          [
+            "1-bedroom",
+            68
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes (One on each floor)",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity, Internet/Cable not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Media Room",
+          "Outdoor Space",
+          "Computer/Business Room"
+        ],
+        "other": [
+          "Dog Park"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "COL",
+    "name": "Colona House",
+    "addr": "54 41st Ave., East Moline IL 61244",
+    "state": "IL",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "309-762-1414",
+        "total": 153,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "COR1",
+    "name": "Corinthian Senior 1 & 2",
+    "addr": "3601 Lemay Ferry Road, St. Louis, MO 63125",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "314-487-5553",
+        "total": 180,
+        "mix": [
+          [
+            "1-bedroom",
+            174
+          ],
+          [
+            "2-bedroom",
+            6
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "10%",
+        "util": "Partial: Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Game Room",
+          "Media Room",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "COR3",
+    "name": "Corinthian Senior 3",
+    "addr": "1762 Lemay Ferry Rd, St Louis, MO 63125",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "314-487-5554",
+        "total": 40,
+        "mix": [
+          [
+            "1-bedroom",
+            40
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Partial: Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "COR4",
+    "name": "Corinthian Senior 4",
+    "addr": "11120 Tesson Ferry Rd, St. Louis, MO 63123",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "314-487-5555",
+        "total": 36,
+        "mix": [
+          [
+            "1-bedroom",
+            36
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Partial: Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "COV",
+    "name": "Coventry",
+    "addr": "1900 6th Ave, Rock Island, IL 61201",
+    "state": "IL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "309-788-0117",
+        "total": 146,
+        "mix": [
+          [
+            "1-bedroom",
+            146
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "18",
+        "dis": "10%",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Fitness Center",
+          "Beauty Salon"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "COE",
+    "name": "Crown Oak Estates",
+    "addr": "5 Crown Oak Drive, Penfield, New York, 14526",
+    "state": "NY",
+    "type": "Family Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "585-377-0819",
+        "total": 96,
+        "mix": [
+          [
+            "1-bedroom",
+            20
+          ],
+          [
+            "2-bedroom",
+            60
+          ],
+          [
+            "3-bedroom",
+            16
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "None",
+        "dis": "No",
+        "util": "Partial: Water, Sewer. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "CMB",
+    "name": "Cumberland View",
+    "addr": "1201 Cheyenne Boulevard, Madison, TN 37115",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "615-868-8653",
+        "total": 150,
+        "mix": [
+          [
+            "1-bedroom",
+            149
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "11",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Media Room",
+          "Outdoor Space",
+          "Fitness Center",
+          "Computer/Business Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "DGM",
+    "name": "Daniel Gilmartin",
+    "addr": "53-11 99th Street, Corona, NY 11368",
+    "state": "NY",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "718-699-3100",
+        "total": 151,
+        "mix": [
+          [
+            "Studio",
+            38
+          ],
+          [
+            "1-bedroom",
+            112
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Voucher Unit",
+        "ada": "14",
+        "dis": "No",
+        "util": "Tenant paid",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Game Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "EADS",
+    "name": "Eads Square",
+    "addr": "2700 Henrietta Avenue, St. Louis, MO 63104",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "314-773-6674",
+        "total": 104,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "EAS",
+    "name": "Easehouse",
+    "addr": "1300 Commerce Drive Auburn, AL 36830",
+    "state": "AL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "334-826-3078",
+        "total": 100,
+        "mix": [
+          [
+            "1-bedroom",
+            95
+          ],
+          [
+            "2-bedroom",
+            5
+          ]
+        ],
+        "mr": "None",
+        "ada": "8",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "EB",
+    "name": "East Boros",
+    "addr": "4165 Ivanhoe Dr., Monroeville, PA 15146",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "412-856-7480",
+        "total": 101,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "ES",
+    "name": "East Side",
+    "addr": "83 Doyle Ave, Providence, RI 02906",
+    "state": "RI",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "401-351-3220",
+        "total": 82,
+        "mix": [
+          [
+            "Studio",
+            4
+          ],
+          [
+            "1-bedroom",
+            78
+          ]
+        ],
+        "mr": "Yes (1: Unit 202)",
+        "ada": "Yes (8: units ending in 8 or 10)",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "RED1",
+    "name": "El Redentor 1",
+    "addr": "8808 Frey Road, Houston, TX 77034",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "713-910-0102",
+        "total": 47,
+        "mix": [
+          [
+            "1-bedroom",
+            47
+          ]
+        ],
+        "mr": "None",
+        "ada": "6",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "RED2",
+    "name": "El Redentor 2",
+    "addr": "8809 Frey Road, Houston, TX 77034",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "713-910-0102",
+        "total": 33,
+        "mix": [
+          [
+            "1-bedroom",
+            33
+          ]
+        ],
+        "mr": "None",
+        "ada": "4",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "EMC",
+    "name": "Emerson Center",
+    "addr": "2050 Garden Springs Dr, Lexington, KY 40504",
+    "state": "KY",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "859-278-0526",
+        "total": 177,
+        "mix": [
+          [
+            "Studio",
+            122
+          ],
+          [
+            "1-bedroom",
+            55
+          ]
+        ],
+        "mr": "Yes",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Outdoor Space"
+        ],
+        "other": [
+          "Emergency Pull Cords"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "FAN",
+    "name": "Fannie Taylor",
+    "addr": "6701 Chester Avenue, Jacksonville, FL 32217",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "904-731-0579",
+        "total": 150,
+        "mix": [
+          [
+            "1-bedroom",
+            150
+          ]
+        ],
+        "mr": "None",
+        "ada": "8",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "FT1",
+    "name": "Farmdale Tower 1",
+    "addr": "6440 Outer Loop, Louisville, KY 40228",
+    "state": "KY",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "502-964-8422",
+        "total": 105,
+        "mix": [
+          [
+            "1-bedroom",
+            105
+          ]
+        ],
+        "mr": "None",
+        "ada": "11",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Game Room",
+          "Media Room",
+          "Fitness Center",
+          "Beauty Salon"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "FT2",
+    "name": "Farmdale Tower 2",
+    "addr": "6500 Vandre Ave, Louisville, KY 40228",
+    "state": "KY",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "502-961-0062",
+        "total": 50,
+        "mix": [
+          [
+            "1-bedroom",
+            50
+          ]
+        ],
+        "mr": "None",
+        "ada": "6",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Media Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "FGM",
+    "name": "Forest Green Manor",
+    "addr": "9730 Shepherd Rd, Dallas, TX 75243",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "214-349-8110",
+        "total": 253,
+        "mix": [
+          [
+            "1-bedroom",
+            241
+          ],
+          [
+            "2-bedroom",
+            12
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "12",
+        "dis": "0%",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Game Room",
+          "Media Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "FP",
+    "name": "Fountain Place",
+    "addr": "701 S. Fountain Street, Connersville, IN 47331",
+    "state": "IN",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "765-825-1124",
+        "total": 102,
+        "mix": [
+          [
+            "1-bedroom",
+            100
+          ],
+          [
+            "2-bedroom",
+            2
+          ]
+        ],
+        "mr": "None",
+        "ada": "11",
+        "dis": "Yes",
+        "util": "Partial: Tenant pays for electric",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Outdoor Space"
+        ],
+        "other": [
+          "Dog Park"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "FTC",
+    "name": "Friendship Tower Corsicana",
+    "addr": "2512 W 7th Ave, Corsicana, TX 75110",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "903-872-3057",
+        "total": 101,
+        "mix": [
+          [
+            "1-bedroom",
+            100
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "8",
+        "dis": "10%",
+        "util": "Partial: Tenant pays for electric",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "FTD",
+    "name": "Friendship Tower Dallas",
+    "addr": "3033 S Cockrell Hill Rd, Dallas, TX 75236",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "214-330-7764",
+        "total": 151,
+        "mix": [
+          [
+            "1-bedroom",
+            151
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "16",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Game Room",
+          "Media Room",
+          "Bus Access",
+          "Computer/Business Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GG",
+    "name": "Gambrill Gardens",
+    "addr": "1 Strecker Road, Ellisville, MO 63011",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "636-207-3720",
+        "total": 296,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GT",
+    "name": "Garden Terrace",
+    "addr": "730 Bloom St, Johnstown, PA 15902",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "814-535-8291",
+        "total": 101,
+        "mix": [
+          [
+            "1-bedroom",
+            101
+          ]
+        ],
+        "mr": "None",
+        "ada": "10",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GWT",
+    "name": "Gateway Terrace",
+    "addr": "1943 NE Sixth Court, N106, Ft. Lauderdale, FL 33304",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "954-463-6721",
+        "total": 257,
+        "mix": [
+          [
+            "Efficiency",
+            70
+          ],
+          [
+            "1-bedroom",
+            168
+          ],
+          [
+            "2-bedroom",
+            18
+          ],
+          [
+            "3-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (5)",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Beauty Salon"
+        ],
+        "other": [
+          "Pool"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GLD",
+    "name": "Glades Diamond",
+    "addr": "100 Downs Circle, Belle Glade, FL 33430",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "561-983-8454",
+        "total": 65,
+        "mix": [
+          [
+            "Studio",
+            16
+          ],
+          [
+            "1-bedroom",
+            48
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Partial: Residents pay electric",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GLP1",
+    "name": "Glades Pioneer",
+    "addr": "200 Dorothy Wilford Circle, Belle Glade, FL 33430",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "561-983-8454",
+        "total": 70,
+        "mix": [
+          [
+            "1-bedroom",
+            69
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Partial: Residents pay electric",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GISH",
+    "name": "Grand Isle Senior Homes",
+    "addr": "2807 W Faidley Avenue, Grand Island, NE 68803",
+    "state": "NE",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "308-381-7227",
+        "total": 72,
+        "mix": [
+          [
+            "1-bedroom",
+            72
+          ]
+        ],
+        "mr": "None",
+        "ada": "8",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [
+          "Chapel"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GS",
+    "name": "Grant Street",
+    "addr": "430 Grant Street, Bridgeport, CT 06610",
+    "state": "CT",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "203-384-9984",
+        "total": 92,
+        "mix": [
+          [
+            "Studio",
+            30
+          ],
+          [
+            "1-bedroom",
+            62
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "8",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GRLM",
+    "name": "Greeley Manor",
+    "addr": "1000 13th Street, Greeley, CO 80631",
+    "state": "CO",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "970-313-8637",
+        "total": 128,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "GRSH",
+    "name": "Greeley Senior Housing",
+    "addr": "1717 30th Street, Greeley, CO 80631",
+    "state": "CO",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "970-395-0822",
+        "total": 40,
+        "mix": [
+          [
+            "1-bedroom",
+            39
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes",
+        "ada": "2",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Bus Access"
+        ],
+        "other": [
+          "On-Site Meals"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "HKT",
+    "name": "Hackettstown",
+    "addr": "681 Willow Grove St., Hackettstown, NJ 07840",
+    "state": "NJ",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "908-852-8089",
+        "total": 80,
+        "mix": [
+          [
+            "Studio",
+            20
+          ],
+          [
+            "1-bedroom",
+            60
+          ]
+        ],
+        "mr": "None",
+        "ada": "2",
+        "dis": "No",
+        "util": "Partial: Utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Media Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "HAR",
+    "name": "Harbor Hill",
+    "addr": "5613 2nd Ave, Brooklyn, NY, 11220",
+    "state": "NY",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "718-223-5751",
+        "total": 87,
+        "mix": [
+          [
+            "1-bedroom",
+            87
+          ]
+        ],
+        "mr": "None",
+        "ada": "9",
+        "dis": "No",
+        "util": "Partial: Gas included. Electricity Utility Allowance ($74)",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Activity/Craft Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "HRBV",
+    "name": "Harborview",
+    "addr": "145 Ocean Avenue, Jersey City, NJ 07305",
+    "state": "NJ",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "201-432-1377",
+        "total": 100,
+        "mix": [
+          [
+            "Studio",
+            25
+          ],
+          [
+            "1-bedroom",
+            74
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "100",
+        "dis": "5%",
+        "util": "Partial: Electric is tenant paid if it exceeds utility allowance",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [
+          "Free internet"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "HT",
+    "name": "Hellenic Tower",
+    "addr": "8450 Roswell Rd Nw, Atlanta, GA 30350",
+    "state": "GA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "770-992-4393",
+        "total": 125,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "HRT",
+    "name": "Highland Rim Terrace",
+    "addr": "100 Woodland Dr, Portland, TN 37148",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "615-325-3245",
+        "total": 52,
+        "mix": [
+          [
+            "1-bedroom",
+            52
+          ]
+        ],
+        "mr": "None",
+        "ada": "2",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Outdoor Space"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "HIL",
+    "name": "Hillsboro Plaza",
+    "addr": "612 Hillsboro St, Pittsburgh, PA 15204",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "412-771-0122",
+        "total": 73,
+        "mix": [
+          [
+            "Studio",
+            18
+          ],
+          [
+            "1-bedroom",
+            54
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "8",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Outdoor Space"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "HSV",
+    "name": "Hopewell Senior Village",
+    "addr": "4558 McMillan Avenue, St. Louis, MO 63108",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "314-371-1227",
+        "total": 53,
+        "mix": [
+          [
+            "1-bedroom",
+            52
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes",
+        "ada": "4",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "IRV",
+    "name": "Irvington",
+    "addr": "1 Linden Ave., Irvington, NJ 07111",
+    "state": "NJ",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "973-374-1702",
+        "total": 135,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "JFNO",
+    "name": "Jefferson Senior Apartments",
+    "addr": "1514 W Marshall Street, Norristown, PA 19403",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "610-539-4844",
+        "total": 164,
+        "mix": [
+          [
+            "Efficiency",
+            92
+          ],
+          [
+            "1-bedroom",
+            68
+          ],
+          [
+            "2-bedroom",
+            4
+          ]
+        ],
+        "mr": "Yes (1: Unit 134)",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      },
+      {
+        "phone": "610-539-4844",
+        "total": 36,
+        "mix": [
+          [
+            "1-bedroom",
+            36
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room"
+        ],
+        "other": [],
+        "label": "East"
+      }
+    ]
+  },
+  {
+    "code": "JCT",
+    "name": "Jewish Center Tower",
+    "addr": "3001 West DeLeon Street, Tampa, FL 33609",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "813-870-1830",
+        "total": 199,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "JSA",
+    "name": "Jordan Square",
+    "addr": "625 Jordan Street, Shreveport, LA 71101",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "318-227-2591",
+        "total": 170,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "KEN",
+    "name": "Ken Mar",
+    "addr": "210 W Pike Street, Martinsville, IN 46151",
+    "state": "IN",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "765-342-5671",
+        "total": 101,
+        "mix": [
+          [
+            "1-bedroom",
+            101
+          ]
+        ],
+        "mr": "None",
+        "ada": "10",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Game Room",
+          "Media Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "KW",
+    "name": "Kirkwood",
+    "addr": "2710 Langston Drive, Goldsboro, NC 27534",
+    "state": "NC",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "919-778-1447",
+        "total": 140,
+        "mix": [
+          [
+            "Studio",
+            4
+          ],
+          [
+            "1-bedroom",
+            132
+          ],
+          [
+            "2-bedroom",
+            4
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "10%",
+        "util": "Partial: Water & Trash included",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Outdoor Space",
+          "Computer/Business Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "LAM",
+    "name": "Lakeland Manor",
+    "addr": "3105 Peavy Road, Dallas, TX 75228",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "214-324-3895",
+        "total": 172,
+        "mix": [
+          [
+            "1-bedroom",
+            172
+          ]
+        ],
+        "mr": "None",
+        "ada": "11",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Game Room",
+          "Computer/Business Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "LAS",
+    "name": "Lakeland Seniors",
+    "addr": "848 Lakeland Drive, Jackson, MS 39216",
+    "state": "MS",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "601-981-8600",
+        "total": 129,
+        "mix": [
+          [
+            "Studio",
+            4
+          ],
+          [
+            "1-bedroom",
+            112
+          ],
+          [
+            "2-bedroom",
+            13
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "14",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Media Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "LAN",
+    "name": "Lancelot",
+    "addr": "1269 E Guinevere St, Springfield, MO 65804",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "417-881-0091",
+        "total": 41,
+        "mix": [
+          [
+            "1-bedroom",
+            41
+          ]
+        ],
+        "mr": "None",
+        "ada": "5",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Game Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "MAG",
+    "name": "Magnolia Heights",
+    "addr": "333 Mill St, Lake Charles, LA 70601",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "337-436-0380",
+        "total": 198,
+        "mix": [
+          [
+            "1-bedroom",
+            176
+          ],
+          [
+            "2-bedroom",
+            22
+          ]
+        ],
+        "mr": "None",
+        "ada": "25",
+        "dis": "30%",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "MALV",
+    "name": "Malvern Hill",
+    "addr": "426 King Street, Portsmouth, VA 23704",
+    "state": "VA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "757-393-0905",
+        "total": 55,
+        "mix": [
+          [
+            "1-bedroom",
+            55
+          ]
+        ],
+        "mr": "None",
+        "ada": "6",
+        "dis": "80%",
+        "util": "Tenant paid",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "MBL",
+    "name": "Marlborough",
+    "addr": "1701 Eutaw Place, Baltimore, MD 21217",
+    "state": "MD",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "410-669-3005",
+        "total": 230,
+        "mix": [
+          [
+            "Studio",
+            69
+          ],
+          [
+            "1-bedroom",
+            158
+          ],
+          [
+            "2-bedroom",
+            3
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "None",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "MW",
+    "name": "Mary Walker",
+    "addr": "4912 E Linebaugh Ave., Tampa, FL 33617",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "813-985-8809",
+        "total": 85,
+        "mix": [
+          [
+            "1-bedroom",
+            85
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes (9: 101-107, 208 & 209)",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Beauty Salon"
+        ],
+        "other": [
+          "Pet Area"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "MBP",
+    "name": "Meadowbrook",
+    "addr": "191 W 2nd Street, San Bernardino, CA 92408",
+    "state": "CA",
+    "type": "Family Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "909-889-6319",
+        "total": 267,
+        "mix": [
+          [
+            "Studio",
+            16
+          ],
+          [
+            "1-bedroom",
+            195
+          ],
+          [
+            "2-bedroom",
+            48
+          ],
+          [
+            "3-bedroom",
+            8
+          ]
+        ],
+        "mr": "Yes (9)",
+        "ada": "N/A",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [
+          "Playground"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "MVH",
+    "name": "Melrose Villa Hermosa",
+    "addr": "825 Melrose Ave, Bronx, NY 10451",
+    "state": "NY",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "718-742-1923",
+        "total": 80,
+        "mix": [
+          [
+            "1-bedroom",
+            79
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "4",
+        "dis": "No",
+        "util": "Partial: Water & gas covered, tenant pays electric",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "MMB",
+    "name": "Mollie & Max",
+    "addr": "6565 Dan Danciger Road, Fort Worth, TX 76133",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "817-292-9018",
+        "total": 60,
+        "mix": [
+          [
+            "Efficiency",
+            15
+          ],
+          [
+            "1-bedroom",
+            45
+          ]
+        ],
+        "mr": "None",
+        "ada": "6",
+        "dis": "10%",
+        "util": "Partial: Electric is tenant",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Controlled Access"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "NAZ",
+    "name": "Nazareth Towers",
+    "addr": "300 E Rich Street, Columbus, OH 43215",
+    "state": "OH",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "614-464-4780",
+        "total": 208,
+        "mix": [
+          [
+            "Studio",
+            26
+          ],
+          [
+            "1-bedroom",
+            130
+          ],
+          [
+            "2-bedroom",
+            52
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Media Room",
+          "Fitness Center"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "NEM",
+    "name": "Nemont",
+    "addr": "1100 4th Ave S, Glasgow, MT 59230",
+    "state": "MT",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "406-228-4306",
+        "total": 100,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "NNV",
+    "name": "New Northside Village",
+    "addr": "2054 Nemnich Road, St. Louis, MO 63136",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "314-869-9700",
+        "total": 52,
+        "mix": [
+          [
+            "1-bedroom",
+            51
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "3",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "NV",
+    "name": "Nikkei Village",
+    "addr": "9551 Laurel Canyon Blvd, Pacoima, CA 91331",
+    "state": "CA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "818-897-7571",
+        "total": 100,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "OG",
+    "name": "Oak Grove",
+    "addr": "4375 Oak Grove Blvd, San Angelo, Texas 76904",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "325-223-0700",
+        "total": 142,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "OK",
+    "name": "Olde Kensington Pavilion",
+    "addr": "1250 North 3rd Street, Philadelphia, PA 19122",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "215-763-5505",
+        "total": 103,
+        "mix": [
+          [
+            "1-bedroom",
+            76
+          ],
+          [
+            "2-bedroom",
+            27
+          ]
+        ],
+        "mr": "None",
+        "ada": "10",
+        "dis": "10%",
+        "util": "Partial: Tenant pays for electric",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Game Room",
+          "Media Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "OLV",
+    "name": "Olive Manor",
+    "addr": "13115 Bromont Avenue, Sylmar, CA 91342",
+    "state": "CA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "818-833-0298",
+        "total": 81,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "OWL",
+    "name": "Ollie Langhorst Apartments",
+    "addr": "5800 Arsenal Street, St. Louis, MO 63139",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "314-645-3567",
+        "total": 100,
+        "mix": [
+          [
+            "Studio",
+            25
+          ],
+          [
+            "1-bedroom",
+            75
+          ]
+        ],
+        "mr": "None",
+        "ada": "6",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Computer/Business Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "PABT",
+    "name": "Palm Avenue Baptist Tower",
+    "addr": "215 E Palm Avenue, Tampa, FL 33602",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "813-223-2686",
+        "total": 199,
+        "mix": [
+          [
+            "Studio",
+            30
+          ],
+          [
+            "1-bedroom",
+            169
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Outdoor Space"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "PCLP",
+    "name": "Plant City Living Center",
+    "addr": "405 E Damon Street, Plant City, FL 33563",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "813-659-2669",
+        "total": 42,
+        "mix": [
+          [
+            "1-bedroom",
+            42
+          ]
+        ],
+        "mr": "None",
+        "ada": "4",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "PCT",
+    "name": "Plant City Towers",
+    "addr": "103 W Mahoney Street, Plant City, FL 33563",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "813-752-5116",
+        "total": 74,
+        "mix": [
+          [
+            "1-bedroom",
+            74
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "8",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "PMV",
+    "name": "Plymouth Village",
+    "addr": "5080 Helbig Road, Beaumont, TX 77708",
+    "state": "TX",
+    "type": "Family Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "409-892-2532",
+        "total": 150,
+        "mix": [
+          [
+            "1-bedroom",
+            16
+          ],
+          [
+            "2-bedroom",
+            70
+          ],
+          [
+            "3-bedroom",
+            48
+          ],
+          [
+            "4-bedroom",
+            16
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Bus Access"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "PTB",
+    "name": "PT Bosley Estates",
+    "addr": "4301 Warne Avenue, St. Louis, MO 63107",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "314-534-4700",
+        "total": 52,
+        "mix": [
+          [
+            "1-bedroom",
+            52
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "PUL",
+    "name": "Pulaski Heights",
+    "addr": "76 Maple Street, Holyoke, MA 01040",
+    "state": "MA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "413-534-7636",
+        "total": 101,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "RBLP",
+    "name": "Reba Brown",
+    "addr": "1450 S. 50th Street, Philadelphia, PA 19143",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "215-726-4880",
+        "total": 75,
+        "mix": [
+          [
+            "1-bedroom",
+            74
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (1: 2B)",
+        "ada": "74",
+        "dis": "No",
+        "util": "Partial: Tenant pays for electric",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Outdoor Space"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "RWS",
+    "name": "Redwood",
+    "addr": "814 St. Elizabeth Dr., San Jose, CA 95126",
+    "state": "CA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "408-947-1818",
+        "total": 140,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "RBT",
+    "name": "Riverbend Terrace",
+    "addr": "3705 9th Street, Rock Island, IL 61201",
+    "state": "IL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "309-485-5800",
+        "total": 140,
+        "mix": [
+          [
+            "1-bedroom",
+            140
+          ]
+        ],
+        "mr": "None",
+        "ada": "10",
+        "dis": "No",
+        "util": "Partial: ",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "RWV",
+    "name": "Rockwood Village",
+    "addr": "601 S Chamberlain Ave, Rockwood, TN 37854",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "865-354-3945",
+        "total": 126,
+        "mix": [
+          [
+            "1-bedroom",
+            125
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "13",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Game Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SEA",
+    "name": "Seaview Plaza",
+    "addr": "2800 Pacific View Dr, Corona Del Mar, CA 92625",
+    "state": "CA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "949-720-0888",
+        "total": 100,
+        "mix": [
+          [
+            "1-bedroom",
+            100
+          ]
+        ],
+        "mr": "None",
+        "ada": "6",
+        "dis": "No",
+        "util": "Tenant paid",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Media Room",
+          "Fitness Center"
+        ],
+        "other": [
+          "Dining Area"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SET",
+    "name": "Seton Haven",
+    "addr": "3721 Wares Ferry Road, Montgomery, AL 36109",
+    "state": "AL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "334-272-4000",
+        "total": 100,
+        "mix": [
+          [
+            "1-bedroom",
+            100
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "none",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Beauty Salon"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SST",
+    "name": "Silvertree Senior Apartments Tampa",
+    "addr": "11113 N. Nebraska Ave., Tampa, FL 33612",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "813-977-1663",
+        "total": 85,
+        "mix": [
+          [
+            "1-bedroom",
+            85
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "7",
+        "dis": "No",
+        "util": "Partial: Water included",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [
+          "Emergency Pull Cords"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SSA",
+    "name": "Silvertree Seniors Atlanta",
+    "addr": "359 West Lake Avenue NW, Atlanta, GA 30318",
+    "state": "GA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "404-799-5702",
+        "total": 98,
+        "mix": [
+          [
+            "Efficiency",
+            25
+          ],
+          [
+            "1-bedroom",
+            73
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "10",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Outdoor Space"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SSC",
+    "name": "Silvertree Seniors Chattanooga",
+    "addr": "5465 Highway 58, Chattanooga, TN 37416",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "423-344-8361",
+        "total": 125,
+        "mix": [
+          [
+            "1-bedroom",
+            116
+          ],
+          [
+            "2-bedroom",
+            8
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "17",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Media Room",
+          "Outdoor Space",
+          "Activity/Craft Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SSJ",
+    "name": "Silvertree Seniors Jacksonville",
+    "addr": "3937 Spring Park Road, Jacksonville, FL 32207",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "904-506-4142",
+        "total": 112,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "JAM",
+    "name": "Silvertree Seniors Jamestown",
+    "addr": "145 Chandler Street, Jamestown, NY 14701",
+    "state": "NY",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "716-489-2303",
+        "total": 198,
+        "mix": [
+          [
+            "Efficiency",
+            11
+          ],
+          [
+            "1-bedroom",
+            179
+          ],
+          [
+            "2-bedroom",
+            7
+          ],
+          [
+            "3-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Outdoor Space"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SSP",
+    "name": "Silvertree Seniors Portsmouth",
+    "addr": "715 Madison Street, Portsmouth, VA 23704",
+    "state": "VA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "757-393-4757",
+        "total": 178,
+        "mix": [
+          [
+            "1-bedroom",
+            146
+          ],
+          [
+            "2-bedroom",
+            32
+          ]
+        ],
+        "mr": "Yes (2: 1 1B & 1 2B)",
+        "ada": "Yes (5: 1B, 14 2B)",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "ST",
+    "name": "Skyline Tower",
+    "addr": "2250 Community College Ave, Cleveland, OH 44115",
+    "state": "OH",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "216-861-7555",
+        "total": 278,
+        "mix": [
+          [
+            "Efficiency",
+            189
+          ],
+          [
+            "Studio",
+            23
+          ],
+          [
+            "1-bedroom",
+            66
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SMY",
+    "name": "Smyrna Tower",
+    "addr": "4000 South Cobb Drive, Smyrna, GA 30080",
+    "state": "GA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "770-435-4010",
+        "total": 150,
+        "mix": [
+          [
+            "1-bedroom",
+            149
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "18",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library",
+          "Bus Access",
+          "Beauty Salon"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SAT",
+    "name": "St. Andrews Towers",
+    "addr": "24 Harrison Ave Panama City, FL 32401",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "850-785-9575",
+        "total": 216,
+        "mix": [
+          [
+            "1-bedroom",
+            216
+          ]
+        ],
+        "mr": "Yes (2: 1A & 1B)",
+        "ada": "21",
+        "dis": "5%",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Media Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SCV",
+    "name": "St. Clair Villa",
+    "addr": "617 McMillen St, Bridgeville, PA 15017",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "412-257-4180",
+        "total": 50,
+        "mix": [],
+        "mr": "None",
+        "ada": "2",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "STJ",
+    "name": "St. James Village",
+    "addr": "3815 West Fuqua Street, Houston TX, 77045",
+    "state": "TX",
+    "type": "Family Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "713-434-2225",
+        "total": 150,
+        "mix": [
+          [
+            "1-bedroom",
+            48
+          ],
+          [
+            "2-bedroom",
+            82
+          ],
+          [
+            "3-bedroom",
+            16
+          ],
+          [
+            "4-bedroom",
+            4
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Tenant paid",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room"
+        ],
+        "other": [
+          "Playground",
+          "Club House"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SMT",
+    "name": "St. Mark’s Towers",
+    "addr": "1 Towers Plaza, Brunswick, GA 31520",
+    "state": "GA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "912-267-7125",
+        "total": 150,
+        "mix": [
+          [
+            "1-bedroom",
+            150
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Fitness Center",
+          "Beauty Salon"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SMV",
+    "name": "St. Martha’s Village",
+    "addr": "7555 Bishop Ott Dr, Baton Rouge, LA 70806",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "225-926-5918",
+        "total": 262,
+        "mix": [
+          [
+            "1-bedroom",
+            260
+          ],
+          [
+            "2-bedroom",
+            2
+          ]
+        ],
+        "mr": "Yes (2: 2B)",
+        "ada": "Yes (27: 1x1, 2 2x1)",
+        "dis": "No",
+        "util": "Partial: Water & Sewer paid",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SMRY",
+    "name": "St. Mary’s Villa",
+    "addr": "425 Sanford Avenue, Newark, NJ 07106",
+    "state": "NJ",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "973-371-5711",
+        "total": 360,
+        "mix": [
+          [
+            "1-bedroom",
+            359
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "10%",
+        "util": "Partial: Water. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Game Room",
+          "Activity/Craft Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SUM",
+    "name": "Summerdale Court",
+    "addr": "745 Tamarack Drive, Clairton, PA 15025",
+    "state": "PA",
+    "type": "Family Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "412-257-4844",
+        "total": 8,
+        "mix": [],
+        "mr": "None",
+        "ada": "1",
+        "dis": "100%",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "SUN",
+    "name": "Sunset Gardens",
+    "addr": "405 44th St, Brooklyn, NY, 11220",
+    "state": "NY",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "718-633-7345",
+        "total": 81,
+        "mix": [],
+        "mr": "Yes (1)",
+        "ada": "None",
+        "dis": "No",
+        "util": "Tenant paid",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "TCLP",
+    "name": "Tarrant County B’nai B’rith (Molly & Max)",
+    "addr": "6556 Dan Danciger Rd, Fort Worth, TX 76133",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "817-292-9018",
+        "total": 60,
+        "mix": [
+          [
+            "1-bedroom",
+            59
+          ],
+          [
+            "2-bedroom",
+            1
+          ]
+        ],
+        "mr": "None",
+        "ada": "5",
+        "dis": "No",
+        "util": "Partial: Electric is tenant",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Controlled Access"
+        ],
+        "other": [],
+        "label": "Molly & Max"
+      }
+    ]
+  },
+  {
+    "code": "TEM",
+    "name": "Temple Apartments",
+    "addr": "5 Heisz Street, Kingston, PA 18704",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "570-283-2275",
+        "total": 93,
+        "mix": [
+          [
+            "Studio",
+            24
+          ],
+          [
+            "1-bedroom",
+            69
+          ]
+        ],
+        "mr": "Yes (1)",
+        "ada": "5",
+        "dis": "No",
+        "util": "Partial: not listed",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Outdoor Space"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "TH1",
+    "name": "Temple Heights",
+    "addr": "5420 Blue Ridge Cutoff, Kansas City, MO 64133",
+    "state": "MO",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "816-358-9533",
+        "total": 289,
+        "mix": [
+          [
+            "Studio",
+            75
+          ],
+          [
+            "1-bedroom",
+            212
+          ],
+          [
+            "2-bedroom",
+            1
+          ],
+          [
+            "3-bedroom",
+            1
+          ]
+        ],
+        "mr": "Yes",
+        "ada": "None",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Media Room",
+          "Beauty Salon"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "TBO",
+    "name": "The Birmingham Overlook",
+    "addr": "2712 31st Avenue North, Birmingham, AL 35207-4595",
+    "state": "AL",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "205-322-0728",
+        "total": 125,
+        "mix": [
+          [
+            "1-bedroom",
+            117
+          ],
+          [
+            "2-bedroom",
+            8
+          ]
+        ],
+        "mr": "None",
+        "ada": "9",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "HRTA",
+    "name": "The Hilarita Apartments",
+    "addr": "100 Ned’s Way, Tiburon, CA 94920",
+    "state": "CA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "415-435-4450",
+        "total": 102,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "TRAV",
+    "name": "Travis Park",
+    "addr": "1100 East Oltorf St., Austin, TX 78704",
+    "state": "TX",
+    "type": "Family Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "512-444-6773",
+        "total": 199,
+        "mix": [
+          [
+            "1-bedroom",
+            48
+          ],
+          [
+            "2-bedroom",
+            119
+          ],
+          [
+            "3-bedroom",
+            32
+          ]
+        ],
+        "mr": "None",
+        "ada": "12",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [
+          "Playground",
+          "Splash Pad"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "TUL",
+    "name": "Tulipwood",
+    "addr": "120 E Swan Street, Centerville, TN 37033",
+    "state": "TN",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "931-729-5747",
+        "total": 75,
+        "mix": [
+          [
+            "1-bedroom",
+            75
+          ]
+        ],
+        "mr": "None",
+        "ada": "8",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "UV",
+    "name": "Unico Village",
+    "addr": "7199 Brant Place, Philadelphia, PA 19153",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "215-365-1828",
+        "total": 165,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "VIL",
+    "name": "Villa Alegre",
+    "addr": "6902 Marbach Rd, San Antonio, TX 78227",
+    "state": "TX",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "210-675-6411",
+        "total": 40,
+        "mix": [
+          [
+            "Efficiency",
+            10
+          ],
+          [
+            "1-bedroom",
+            30
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Controlled Access"
+        ],
+        "other": [
+          "Grill"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WHB",
+    "name": "Washington Heights",
+    "addr": "115 Washington Ave, Bridgeport, CT 06604",
+    "state": "CT",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "203-367-8171",
+        "total": 120,
+        "mix": [
+          [
+            "Efficiency",
+            18
+          ],
+          [
+            "1-bedroom",
+            83
+          ],
+          [
+            "2-bedroom",
+            19
+          ]
+        ],
+        "mr": "Yes (13)",
+        "ada": "9",
+        "dis": "10%",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WT",
+    "name": "Washington Towers",
+    "addr": "1 State St, Batavia, NY 14020",
+    "state": "NY",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "585-344-0200",
+        "total": 131,
+        "mix": [
+          [
+            "1-bedroom",
+            126
+          ],
+          [
+            "2-bedroom",
+            5
+          ]
+        ],
+        "mr": "Yes (1: 2B Unit)",
+        "ada": "Yes (12: 1B, 1: 2B)",
+        "dis": "No",
+        "util": "Partial: Water, Sewer, Trash. Electricity not covered",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Bus Access"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WST",
+    "name": "Westminster",
+    "addr": "107 E. 20th Street, Anniston, AL 36201",
+    "state": "AL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "256-237-2569",
+        "total": 100,
+        "mix": [
+          [
+            "1-bedroom",
+            100
+          ]
+        ],
+        "mr": "Yes (1: Unit 122)",
+        "ada": "10",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Media Room"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WALB",
+    "name": "Westminster Albany",
+    "addr": "29955 West Street, Albany, LA 70711",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "225-567-9021",
+        "total": 27,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WG1",
+    "name": "Westminster Gardens",
+    "addr": "501 Edwin Neill Way, Hammond, LA 70403",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "985-345-5010",
+        "total": 54,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WH1",
+    "name": "Westminster Homes",
+    "addr": "1810 N Cary Avenue, Jennings, LA 70546",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "337-824-9835",
+        "total": 54,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WPL",
+    "name": "Westminster Place",
+    "addr": "250 S. 1st Street, Ponchatoula, LA 70454",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "985-386-4819",
+        "total": 44,
+        "mix": [
+          [
+            "1-bedroom",
+            44
+          ]
+        ],
+        "mr": "Yes (2)",
+        "ada": "Yes (3: Units A6, B4, & D4)",
+        "dis": "No",
+        "util": "Tenant paid",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Outdoor Space"
+        ],
+        "other": [
+          "Club House"
+        ],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WSCT",
+    "name": "Westminster Scotlandville",
+    "addr": "1800 Rosenwald Road, Baton Rouge, LA 70807",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "225-774-2525",
+        "total": 70,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WT1",
+    "name": "Westminster Tower",
+    "addr": "2301 Idaho Avenue, Kenner, LA 70062",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "504-469-4056",
+        "total": 282,
+        "mix": [],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WWDS",
+    "name": "Westminster Woods",
+    "addr": "1600 Avenue F, Bogalusa, LA 70427",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "985-735-5007",
+        "total": 41,
+        "mix": [
+          [
+            "1-bedroom",
+            41
+          ]
+        ],
+        "mr": "None",
+        "ada": "2",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WIN1",
+    "name": "Winslow Village 1",
+    "addr": "1520 Ocean Street, Marshfield, MA, 02050",
+    "state": "MA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "781-837-5998",
+        "total": 64,
+        "mix": [
+          [
+            "Studio",
+            36
+          ],
+          [
+            "1-bedroom",
+            28
+          ]
+        ],
+        "mr": "Yes (31)",
+        "ada": "0",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Outdoor Space",
+          "Bus Access"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WIN2",
+    "name": "Winslow Village 2",
+    "addr": "1554 Ocean Street, Marshfield, MA, 02050",
+    "state": "MA",
+    "type": "Senior Site",
+    "logo": "Wheelchair & House",
+    "b": [
+      {
+        "phone": "781-837-5999",
+        "total": 48,
+        "mix": [
+          [
+            "Studio",
+            44
+          ],
+          [
+            "1-bedroom",
+            4
+          ]
+        ],
+        "mr": "None",
+        "ada": "5",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Outdoor Space",
+          "Bus Access"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WHM",
+    "name": "Winter Haven Manor",
+    "addr": "140 Ave A SW, Winter Haven, FL 33880",
+    "state": "FL",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "863-293-5630",
+        "total": 126,
+        "mix": [
+          [
+            "1-bedroom",
+            126
+          ]
+        ],
+        "mr": "None",
+        "ada": "14",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
+    "code": "WDM",
+    "name": "Woodman Manor",
+    "addr": "6712 Woodman Ave Van Nuys, CA 91401",
+    "state": "CA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "818-994-6616",
+        "total": 100,
+        "mix": [
+          [
+            "1-bedroom",
+            100
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Tenant paid",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "On-Site Library"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  }
+]
