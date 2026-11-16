@@ -14,12 +14,12 @@
           [
             "1-bedroom",
             59,
-            null
+            "600"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "800"
           ]
         ],
         "mr": "Yes (12)",
@@ -55,7 +55,7 @@
           [
             "1-bedroom",
             150,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -86,7 +86,13 @@
       {
         "phone": "417-887-7460",
         "total": 92,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            92,
+            "580"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -114,7 +120,7 @@
           [
             "1-bedroom",
             71,
-            null
+            "530"
           ]
         ],
         "mr": "Yes (1: unit 202)",
@@ -151,7 +157,7 @@
           [
             "1-bedroom",
             24,
-            null
+            "530"
           ]
         ],
         "mr": "Yes (1:unit 202)",
@@ -188,12 +194,12 @@
           [
             "1-bedroom",
             151,
-            null
+            "500"
           ],
           [
             "2-bedroom",
             11,
-            null
+            "650"
           ]
         ],
         "mr": "None",
@@ -228,12 +234,12 @@
           [
             "1-bedroom",
             180,
-            null
+            "567"
           ],
           [
             "2-bedroom",
             16,
-            null
+            "759"
           ]
         ],
         "mr": "None",
@@ -266,7 +272,18 @@
       {
         "phone": "412-257-4844",
         "total": 50,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            48,
+            "570–590"
+          ],
+          [
+            "2-bedroom",
+            2,
+            "1136–1464"
+          ]
+        ],
         "mr": "None",
         "ada": "6",
         "dis": "No",
@@ -298,12 +315,12 @@
           [
             "1-bedroom",
             100,
-            null
+            "505"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "980"
           ]
         ],
         "mr": "Yes",
@@ -341,7 +358,7 @@
           [
             "1-bedroom",
             80,
-            null
+            "492"
           ]
         ],
         "mr": "None",
@@ -377,7 +394,7 @@
           [
             "1-bedroom",
             156,
-            null
+            "570"
           ]
         ],
         "mr": "None",
@@ -415,17 +432,17 @@
           [
             "Studio",
             20,
-            null
+            "415"
           ],
           [
             "1-bedroom",
             61,
-            null
+            "540"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "800"
           ]
         ],
         "mr": "Yes (1: 104 - 2B)",
@@ -463,7 +480,7 @@
           [
             "1-bedroom",
             105,
-            null
+            "570"
           ]
         ],
         "mr": "Yes (1: unit 101)",
@@ -533,7 +550,7 @@
           [
             "1-bedroom",
             69,
-            null
+            "525"
           ]
         ],
         "mr": "None",
@@ -567,7 +584,7 @@
           [
             "1-bedroom",
             24,
-            null
+            "541"
           ]
         ],
         "mr": "None",
@@ -597,7 +614,23 @@
       {
         "phone": "323-721-9668",
         "total": 130,
-        "mix": [],
+        "mix": [
+          [
+            "Studio",
+            43,
+            "418"
+          ],
+          [
+            "1-bedroom",
+            86,
+            "538"
+          ],
+          [
+            "2-bedroom",
+            1,
+            "800"
+          ]
+        ],
         "mr": "None",
         "ada": "Yes (2: 1B)",
         "dis": "No",
@@ -630,12 +663,12 @@
           [
             "Studio",
             104,
-            null
+            "432"
           ],
           [
             "1-bedroom",
             39,
-            null
+            "581"
           ]
         ],
         "mr": "Yes (1)",
@@ -671,12 +704,12 @@
           [
             "1-bedroom",
             151,
-            null
+            "500"
           ],
           [
             "2-bedroom",
             9,
-            null
+            "682"
           ]
         ],
         "mr": "None",
@@ -711,12 +744,12 @@
           [
             "1-bedroom",
             79,
-            null
+            "560"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "560"
           ]
         ],
         "mr": "Yes (1: 2B Unit)",
@@ -753,12 +786,12 @@
           [
             "1-bedroom",
             56,
-            null
+            "530"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "500"
           ]
         ],
         "mr": "Yes (1: 2B Unit)",
@@ -795,12 +828,12 @@
           [
             "1-bedroom",
             54,
-            null
+            "500"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "740"
           ]
         ],
         "mr": "None",
@@ -833,7 +866,7 @@
           [
             "1-bedroom",
             100,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -862,7 +895,18 @@
       {
         "phone": "325-949-8575",
         "total": 150,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            144,
+            "580"
+          ],
+          [
+            "2-bedroom",
+            6,
+            "985"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -890,12 +934,12 @@
           [
             "Studio",
             71,
-            null
+            "567"
           ],
           [
             "1-bedroom",
             154,
-            null
+            "567–644"
           ]
         ],
         "mr": "71 Voucher Units",
@@ -932,12 +976,12 @@
           [
             "Studio",
             80,
-            null
+            "475"
           ],
           [
             "1-bedroom",
             350,
-            null
+            "615"
           ]
         ],
         "mr": "Yes (1: unit 430)",
@@ -971,17 +1015,17 @@
           [
             "Studio",
             4,
-            null
+            "495"
           ],
           [
             "1-bedroom",
             96,
-            null
+            "657"
           ],
           [
             "2-bedroom",
             6,
-            null
+            "810"
           ]
         ],
         "mr": "Yes (4)",
@@ -1016,7 +1060,7 @@
           [
             "1-bedroom",
             102,
-            null
+            "598"
           ]
         ],
         "mr": "None",
@@ -1057,7 +1101,7 @@
           [
             "1-bedroom",
             68,
-            null
+            "525"
           ]
         ],
         "mr": "None",
@@ -1093,8 +1137,19 @@
     "b": [
       {
         "phone": "309-762-1414",
-        "total": 153,
-        "mix": [],
+        "total": 154,
+        "mix": [
+          [
+            "1-bedroom",
+            153,
+            "580–600"
+          ],
+          [
+            "2-bedroom",
+            1,
+            "1000"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -1122,12 +1177,12 @@
           [
             "1-bedroom",
             174,
-            null
+            "566"
           ],
           [
             "2-bedroom",
             6,
-            null
+            "790"
           ]
         ],
         "mr": "None",
@@ -1164,7 +1219,7 @@
           [
             "1-bedroom",
             40,
-            null
+            "400"
           ]
         ],
         "mr": "None",
@@ -1199,7 +1254,7 @@
           [
             "1-bedroom",
             36,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -1234,7 +1289,7 @@
           [
             "1-bedroom",
             146,
-            null
+            "600"
           ]
         ],
         "mr": "Yes (1)",
@@ -1271,17 +1326,17 @@
           [
             "1-bedroom",
             20,
-            null
+            "604"
           ],
           [
             "2-bedroom",
             60,
-            null
+            "808"
           ],
           [
             "3-bedroom",
             16,
-            null
+            "960"
           ]
         ],
         "mr": "Yes (1)",
@@ -1315,12 +1370,12 @@
           [
             "1-bedroom",
             149,
-            null
+            "500"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "700"
           ]
         ],
         "mr": "None",
@@ -1358,17 +1413,17 @@
           [
             "Studio",
             38,
-            null
+            "450"
           ],
           [
             "1-bedroom",
             112,
-            null
+            "600"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "700"
           ]
         ],
         "mr": "Voucher Unit",
@@ -1398,8 +1453,14 @@
     "b": [
       {
         "phone": "314-773-6674",
-        "total": 104,
-        "mix": [],
+        "total": 103,
+        "mix": [
+          [
+            "1-bedroom",
+            103,
+            "500"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -1427,12 +1488,12 @@
           [
             "1-bedroom",
             95,
-            null
+            "338–352"
           ],
           [
             "2-bedroom",
             5,
-            null
+            "468"
           ]
         ],
         "mr": "None",
@@ -1464,7 +1525,13 @@
       {
         "phone": "412-856-7480",
         "total": 101,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            101,
+            "500"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -1492,12 +1559,12 @@
           [
             "Studio",
             4,
-            null
+            "500"
           ],
           [
             "1-bedroom",
             78,
-            null
+            "500"
           ]
         ],
         "mr": "Yes (1: Unit 202)",
@@ -1533,7 +1600,7 @@
           [
             "1-bedroom",
             47,
-            null
+            "550"
           ]
         ],
         "mr": "None",
@@ -1566,7 +1633,7 @@
           [
             "1-bedroom",
             33,
-            null
+            "550"
           ]
         ],
         "mr": "None",
@@ -1599,12 +1666,12 @@
           [
             "Studio",
             122,
-            null
+            "342"
           ],
           [
             "1-bedroom",
             55,
-            null
+            "526"
           ]
         ],
         "mr": "Yes",
@@ -1641,7 +1708,7 @@
           [
             "1-bedroom",
             150,
-            null
+            "538–572"
           ]
         ],
         "mr": "None",
@@ -1675,7 +1742,7 @@
           [
             "1-bedroom",
             105,
-            null
+            "630"
           ]
         ],
         "mr": "None",
@@ -1713,7 +1780,7 @@
           [
             "1-bedroom",
             50,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -1748,12 +1815,12 @@
           [
             "1-bedroom",
             241,
-            null
+            "540"
           ],
           [
             "2-bedroom",
             12,
-            null
+            "717"
           ]
         ],
         "mr": "Yes (1)",
@@ -1789,12 +1856,12 @@
           [
             "1-bedroom",
             100,
-            null
+            "570"
           ],
           [
             "2-bedroom",
             2,
-            null
+            "742"
           ]
         ],
         "mr": "None",
@@ -1832,12 +1899,12 @@
           [
             "1-bedroom",
             100,
-            null
+            "642"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "940"
           ]
         ],
         "mr": "Yes (1)",
@@ -1870,8 +1937,13 @@
         "mix": [
           [
             "1-bedroom",
-            151,
-            null
+            150,
+            "600"
+          ],
+          [
+            "2-bedroom",
+            1,
+            "700"
           ]
         ],
         "mr": "Yes (1)",
@@ -1904,8 +1976,24 @@
     "b": [
       {
         "phone": "636-207-3720",
-        "total": 296,
-        "mix": [],
+        "total": 295,
+        "mix": [
+          [
+            "Studio",
+            67,
+            "500"
+          ],
+          [
+            "1-bedroom",
+            196,
+            "579–600"
+          ],
+          [
+            "2-bedroom",
+            32,
+            "700–748"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -1933,7 +2021,7 @@
           [
             "1-bedroom",
             101,
-            null
+            "600"
           ]
         ],
         "mr": "None",
@@ -1967,22 +2055,22 @@
           [
             "Efficiency",
             70,
-            null
+            "450"
           ],
           [
             "1-bedroom",
             168,
-            null
+            "750"
           ],
           [
             "2-bedroom",
             18,
-            null
+            "1075"
           ],
           [
             "3-bedroom",
             1,
-            null
+            "1823"
           ]
         ],
         "mr": "Yes (5)",
@@ -2020,17 +2108,17 @@
           [
             "Studio",
             16,
-            null
+            "600"
           ],
           [
             "1-bedroom",
             48,
-            null
+            "750"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "900"
           ]
         ],
         "mr": "Yes (1)",
@@ -2064,12 +2152,12 @@
           [
             "1-bedroom",
             69,
-            null
+            "500"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "500"
           ]
         ],
         "mr": "Yes (1)",
@@ -2103,7 +2191,7 @@
           [
             "1-bedroom",
             72,
-            null
+            "625"
           ]
         ],
         "mr": "None",
@@ -2139,12 +2227,12 @@
           [
             "Studio",
             30,
-            null
+            "470"
           ],
           [
             "1-bedroom",
             62,
-            null
+            "740"
           ]
         ],
         "mr": "Yes (1)",
@@ -2174,7 +2262,18 @@
       {
         "phone": "970-313-8637",
         "total": 128,
-        "mix": [],
+        "mix": [
+          [
+            "Studio",
+            83,
+            "370"
+          ],
+          [
+            "1-bedroom",
+            44,
+            "400–500"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -2202,12 +2301,12 @@
           [
             "1-bedroom",
             39,
-            null
+            "515"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "900"
           ]
         ],
         "mr": "Yes",
@@ -2245,12 +2344,12 @@
           [
             "Studio",
             20,
-            null
+            "500"
           ],
           [
             "1-bedroom",
             60,
-            null
+            "538"
           ]
         ],
         "mr": "None",
@@ -2286,7 +2385,7 @@
           [
             "1-bedroom",
             87,
-            null
+            "304–488"
           ]
         ],
         "mr": "None",
@@ -2320,17 +2419,17 @@
           [
             "Studio",
             25,
-            null
+            "432"
           ],
           [
             "1-bedroom",
             74,
-            null
+            "547"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "600"
           ]
         ],
         "mr": "None",
@@ -2362,7 +2461,13 @@
       {
         "phone": "770-992-4393",
         "total": 125,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            125,
+            "540"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -2390,7 +2495,7 @@
           [
             "1-bedroom",
             52,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -2424,17 +2529,17 @@
           [
             "Studio",
             18,
-            null
+            "600"
           ],
           [
             "1-bedroom",
             54,
-            null
+            "800"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "900"
           ]
         ],
         "mr": "None",
@@ -2469,12 +2574,12 @@
           [
             "1-bedroom",
             52,
-            null
+            "539"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "539"
           ]
         ],
         "mr": "Yes",
@@ -2504,7 +2609,18 @@
       {
         "phone": "973-374-1702",
         "total": 135,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            134,
+            "550"
+          ],
+          [
+            "2-bedroom",
+            1,
+            "550"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -2532,17 +2648,17 @@
           [
             "Efficiency",
             92,
-            null
+            "393"
           ],
           [
             "1-bedroom",
             68,
-            null
+            "540"
           ],
           [
             "2-bedroom",
             4,
-            null
+            "787"
           ]
         ],
         "mr": "Yes (1: Unit 134)",
@@ -2566,7 +2682,7 @@
           [
             "1-bedroom",
             36,
-            null
+            "539"
           ]
         ],
         "mr": "None",
@@ -2595,7 +2711,18 @@
       {
         "phone": "813-870-1830",
         "total": 199,
-        "mix": [],
+        "mix": [
+          [
+            "Studio",
+            30,
+            "396"
+          ],
+          [
+            "1-bedroom",
+            169,
+            "528"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -2619,7 +2746,23 @@
       {
         "phone": "318-227-2591",
         "total": 170,
-        "mix": [],
+        "mix": [
+          [
+            "Studio",
+            20,
+            "438"
+          ],
+          [
+            "1-bedroom",
+            100,
+            "560"
+          ],
+          [
+            "2-bedroom",
+            50,
+            "770"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -2647,7 +2790,7 @@
           [
             "1-bedroom",
             101,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -2683,17 +2826,17 @@
           [
             "Studio",
             4,
-            null
+            "461"
           ],
           [
             "1-bedroom",
             132,
-            null
+            "539–592"
           ],
           [
             "2-bedroom",
             4,
-            null
+            "680"
           ]
         ],
         "mr": "None",
@@ -2729,8 +2872,13 @@
         "mix": [
           [
             "1-bedroom",
-            172,
-            null
+            164,
+            "472"
+          ],
+          [
+            "2-bedroom",
+            8,
+            "845"
           ]
         ],
         "mr": "None",
@@ -2766,17 +2914,17 @@
           [
             "Studio",
             4,
-            null
+            "380"
           ],
           [
             "1-bedroom",
             112,
-            null
+            "504–538"
           ],
           [
             "2-bedroom",
             13,
-            null
+            "744"
           ]
         ],
         "mr": "Yes (1)",
@@ -2813,7 +2961,7 @@
           [
             "1-bedroom",
             41,
-            null
+            "515"
           ]
         ],
         "mr": "None",
@@ -2887,7 +3035,7 @@
           [
             "1-bedroom",
             55,
-            null
+            "525–625"
           ]
         ],
         "mr": "None",
@@ -2921,17 +3069,17 @@
           [
             "Studio",
             69,
-            null
+            "490"
           ],
           [
             "1-bedroom",
             158,
-            null
+            "605"
           ],
           [
             "2-bedroom",
             3,
-            null
+            "800"
           ]
         ],
         "mr": "Yes (1)",
@@ -2965,7 +3113,7 @@
           [
             "1-bedroom",
             85,
-            null
+            "511"
           ]
         ],
         "mr": "None",
@@ -3003,22 +3151,22 @@
           [
             "Studio",
             16,
-            null
+            "450"
           ],
           [
             "1-bedroom",
             195,
-            null
+            "650–900"
           ],
           [
             "2-bedroom",
             48,
-            null
+            "863"
           ],
           [
             "3-bedroom",
             8,
-            null
+            "958"
           ]
         ],
         "mr": "Yes (9)",
@@ -3054,12 +3202,12 @@
           [
             "1-bedroom",
             79,
-            null
+            "500"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "600"
           ]
         ],
         "mr": "None",
@@ -3094,12 +3242,12 @@
           [
             "Efficiency",
             15,
-            null
+            "415"
           ],
           [
             "1-bedroom",
             45,
-            null
+            "540"
           ]
         ],
         "mr": "None",
@@ -3135,17 +3283,17 @@
           [
             "Studio",
             26,
-            null
+            "350–400"
           ],
           [
             "1-bedroom",
             130,
-            null
+            "500–600"
           ],
           [
             "2-bedroom",
             52,
-            null
+            "700"
           ]
         ],
         "mr": "None",
@@ -3177,7 +3325,13 @@
       {
         "phone": "406-228-4306",
         "total": 100,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            100,
+            "500"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -3200,17 +3354,12 @@
     "b": [
       {
         "phone": "314-869-9700",
-        "total": 52,
+        "total": 51,
         "mix": [
           [
             "1-bedroom",
             51,
-            null
-          ],
-          [
-            "2-bedroom",
-            1,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -3260,20 +3409,37 @@
     "addr": "4375 Oak Grove Blvd, San Angelo, Texas 76904",
     "state": "TX",
     "type": "Senior Site",
-    "logo": null,
+    "logo": "Wheelchair & House",
     "b": [
       {
         "phone": "325-223-0700",
         "total": 142,
-        "mix": [],
-        "mr": null,
-        "ada": null,
-        "dis": null,
-        "util": null,
-        "sc": null,
-        "resp": false,
-        "am": [],
-        "other": [],
+        "mix": [
+          [
+            "1-bedroom",
+            142,
+            "540–560"
+          ]
+        ],
+        "mr": "None",
+        "ada": "Yes",
+        "dis": "No",
+        "util": "Full utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Outdoor Space",
+          "Beauty Salon"
+        ],
+        "other": [
+          "Bike Rack",
+          "Pet Area"
+        ],
         "label": "Main"
       }
     ]
@@ -3291,14 +3457,14 @@
         "total": 103,
         "mix": [
           [
-            "1-bedroom",
-            76,
-            null
+            "Studio",
+            27,
+            "414"
           ],
           [
-            "2-bedroom",
-            27,
-            null
+            "1-bedroom",
+            76,
+            "529"
           ]
         ],
         "mr": "None",
@@ -3330,7 +3496,18 @@
       {
         "phone": "818-833-0298",
         "total": 81,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            80,
+            "545"
+          ],
+          [
+            "2-bedroom",
+            1,
+            "685"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -3358,12 +3535,12 @@
           [
             "Studio",
             25,
-            null
+            "415"
           ],
           [
             "1-bedroom",
             75,
-            null
+            "540"
           ]
         ],
         "mr": "None",
@@ -3399,12 +3576,12 @@
           [
             "Studio",
             30,
-            null
+            "250"
           ],
           [
             "1-bedroom",
             169,
-            null
+            "450"
           ]
         ],
         "mr": "None",
@@ -3438,7 +3615,7 @@
           [
             "1-bedroom",
             42,
-            null
+            "521"
           ]
         ],
         "mr": "None",
@@ -3472,7 +3649,7 @@
           [
             "1-bedroom",
             74,
-            null
+            "544"
           ]
         ],
         "mr": "Yes (1)",
@@ -3506,22 +3683,22 @@
           [
             "1-bedroom",
             16,
-            null
+            "596"
           ],
           [
             "2-bedroom",
             70,
-            null
+            "745"
           ],
           [
             "3-bedroom",
             48,
-            null
+            "907"
           ],
           [
             "4-bedroom",
             16,
-            null
+            "1124"
           ]
         ],
         "mr": "None",
@@ -3556,7 +3733,7 @@
           [
             "1-bedroom",
             52,
-            null
+            "313–516"
           ]
         ],
         "mr": "None",
@@ -3586,7 +3763,13 @@
       {
         "phone": "413-534-7636",
         "total": 101,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            101,
+            "624"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -3609,17 +3792,12 @@
     "b": [
       {
         "phone": "215-726-4880",
-        "total": 75,
+        "total": 74,
         "mix": [
           [
             "1-bedroom",
             74,
-            null
-          ],
-          [
-            "2-bedroom",
-            1,
-            null
+            "535"
           ]
         ],
         "mr": "Yes (1: 2B)",
@@ -3650,7 +3828,23 @@
       {
         "phone": "408-947-1818",
         "total": 140,
-        "mix": [],
+        "mix": [
+          [
+            "Studio",
+            25,
+            "400"
+          ],
+          [
+            "1-bedroom",
+            93,
+            "600–700"
+          ],
+          [
+            "2-bedroom",
+            22,
+            "700"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -3678,7 +3872,7 @@
           [
             "1-bedroom",
             140,
-            null
+            "598"
           ]
         ],
         "mr": "None",
@@ -3712,12 +3906,12 @@
           [
             "1-bedroom",
             125,
-            null
+            "555"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "700"
           ]
         ],
         "mr": "Yes (1)",
@@ -3752,7 +3946,7 @@
           [
             "1-bedroom",
             100,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -3791,7 +3985,7 @@
           [
             "1-bedroom",
             100,
-            null
+            "600–718"
           ]
         ],
         "mr": "Yes (1)",
@@ -3826,7 +4020,7 @@
           [
             "1-bedroom",
             85,
-            null
+            "500"
           ]
         ],
         "mr": "Yes (1)",
@@ -3863,12 +4057,12 @@
           [
             "Efficiency",
             25,
-            null
+            "428"
           ],
           [
             "1-bedroom",
             73,
-            null
+            "537"
           ]
         ],
         "mr": "Yes (1)",
@@ -3903,15 +4097,15 @@
           [
             "1-bedroom",
             116,
-            null
+            "600"
           ],
           [
             "2-bedroom",
             8,
-            null
+            "1224"
           ]
         ],
-        "mr": "Yes (1)",
+        "mr": "Yes (1: Unit 102)",
         "ada": "17",
         "dis": "No",
         "util": "Full utilities",
@@ -3941,7 +4135,13 @@
       {
         "phone": "904-506-4142",
         "total": 112,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            112,
+            "554"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -3969,22 +4169,22 @@
           [
             "Efficiency",
             11,
-            null
+            "408"
           ],
           [
             "1-bedroom",
             179,
-            null
+            "506–552"
           ],
           [
             "2-bedroom",
             7,
-            null
+            "780"
           ],
           [
             "3-bedroom",
             1,
-            null
+            "988"
           ]
         ],
         "mr": "None",
@@ -4019,12 +4219,12 @@
           [
             "1-bedroom",
             146,
-            null
+            "530"
           ],
           [
             "2-bedroom",
             32,
-            null
+            "740"
           ]
         ],
         "mr": "Yes (2: 1 1B & 1 2B)",
@@ -4058,17 +4258,17 @@
           [
             "Efficiency",
             189,
-            null
+            "390"
           ],
           [
             "Studio",
             23,
-            null
+            "475"
           ],
           [
             "1-bedroom",
             66,
-            null
+            "525"
           ]
         ],
         "mr": "None",
@@ -4143,12 +4343,12 @@
           [
             "1-bedroom",
             216,
-            null
+            "478–542"
           ]
         ],
         "mr": "Yes (2: 1A & 1B)",
         "ada": "21",
-        "dis": "5%",
+        "dis": "10%",
         "util": "Full utilities",
         "sc": "Yes",
         "resp": true,
@@ -4172,8 +4372,14 @@
     "b": [
       {
         "phone": "412-257-4180",
-        "total": 50,
-        "mix": [],
+        "total": 49,
+        "mix": [
+          [
+            "1-bedroom",
+            49,
+            "480"
+          ]
+        ],
         "mr": "None",
         "ada": "2",
         "dis": "No",
@@ -4205,22 +4411,22 @@
           [
             "1-bedroom",
             48,
-            null
+            "694"
           ],
           [
             "2-bedroom",
             82,
-            null
+            "899"
           ],
           [
             "3-bedroom",
             16,
-            null
+            "1110"
           ],
           [
             "4-bedroom",
             4,
-            null
+            "1275"
           ]
         ],
         "mr": "None",
@@ -4256,7 +4462,7 @@
           [
             "1-bedroom",
             150,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -4293,12 +4499,12 @@
           [
             "1-bedroom",
             260,
-            null
+            "550"
           ],
           [
             "2-bedroom",
             2,
-            null
+            "500–600"
           ]
         ],
         "mr": "Yes (2: 2B)",
@@ -4332,12 +4538,12 @@
           [
             "1-bedroom",
             359,
-            null
+            "605"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "800"
           ]
         ],
         "mr": "None",
@@ -4369,7 +4575,18 @@
       {
         "phone": "412-257-4844",
         "total": 8,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            6,
+            "500"
+          ],
+          [
+            "2-bedroom",
+            2,
+            "600"
+          ]
+        ],
         "mr": "None",
         "ada": "1",
         "dis": "100%",
@@ -4397,7 +4614,13 @@
       {
         "phone": "718-633-7345",
         "total": 81,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            81,
+            "450–648"
+          ]
+        ],
         "mr": "Yes (1)",
         "ada": "None",
         "dis": "No",
@@ -4425,17 +4648,12 @@
     "b": [
       {
         "phone": "817-292-9018",
-        "total": 60,
+        "total": 59,
         "mix": [
           [
             "1-bedroom",
             59,
-            null
-          ],
-          [
-            "2-bedroom",
-            1,
-            null
+            "540"
           ]
         ],
         "mr": "None",
@@ -4471,12 +4689,12 @@
           [
             "Studio",
             24,
-            null
+            "420"
           ],
           [
             "1-bedroom",
             69,
-            null
+            "493"
           ]
         ],
         "mr": "Yes (1)",
@@ -4512,22 +4730,22 @@
           [
             "Studio",
             75,
-            null
+            "430"
           ],
           [
             "1-bedroom",
             212,
-            null
+            "860"
           ],
           [
             "2-bedroom",
             1,
-            null
+            "800"
           ],
           [
             "3-bedroom",
             1,
-            null
+            "880"
           ]
         ],
         "mr": "Yes",
@@ -4564,12 +4782,12 @@
           [
             "1-bedroom",
             117,
-            null
+            "567"
           ],
           [
             "2-bedroom",
             8,
-            null
+            "757"
           ]
         ],
         "mr": "None",
@@ -4599,8 +4817,29 @@
       {
         "phone": "415-435-4450",
         "total": 102,
-        "mix": [],
-        "mr": null,
+        "mix": [
+          [
+            "1-bedroom",
+            28,
+            "571"
+          ],
+          [
+            "2-bedroom",
+            34,
+            "789"
+          ],
+          [
+            "3-bedroom",
+            28,
+            "1005"
+          ],
+          [
+            "4-bedroom",
+            12,
+            "1305"
+          ]
+        ],
+        "mr": "Yes (7)",
         "ada": null,
         "dis": null,
         "util": null,
@@ -4627,17 +4866,17 @@
           [
             "1-bedroom",
             48,
-            null
+            "640"
           ],
           [
             "2-bedroom",
             119,
-            null
+            "846"
           ],
           [
             "3-bedroom",
             32,
-            null
+            "1005"
           ]
         ],
         "mr": "None",
@@ -4674,7 +4913,7 @@
           [
             "1-bedroom",
             75,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -4703,8 +4942,19 @@
     "b": [
       {
         "phone": "215-365-1828",
-        "total": 165,
-        "mix": [],
+        "total": 164,
+        "mix": [
+          [
+            "Studio",
+            118,
+            "313"
+          ],
+          [
+            "1-bedroom",
+            46,
+            "446"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -4773,17 +5023,17 @@
           [
             "Efficiency",
             18,
-            null
+            "500"
           ],
           [
             "1-bedroom",
             83,
-            null
+            "500"
           ],
           [
             "2-bedroom",
             19,
-            null
+            "700"
           ]
         ],
         "mr": "Yes (13)",
@@ -4817,12 +5067,12 @@
           [
             "1-bedroom",
             126,
-            null
+            "575"
           ],
           [
             "2-bedroom",
             5,
-            null
+            "775"
           ]
         ],
         "mr": "Yes (1: 2B Unit)",
@@ -4857,7 +5107,7 @@
           [
             "1-bedroom",
             100,
-            null
+            "600"
           ]
         ],
         "mr": "Yes (1: Unit 122)",
@@ -4888,7 +5138,13 @@
       {
         "phone": "225-567-9021",
         "total": 27,
-        "mix": [],
+        "mix": [
+          [
+            "1-bedroom",
+            27,
+            "535–571"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -4912,7 +5168,18 @@
       {
         "phone": "985-345-5010",
         "total": 54,
-        "mix": [],
+        "mix": [
+          [
+            "Studio",
+            10,
+            "415"
+          ],
+          [
+            "1-bedroom",
+            44,
+            "535"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -4935,8 +5202,19 @@
     "b": [
       {
         "phone": "337-824-9835",
-        "total": 54,
-        "mix": [],
+        "total": 55,
+        "mix": [
+          [
+            "Studio",
+            10,
+            "415"
+          ],
+          [
+            "1-bedroom",
+            45,
+            "535–566"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -4964,7 +5242,7 @@
           [
             "1-bedroom",
             44,
-            null
+            "500"
           ]
         ],
         "mr": "Yes (2)",
@@ -4996,8 +5274,14 @@
     "b": [
       {
         "phone": "225-774-2525",
-        "total": 70,
-        "mix": [],
+        "total": 71,
+        "mix": [
+          [
+            "1-bedroom",
+            71,
+            "535"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -5021,7 +5305,18 @@
       {
         "phone": "504-469-4056",
         "total": 282,
-        "mix": [],
+        "mix": [
+          [
+            "Studio",
+            100,
+            "415"
+          ],
+          [
+            "1-bedroom",
+            182,
+            "535"
+          ]
+        ],
         "mr": null,
         "ada": null,
         "dis": null,
@@ -5049,7 +5344,7 @@
           [
             "1-bedroom",
             41,
-            null
+            "535–540"
           ]
         ],
         "mr": "None",
@@ -5083,12 +5378,12 @@
           [
             "Studio",
             36,
-            null
+            "372"
           ],
           [
             "1-bedroom",
             28,
-            null
+            "482"
           ]
         ],
         "mr": "Yes (31)",
@@ -5123,12 +5418,12 @@
           [
             "Studio",
             44,
-            null
+            "416"
           ],
           [
             "1-bedroom",
             4,
-            null
+            "427"
           ]
         ],
         "mr": "None",
@@ -5163,7 +5458,7 @@
           [
             "1-bedroom",
             126,
-            null
+            "500"
           ]
         ],
         "mr": "None",
@@ -5198,7 +5493,7 @@
           [
             "1-bedroom",
             100,
-            null
+            "600"
           ]
         ],
         "mr": "None",

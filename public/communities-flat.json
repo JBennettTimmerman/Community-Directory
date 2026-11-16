@@ -11,7 +11,16 @@
       "1-bedroom": 59,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 600,
+        "max": 600
+      },
+      "2-bedroom": {
+        "min": 800,
+        "max": 800
+      }
+    },
     "market_rate_units": "Yes (12)",
     "ada_units": "3",
     "disability_pct": "No",
@@ -39,7 +48,12 @@
     "unit_mix": {
       "1-bedroom": 150
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -63,8 +77,15 @@
     "state": "MO",
     "phone": "417-887-7460",
     "units_total": 92,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 92
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 580,
+        "max": 580
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -86,7 +107,12 @@
     "unit_mix": {
       "1-bedroom": 71
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 530,
+        "max": 530
+      }
+    },
     "market_rate_units": "Yes (1: unit 202)",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -115,7 +141,12 @@
     "unit_mix": {
       "1-bedroom": 24
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 530,
+        "max": 530
+      }
+    },
     "market_rate_units": "Yes (1:unit 202)",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -145,7 +176,16 @@
       "1-bedroom": 151,
       "2-bedroom": 11
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      },
+      "2-bedroom": {
+        "min": 650,
+        "max": 650
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "15",
     "disability_pct": "10%",
@@ -173,7 +213,16 @@
       "1-bedroom": 117,
       "2-bedroom": 8
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 567,
+        "max": 567
+      },
+      "2-bedroom": {
+        "min": 757,
+        "max": 757
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "9",
     "disability_pct": "No",
@@ -200,7 +249,16 @@
       "1-bedroom": 180,
       "2-bedroom": 16
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 567,
+        "max": 567
+      },
+      "2-bedroom": {
+        "min": 759,
+        "max": 759
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "12",
     "disability_pct": "No",
@@ -226,8 +284,20 @@
     "state": "PA",
     "phone": "412-257-4844",
     "units_total": 50,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 48,
+      "2-bedroom": 2
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 570,
+        "max": 590
+      },
+      "2-bedroom": {
+        "min": 1136,
+        "max": 1464
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -254,7 +324,16 @@
       "1-bedroom": 100,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 505,
+        "max": 505
+      },
+      "2-bedroom": {
+        "min": 980,
+        "max": 980
+      }
+    },
     "market_rate_units": "Yes",
     "ada_units": "11",
     "disability_pct": "No",
@@ -284,7 +363,12 @@
     "unit_mix": {
       "1-bedroom": 80
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 492,
+        "max": 492
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "10%",
@@ -312,7 +396,12 @@
     "unit_mix": {
       "1-bedroom": 156
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 570,
+        "max": 570
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "13",
     "disability_pct": "No",
@@ -344,7 +433,20 @@
       "1-bedroom": 61,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 415,
+        "max": 415
+      },
+      "1-bedroom": {
+        "min": 540,
+        "max": 540
+      },
+      "2-bedroom": {
+        "min": 800,
+        "max": 800
+      }
+    },
     "market_rate_units": "Yes (1: 104 - 2B)",
     "ada_units": "6",
     "disability_pct": "1%",
@@ -374,7 +476,12 @@
     "unit_mix": {
       "1-bedroom": 105
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 570,
+        "max": 570
+      }
+    },
     "market_rate_units": "Yes (1: unit 101)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -428,7 +535,12 @@
     "unit_mix": {
       "1-bedroom": 69
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 525,
+        "max": 525
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -454,7 +566,12 @@
     "unit_mix": {
       "1-bedroom": 24
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 541,
+        "max": 541
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -477,8 +594,25 @@
     "state": "CA",
     "phone": "323-721-9668",
     "units_total": 130,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "Studio": 43,
+      "1-bedroom": 86,
+      "2-bedroom": 1
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 418,
+        "max": 418
+      },
+      "1-bedroom": {
+        "min": 538,
+        "max": 538
+      },
+      "2-bedroom": {
+        "min": 800,
+        "max": 800
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes (2: 1B)",
     "disability_pct": "No",
@@ -506,7 +640,16 @@
       "Studio": 104,
       "1-bedroom": 39
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 432,
+        "max": 432
+      },
+      "1-bedroom": {
+        "min": 581,
+        "max": 581
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -535,7 +678,16 @@
       "1-bedroom": 151,
       "2-bedroom": 9
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      },
+      "2-bedroom": {
+        "min": 682,
+        "max": 682
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "9",
     "disability_pct": "No",
@@ -563,7 +715,16 @@
       "1-bedroom": 79,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 560,
+        "max": 560
+      },
+      "2-bedroom": {
+        "min": 560,
+        "max": 560
+      }
+    },
     "market_rate_units": "Yes (1: 2B Unit)",
     "ada_units": "8",
     "disability_pct": "No",
@@ -593,7 +754,16 @@
       "1-bedroom": 56,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 530,
+        "max": 530
+      },
+      "2-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "Yes (1: 2B Unit)",
     "ada_units": "7",
     "disability_pct": "No",
@@ -623,7 +793,16 @@
       "1-bedroom": 54,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      },
+      "2-bedroom": {
+        "min": 740,
+        "max": 740
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -648,7 +827,12 @@
     "unit_mix": {
       "1-bedroom": 100
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "7",
     "disability_pct": "No",
@@ -670,8 +854,20 @@
     "state": "TX",
     "phone": "325-949-8575",
     "units_total": 150,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 144,
+      "2-bedroom": 6
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 580,
+        "max": 580
+      },
+      "2-bedroom": {
+        "min": 985,
+        "max": 985
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -694,7 +890,16 @@
       "Studio": 71,
       "1-bedroom": 154
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 567,
+        "max": 567
+      },
+      "1-bedroom": {
+        "min": 567,
+        "max": 644
+      }
+    },
     "market_rate_units": "71 Voucher Units",
     "ada_units": "None",
     "disability_pct": "No",
@@ -724,7 +929,16 @@
       "Studio": 80,
       "1-bedroom": 350
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 475,
+        "max": 475
+      },
+      "1-bedroom": {
+        "min": 615,
+        "max": 615
+      }
+    },
     "market_rate_units": "Yes (1: unit 430)",
     "ada_units": "20",
     "disability_pct": "10%",
@@ -752,7 +966,20 @@
       "1-bedroom": 96,
       "2-bedroom": 6
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 495,
+        "max": 495
+      },
+      "1-bedroom": {
+        "min": 657,
+        "max": 657
+      },
+      "2-bedroom": {
+        "min": 810,
+        "max": 810
+      }
+    },
     "market_rate_units": "Yes (4)",
     "ada_units": "10",
     "disability_pct": "10%",
@@ -779,7 +1006,12 @@
     "unit_mix": {
       "1-bedroom": 102
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 598,
+        "max": 598
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes (One on each floor)",
     "disability_pct": "No",
@@ -812,7 +1044,12 @@
     "unit_mix": {
       "1-bedroom": 68
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 525,
+        "max": 525
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes (One on each floor)",
     "disability_pct": "No",
@@ -841,9 +1078,21 @@
     "address": "54 41st Ave., East Moline IL 61244",
     "state": "IL",
     "phone": "309-762-1414",
-    "units_total": 153,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "units_total": 154,
+    "unit_mix": {
+      "1-bedroom": 153,
+      "2-bedroom": 1
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 580,
+        "max": 600
+      },
+      "2-bedroom": {
+        "min": 1000,
+        "max": 1000
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -866,7 +1115,16 @@
       "1-bedroom": 174,
       "2-bedroom": 6
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 566,
+        "max": 566
+      },
+      "2-bedroom": {
+        "min": 790,
+        "max": 790
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "10%",
@@ -895,7 +1153,12 @@
     "unit_mix": {
       "1-bedroom": 40
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 400,
+        "max": 400
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -922,7 +1185,12 @@
     "unit_mix": {
       "1-bedroom": 36
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -949,7 +1217,12 @@
     "unit_mix": {
       "1-bedroom": 146
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 600,
+        "max": 600
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "18",
     "disability_pct": "10%",
@@ -980,7 +1253,20 @@
       "2-bedroom": 60,
       "3-bedroom": 16
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 604,
+        "max": 604
+      },
+      "2-bedroom": {
+        "min": 808,
+        "max": 808
+      },
+      "3-bedroom": {
+        "min": 960,
+        "max": 960
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -1007,7 +1293,16 @@
       "1-bedroom": 149,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      },
+      "2-bedroom": {
+        "min": 700,
+        "max": 700
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "11",
     "disability_pct": "No",
@@ -1039,7 +1334,20 @@
       "1-bedroom": 112,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 450,
+        "max": 450
+      },
+      "1-bedroom": {
+        "min": 600,
+        "max": 600
+      },
+      "2-bedroom": {
+        "min": 700,
+        "max": 700
+      }
+    },
     "market_rate_units": "Voucher Unit",
     "ada_units": "14",
     "disability_pct": "No",
@@ -1062,9 +1370,16 @@
     "address": "2700 Henrietta Avenue, St. Louis, MO 63104",
     "state": "MO",
     "phone": "314-773-6674",
-    "units_total": 104,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "units_total": 103,
+    "unit_mix": {
+      "1-bedroom": 103
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1087,7 +1402,16 @@
       "1-bedroom": 95,
       "2-bedroom": 5
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 338,
+        "max": 352
+      },
+      "2-bedroom": {
+        "min": 468,
+        "max": 468
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -1112,8 +1436,15 @@
     "state": "PA",
     "phone": "412-856-7480",
     "units_total": 101,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 101
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1136,7 +1467,16 @@
       "Studio": 4,
       "1-bedroom": 78
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 500,
+        "max": 500
+      },
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "Yes (1: Unit 202)",
     "ada_units": "Yes (8: units ending in 8 or 10)",
     "disability_pct": "10%",
@@ -1164,7 +1504,12 @@
     "unit_mix": {
       "1-bedroom": 47
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 550,
+        "max": 550
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -1189,7 +1534,12 @@
     "unit_mix": {
       "1-bedroom": 33
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 550,
+        "max": 550
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "4",
     "disability_pct": "No",
@@ -1215,7 +1565,16 @@
       "Studio": 122,
       "1-bedroom": 55
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 342,
+        "max": 342
+      },
+      "1-bedroom": {
+        "min": 526,
+        "max": 526
+      }
+    },
     "market_rate_units": "Yes",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -1244,7 +1603,12 @@
     "unit_mix": {
       "1-bedroom": 150
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 538,
+        "max": 572
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -1270,7 +1634,12 @@
     "unit_mix": {
       "1-bedroom": 105
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 630,
+        "max": 630
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "11",
     "disability_pct": "No",
@@ -1300,7 +1669,12 @@
     "unit_mix": {
       "1-bedroom": 50
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -1328,7 +1702,16 @@
       "1-bedroom": 241,
       "2-bedroom": 12
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 540,
+        "max": 540
+      },
+      "2-bedroom": {
+        "min": 717,
+        "max": 717
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "12",
     "disability_pct": "0%",
@@ -1357,7 +1740,16 @@
       "1-bedroom": 100,
       "2-bedroom": 2
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 570,
+        "max": 570
+      },
+      "2-bedroom": {
+        "min": 742,
+        "max": 742
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "11",
     "disability_pct": "Yes",
@@ -1388,7 +1780,16 @@
       "1-bedroom": 100,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 642,
+        "max": 642
+      },
+      "2-bedroom": {
+        "min": 940,
+        "max": 940
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "8",
     "disability_pct": "10%",
@@ -1412,9 +1813,19 @@
     "phone": "214-330-7764",
     "units_total": 151,
     "unit_mix": {
-      "1-bedroom": 151
+      "1-bedroom": 150,
+      "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 600,
+        "max": 600
+      },
+      "2-bedroom": {
+        "min": 700,
+        "max": 700
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "16",
     "disability_pct": "No",
@@ -1440,9 +1851,26 @@
     "address": "1 Strecker Road, Ellisville, MO 63011",
     "state": "MO",
     "phone": "636-207-3720",
-    "units_total": 296,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "units_total": 295,
+    "unit_mix": {
+      "Studio": 67,
+      "1-bedroom": 196,
+      "2-bedroom": 32
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 500,
+        "max": 500
+      },
+      "1-bedroom": {
+        "min": 579,
+        "max": 600
+      },
+      "2-bedroom": {
+        "min": 700,
+        "max": 748
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1464,7 +1892,12 @@
     "unit_mix": {
       "1-bedroom": 101
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 600,
+        "max": 600
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "10",
     "disability_pct": "10%",
@@ -1493,7 +1926,24 @@
       "2-bedroom": 18,
       "3-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Efficiency": {
+        "min": 450,
+        "max": 450
+      },
+      "1-bedroom": {
+        "min": 750,
+        "max": 750
+      },
+      "2-bedroom": {
+        "min": 1075,
+        "max": 1075
+      },
+      "3-bedroom": {
+        "min": 1823,
+        "max": 1823
+      }
+    },
     "market_rate_units": "Yes (5)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -1525,7 +1975,20 @@
       "1-bedroom": 48,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 600,
+        "max": 600
+      },
+      "1-bedroom": {
+        "min": 750,
+        "max": 750
+      },
+      "2-bedroom": {
+        "min": 900,
+        "max": 900
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -1552,7 +2015,16 @@
       "1-bedroom": 69,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      },
+      "2-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -1578,7 +2050,12 @@
     "unit_mix": {
       "1-bedroom": 72
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 625,
+        "max": 625
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -1607,7 +2084,16 @@
       "Studio": 30,
       "1-bedroom": 62
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 470,
+        "max": 470
+      },
+      "1-bedroom": {
+        "min": 740,
+        "max": 740
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "8",
     "disability_pct": "10%",
@@ -1630,8 +2116,20 @@
     "state": "CO",
     "phone": "970-313-8637",
     "units_total": 128,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "Studio": 83,
+      "1-bedroom": 44
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 370,
+        "max": 370
+      },
+      "1-bedroom": {
+        "min": 400,
+        "max": 500
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1654,7 +2152,16 @@
       "1-bedroom": 39,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 515,
+        "max": 515
+      },
+      "2-bedroom": {
+        "min": 900,
+        "max": 900
+      }
+    },
     "market_rate_units": "Yes",
     "ada_units": "2",
     "disability_pct": "No",
@@ -1685,7 +2192,16 @@
       "Studio": 20,
       "1-bedroom": 60
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 500,
+        "max": 500
+      },
+      "1-bedroom": {
+        "min": 538,
+        "max": 538
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "2",
     "disability_pct": "No",
@@ -1713,7 +2229,12 @@
     "unit_mix": {
       "1-bedroom": 87
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 304,
+        "max": 488
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "9",
     "disability_pct": "No",
@@ -1741,7 +2262,20 @@
       "1-bedroom": 74,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 432,
+        "max": 432
+      },
+      "1-bedroom": {
+        "min": 547,
+        "max": 547
+      },
+      "2-bedroom": {
+        "min": 600,
+        "max": 600
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "100",
     "disability_pct": "5%",
@@ -1766,8 +2300,15 @@
     "state": "GA",
     "phone": "770-992-4393",
     "units_total": 125,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 125
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 540,
+        "max": 540
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1789,7 +2330,12 @@
     "unit_mix": {
       "1-bedroom": 52
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "2",
     "disability_pct": "No",
@@ -1817,7 +2363,20 @@
       "1-bedroom": 54,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 600,
+        "max": 600
+      },
+      "1-bedroom": {
+        "min": 800,
+        "max": 800
+      },
+      "2-bedroom": {
+        "min": 900,
+        "max": 900
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -1845,7 +2404,16 @@
       "1-bedroom": 52,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 539,
+        "max": 539
+      },
+      "2-bedroom": {
+        "min": 539,
+        "max": 539
+      }
+    },
     "market_rate_units": "Yes",
     "ada_units": "4",
     "disability_pct": "No",
@@ -1868,8 +2436,20 @@
     "state": "NJ",
     "phone": "973-374-1702",
     "units_total": 135,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 134,
+      "2-bedroom": 1
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 550,
+        "max": 550
+      },
+      "2-bedroom": {
+        "min": 550,
+        "max": 550
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1893,7 +2473,20 @@
       "1-bedroom": 68,
       "2-bedroom": 4
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Efficiency": {
+        "min": 393,
+        "max": 393
+      },
+      "1-bedroom": {
+        "min": 540,
+        "max": 540
+      },
+      "2-bedroom": {
+        "min": 787,
+        "max": 787
+      }
+    },
     "market_rate_units": "Yes (1: Unit 134)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -1919,7 +2512,12 @@
     "unit_mix": {
       "1-bedroom": 36
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 539,
+        "max": 539
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -1941,8 +2539,20 @@
     "state": "FL",
     "phone": "813-870-1830",
     "units_total": 199,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "Studio": 30,
+      "1-bedroom": 169
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 396,
+        "max": 396
+      },
+      "1-bedroom": {
+        "min": 528,
+        "max": 528
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1961,8 +2571,25 @@
     "state": "LA",
     "phone": "318-227-2591",
     "units_total": 170,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "Studio": 20,
+      "1-bedroom": 100,
+      "2-bedroom": 50
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 438,
+        "max": 438
+      },
+      "1-bedroom": {
+        "min": 560,
+        "max": 560
+      },
+      "2-bedroom": {
+        "min": 770,
+        "max": 770
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1984,7 +2611,12 @@
     "unit_mix": {
       "1-bedroom": 101
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "10",
     "disability_pct": "10%",
@@ -2014,7 +2646,20 @@
       "1-bedroom": 132,
       "2-bedroom": 4
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 461,
+        "max": 461
+      },
+      "1-bedroom": {
+        "min": 539,
+        "max": 592
+      },
+      "2-bedroom": {
+        "min": 680,
+        "max": 680
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "10%",
@@ -2041,9 +2686,19 @@
     "phone": "214-324-3895",
     "units_total": 172,
     "unit_mix": {
-      "1-bedroom": 172
+      "1-bedroom": 164,
+      "2-bedroom": 8
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 472,
+        "max": 472
+      },
+      "2-bedroom": {
+        "min": 845,
+        "max": 845
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "11",
     "disability_pct": "10%",
@@ -2073,7 +2728,20 @@
       "1-bedroom": 112,
       "2-bedroom": 13
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 380,
+        "max": 380
+      },
+      "1-bedroom": {
+        "min": 504,
+        "max": 538
+      },
+      "2-bedroom": {
+        "min": 744,
+        "max": 744
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "14",
     "disability_pct": "10%",
@@ -2102,7 +2770,12 @@
     "unit_mix": {
       "1-bedroom": 41
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 515,
+        "max": 515
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "5",
     "disability_pct": "No",
@@ -2156,7 +2829,12 @@
     "unit_mix": {
       "1-bedroom": 55
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 525,
+        "max": 625
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "80%",
@@ -2184,7 +2862,20 @@
       "1-bedroom": 158,
       "2-bedroom": 3
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 490,
+        "max": 490
+      },
+      "1-bedroom": {
+        "min": 605,
+        "max": 605
+      },
+      "2-bedroom": {
+        "min": 800,
+        "max": 800
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "None",
     "disability_pct": "10%",
@@ -2210,7 +2901,12 @@
     "unit_mix": {
       "1-bedroom": 85
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 511,
+        "max": 511
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes (9: 101-107, 208 & 209)",
     "disability_pct": "No",
@@ -2243,7 +2939,24 @@
       "2-bedroom": 48,
       "3-bedroom": 8
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 450,
+        "max": 450
+      },
+      "1-bedroom": {
+        "min": 650,
+        "max": 900
+      },
+      "2-bedroom": {
+        "min": 863,
+        "max": 863
+      },
+      "3-bedroom": {
+        "min": 958,
+        "max": 958
+      }
+    },
     "market_rate_units": "Yes (9)",
     "ada_units": "N/A",
     "disability_pct": "No",
@@ -2272,7 +2985,16 @@
       "1-bedroom": 79,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      },
+      "2-bedroom": {
+        "min": 600,
+        "max": 600
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "4",
     "disability_pct": "No",
@@ -2300,7 +3022,16 @@
       "Efficiency": 15,
       "1-bedroom": 45
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Efficiency": {
+        "min": 415,
+        "max": 415
+      },
+      "1-bedroom": {
+        "min": 540,
+        "max": 540
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "10%",
@@ -2324,12 +3055,16 @@
     "address": "6556 Dan Danciger Rd, Fort Worth, TX 76133",
     "state": "TX",
     "phone": "817-292-9018",
-    "units_total": 60,
+    "units_total": 59,
     "unit_mix": {
-      "1-bedroom": 59,
-      "2-bedroom": 1
+      "1-bedroom": 59
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 540,
+        "max": 540
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "5",
     "disability_pct": "No",
@@ -2359,7 +3094,20 @@
       "1-bedroom": 130,
       "2-bedroom": 52
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 350,
+        "max": 400
+      },
+      "1-bedroom": {
+        "min": 500,
+        "max": 600
+      },
+      "2-bedroom": {
+        "min": 700,
+        "max": 700
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -2384,8 +3132,15 @@
     "state": "MT",
     "phone": "406-228-4306",
     "units_total": 100,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 100
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2403,12 +3158,16 @@
     "address": "2054 Nemnich Road, St. Louis, MO 63136",
     "state": "MO",
     "phone": "314-869-9700",
-    "units_total": 52,
+    "units_total": 51,
     "unit_mix": {
-      "1-bedroom": 51,
-      "2-bedroom": 1
+      "1-bedroom": 51
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "3",
     "disability_pct": "No",
@@ -2452,17 +3211,35 @@
     "state": "TX",
     "phone": "325-223-0700",
     "units_total": 142,
-    "unit_mix": {},
-    "unit_sqft": {},
-    "market_rate_units": null,
-    "ada_units": null,
-    "disability_pct": null,
-    "utilities": null,
-    "service_coordinator": null,
-    "fair_housing_logo": null,
-    "amenities": [],
-    "other_amenities": [],
-    "survey_completed": false
+    "unit_mix": {
+      "1-bedroom": 142
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 540,
+        "max": 560
+      }
+    },
+    "market_rate_units": "None",
+    "ada_units": "Yes",
+    "disability_pct": "No",
+    "utilities": "Full utilities",
+    "service_coordinator": "Yes",
+    "fair_housing_logo": "Wheelchair & House",
+    "amenities": [
+      "Community Room",
+      "Laundry Room",
+      "Off-Street Parking",
+      "On-Site Library",
+      "Game Room",
+      "Outdoor Space",
+      "Beauty Salon"
+    ],
+    "other_amenities": [
+      "Bike Rack",
+      "Pet Area"
+    ],
+    "survey_completed": true
   },
   {
     "code": "OK",
@@ -2473,10 +3250,19 @@
     "phone": "215-763-5505",
     "units_total": 103,
     "unit_mix": {
-      "1-bedroom": 76,
-      "2-bedroom": 27
+      "Studio": 27,
+      "1-bedroom": 76
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 414,
+        "max": 414
+      },
+      "1-bedroom": {
+        "min": 529,
+        "max": 529
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "10",
     "disability_pct": "10%",
@@ -2501,8 +3287,20 @@
     "state": "CA",
     "phone": "818-833-0298",
     "units_total": 81,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 80,
+      "2-bedroom": 1
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 545,
+        "max": 545
+      },
+      "2-bedroom": {
+        "min": 685,
+        "max": 685
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2525,7 +3323,16 @@
       "Studio": 25,
       "1-bedroom": 75
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 415,
+        "max": 415
+      },
+      "1-bedroom": {
+        "min": 540,
+        "max": 540
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -2554,7 +3361,16 @@
       "Studio": 30,
       "1-bedroom": 169
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 250,
+        "max": 250
+      },
+      "1-bedroom": {
+        "min": 450,
+        "max": 450
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -2580,7 +3396,12 @@
     "unit_mix": {
       "1-bedroom": 42
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 521,
+        "max": 521
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "4",
     "disability_pct": "No",
@@ -2606,7 +3427,12 @@
     "unit_mix": {
       "1-bedroom": 74
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 544,
+        "max": 544
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "8",
     "disability_pct": "No",
@@ -2635,7 +3461,24 @@
       "3-bedroom": 48,
       "4-bedroom": 16
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 596,
+        "max": 596
+      },
+      "2-bedroom": {
+        "min": 745,
+        "max": 745
+      },
+      "3-bedroom": {
+        "min": 907,
+        "max": 907
+      },
+      "4-bedroom": {
+        "min": 1124,
+        "max": 1124
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -2662,7 +3505,12 @@
     "unit_mix": {
       "1-bedroom": 52
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 313,
+        "max": 516
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -2685,8 +3533,15 @@
     "state": "MA",
     "phone": "413-534-7636",
     "units_total": 101,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 101
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 624,
+        "max": 624
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2704,12 +3559,16 @@
     "address": "1450 S. 50th Street, Philadelphia, PA 19143",
     "state": "PA",
     "phone": "215-726-4880",
-    "units_total": 75,
+    "units_total": 74,
     "unit_mix": {
-      "1-bedroom": 74,
-      "2-bedroom": 1
+      "1-bedroom": 74
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 535,
+        "max": 535
+      }
+    },
     "market_rate_units": "Yes (1: 2B)",
     "ada_units": "74",
     "disability_pct": "No",
@@ -2733,8 +3592,25 @@
     "state": "CA",
     "phone": "408-947-1818",
     "units_total": 140,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "Studio": 25,
+      "1-bedroom": 93,
+      "2-bedroom": 22
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 400,
+        "max": 400
+      },
+      "1-bedroom": {
+        "min": 600,
+        "max": 700
+      },
+      "2-bedroom": {
+        "min": 700,
+        "max": 700
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2756,7 +3632,12 @@
     "unit_mix": {
       "1-bedroom": 140
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 598,
+        "max": 598
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "10",
     "disability_pct": "No",
@@ -2783,7 +3664,16 @@
       "1-bedroom": 125,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 555,
+        "max": 555
+      },
+      "2-bedroom": {
+        "min": 700,
+        "max": 700
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "13",
     "disability_pct": "No",
@@ -2810,7 +3700,12 @@
     "unit_mix": {
       "1-bedroom": 100
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -2841,7 +3736,12 @@
     "unit_mix": {
       "1-bedroom": 100
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 600,
+        "max": 718
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "none",
     "disability_pct": "No",
@@ -2869,7 +3769,16 @@
       "Efficiency": 25,
       "1-bedroom": 73
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Efficiency": {
+        "min": 428,
+        "max": 428
+      },
+      "1-bedroom": {
+        "min": 537,
+        "max": 537
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "10",
     "disability_pct": "No",
@@ -2897,8 +3806,17 @@
       "1-bedroom": 116,
       "2-bedroom": 8
     },
-    "unit_sqft": {},
-    "market_rate_units": "Yes (1)",
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 600,
+        "max": 600
+      },
+      "2-bedroom": {
+        "min": 1224,
+        "max": 1224
+      }
+    },
+    "market_rate_units": "Yes (1: Unit 102)",
     "ada_units": "17",
     "disability_pct": "No",
     "utilities": "Full utilities",
@@ -2923,8 +3841,15 @@
     "state": "FL",
     "phone": "904-506-4142",
     "units_total": 112,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 112
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 554,
+        "max": 554
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2949,7 +3874,24 @@
       "2-bedroom": 7,
       "3-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Efficiency": {
+        "min": 408,
+        "max": 408
+      },
+      "1-bedroom": {
+        "min": 506,
+        "max": 552
+      },
+      "2-bedroom": {
+        "min": 780,
+        "max": 780
+      },
+      "3-bedroom": {
+        "min": 988,
+        "max": 988
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -2977,7 +3919,16 @@
       "1-bedroom": 146,
       "2-bedroom": 32
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 530,
+        "max": 530
+      },
+      "2-bedroom": {
+        "min": 740,
+        "max": 740
+      }
+    },
     "market_rate_units": "Yes (2: 1 1B & 1 2B)",
     "ada_units": "Yes (5: 1B, 14 2B)",
     "disability_pct": "No",
@@ -3003,7 +3954,12 @@
     "unit_mix": {
       "1-bedroom": 85
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "7",
     "disability_pct": "No",
@@ -3034,7 +3990,20 @@
       "Studio": 23,
       "1-bedroom": 66
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Efficiency": {
+        "min": 390,
+        "max": 390
+      },
+      "Studio": {
+        "min": 475,
+        "max": 475
+      },
+      "1-bedroom": {
+        "min": 525,
+        "max": 525
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3089,10 +4058,15 @@
     "unit_mix": {
       "1-bedroom": 216
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 478,
+        "max": 542
+      }
+    },
     "market_rate_units": "Yes (2: 1A & 1B)",
     "ada_units": "21",
-    "disability_pct": "5%",
+    "disability_pct": "10%",
     "utilities": "Full utilities",
     "service_coordinator": "Yes",
     "fair_housing_logo": "House Only",
@@ -3111,9 +4085,16 @@
     "address": "617 McMillen St, Bridgeville, PA 15017",
     "state": "PA",
     "phone": "412-257-4180",
-    "units_total": 50,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "units_total": 49,
+    "unit_mix": {
+      "1-bedroom": 49
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 480,
+        "max": 480
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "2",
     "disability_pct": "No",
@@ -3142,7 +4123,24 @@
       "3-bedroom": 16,
       "4-bedroom": 4
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 694,
+        "max": 694
+      },
+      "2-bedroom": {
+        "min": 899,
+        "max": 899
+      },
+      "3-bedroom": {
+        "min": 1110,
+        "max": 1110
+      },
+      "4-bedroom": {
+        "min": 1275,
+        "max": 1275
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3170,7 +4168,12 @@
     "unit_mix": {
       "1-bedroom": 150
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3200,7 +4203,16 @@
       "1-bedroom": 260,
       "2-bedroom": 2
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 550,
+        "max": 550
+      },
+      "2-bedroom": {
+        "min": 500,
+        "max": 600
+      }
+    },
     "market_rate_units": "Yes (2: 2B)",
     "ada_units": "Yes (27: 1x1, 2 2x1)",
     "disability_pct": "No",
@@ -3227,7 +4239,16 @@
       "1-bedroom": 359,
       "2-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 605,
+        "max": 605
+      },
+      "2-bedroom": {
+        "min": 800,
+        "max": 800
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "10%",
@@ -3252,8 +4273,20 @@
     "state": "PA",
     "phone": "412-257-4844",
     "units_total": 8,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 6,
+      "2-bedroom": 2
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      },
+      "2-bedroom": {
+        "min": 600,
+        "max": 600
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "1",
     "disability_pct": "100%",
@@ -3276,8 +4309,15 @@
     "state": "NY",
     "phone": "718-633-7345",
     "units_total": 81,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 81
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 450,
+        "max": 648
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3305,7 +4345,16 @@
       "Studio": 24,
       "1-bedroom": 69
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 420,
+        "max": 420
+      },
+      "1-bedroom": {
+        "min": 493,
+        "max": 493
+      }
+    },
     "market_rate_units": "Yes (1)",
     "ada_units": "5",
     "disability_pct": "No",
@@ -3336,7 +4385,24 @@
       "2-bedroom": 1,
       "3-bedroom": 1
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 430,
+        "max": 430
+      },
+      "1-bedroom": {
+        "min": 860,
+        "max": 860
+      },
+      "2-bedroom": {
+        "min": 800,
+        "max": 800
+      },
+      "3-bedroom": {
+        "min": 880,
+        "max": 880
+      }
+    },
     "market_rate_units": "Yes",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3362,9 +4428,31 @@
     "state": "CA",
     "phone": "415-435-4450",
     "units_total": 102,
-    "unit_mix": {},
-    "unit_sqft": {},
-    "market_rate_units": null,
+    "unit_mix": {
+      "1-bedroom": 28,
+      "2-bedroom": 34,
+      "3-bedroom": 28,
+      "4-bedroom": 12
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 571,
+        "max": 571
+      },
+      "2-bedroom": {
+        "min": 789,
+        "max": 789
+      },
+      "3-bedroom": {
+        "min": 1005,
+        "max": 1005
+      },
+      "4-bedroom": {
+        "min": 1305,
+        "max": 1305
+      }
+    },
+    "market_rate_units": "Yes (7)",
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
@@ -3387,7 +4475,20 @@
       "2-bedroom": 119,
       "3-bedroom": 32
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 640,
+        "max": 640
+      },
+      "2-bedroom": {
+        "min": 846,
+        "max": 846
+      },
+      "3-bedroom": {
+        "min": 1005,
+        "max": 1005
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "12",
     "disability_pct": "No",
@@ -3416,7 +4517,12 @@
     "unit_mix": {
       "1-bedroom": 75
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -3438,9 +4544,21 @@
     "address": "7199 Brant Place, Philadelphia, PA 19153",
     "state": "PA",
     "phone": "215-365-1828",
-    "units_total": 165,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "units_total": 164,
+    "unit_mix": {
+      "Studio": 118,
+      "1-bedroom": 46
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 313,
+        "max": 313
+      },
+      "1-bedroom": {
+        "min": 446,
+        "max": 446
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3493,7 +4611,20 @@
       "1-bedroom": 83,
       "2-bedroom": 19
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Efficiency": {
+        "min": 500,
+        "max": 500
+      },
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      },
+      "2-bedroom": {
+        "min": 700,
+        "max": 700
+      }
+    },
     "market_rate_units": "Yes (13)",
     "ada_units": "9",
     "disability_pct": "10%",
@@ -3520,7 +4651,16 @@
       "1-bedroom": 126,
       "2-bedroom": 5
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 575,
+        "max": 575
+      },
+      "2-bedroom": {
+        "min": 775,
+        "max": 775
+      }
+    },
     "market_rate_units": "Yes (1: 2B Unit)",
     "ada_units": "Yes (12: 1B, 1: 2B)",
     "disability_pct": "No",
@@ -3547,7 +4687,12 @@
     "unit_mix": {
       "1-bedroom": 100
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 600,
+        "max": 600
+      }
+    },
     "market_rate_units": "Yes (1: Unit 122)",
     "ada_units": "10",
     "disability_pct": "No",
@@ -3571,8 +4716,15 @@
     "state": "LA",
     "phone": "225-567-9021",
     "units_total": 27,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "1-bedroom": 27
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 535,
+        "max": 571
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3591,8 +4743,20 @@
     "state": "LA",
     "phone": "985-345-5010",
     "units_total": 54,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "Studio": 10,
+      "1-bedroom": 44
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 415,
+        "max": 415
+      },
+      "1-bedroom": {
+        "min": 535,
+        "max": 535
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3610,9 +4774,21 @@
     "address": "1810 N Cary Avenue, Jennings, LA 70546",
     "state": "LA",
     "phone": "337-824-9835",
-    "units_total": 54,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "units_total": 55,
+    "unit_mix": {
+      "Studio": 10,
+      "1-bedroom": 45
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 415,
+        "max": 415
+      },
+      "1-bedroom": {
+        "min": 535,
+        "max": 566
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3634,7 +4810,12 @@
     "unit_mix": {
       "1-bedroom": 44
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "Yes (2)",
     "ada_units": "Yes (3: Units A6, B4, & D4)",
     "disability_pct": "No",
@@ -3659,9 +4840,16 @@
     "address": "1800 Rosenwald Road, Baton Rouge, LA 70807",
     "state": "LA",
     "phone": "225-774-2525",
-    "units_total": 70,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "units_total": 71,
+    "unit_mix": {
+      "1-bedroom": 71
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 535,
+        "max": 535
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3680,8 +4868,20 @@
     "state": "LA",
     "phone": "504-469-4056",
     "units_total": 282,
-    "unit_mix": {},
-    "unit_sqft": {},
+    "unit_mix": {
+      "Studio": 100,
+      "1-bedroom": 182
+    },
+    "unit_sqft": {
+      "Studio": {
+        "min": 415,
+        "max": 415
+      },
+      "1-bedroom": {
+        "min": 535,
+        "max": 535
+      }
+    },
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3703,7 +4903,12 @@
     "unit_mix": {
       "1-bedroom": 41
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 535,
+        "max": 540
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "2",
     "disability_pct": "No",
@@ -3730,7 +4935,16 @@
       "Studio": 36,
       "1-bedroom": 28
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 372,
+        "max": 372
+      },
+      "1-bedroom": {
+        "min": 482,
+        "max": 482
+      }
+    },
     "market_rate_units": "Yes (31)",
     "ada_units": "0",
     "disability_pct": "No",
@@ -3758,7 +4972,16 @@
       "Studio": 44,
       "1-bedroom": 4
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "Studio": {
+        "min": 416,
+        "max": 416
+      },
+      "1-bedroom": {
+        "min": 427,
+        "max": 427
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "5",
     "disability_pct": "No",
@@ -3785,7 +5008,12 @@
     "unit_mix": {
       "1-bedroom": 126
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 500,
+        "max": 500
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "14",
     "disability_pct": "No",
@@ -3812,7 +5040,12 @@
     "unit_mix": {
       "1-bedroom": 100
     },
-    "unit_sqft": {},
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 600,
+        "max": 600
+      }
+    },
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
