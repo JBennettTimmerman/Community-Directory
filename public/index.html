@@ -81,7 +81,7 @@ const row=(l,v)=>v?`<div class="row"><span>${l}</span><span>${e(v)}</span></div>
 function bld(b){
   const ph=b.phone?`<a href="tel:${b.phone.replace(/\D/g,"")}">${e(b.phone)}</a>`:"";
   let h=`<div class="stats">${stat("Phone",ph)}${stat("Total units",b.total!=null?e(b.total):"")}${stat("ADA units",b.ada?e(b.ada):"",b.ada==="Yes"?"Count not given":"")}${stat("Market rate",b.mr?e(b.mr):"")}</div>`;
-  if(b.mix.length)h+=`<div class="tags">${b.mix.map(m=>`<span class="t u">${m[1]} ${e(m[0])}</span>`).join("")}</div>`;
+  if(b.mix.length)h+=`<div class="tags">${b.mix.map(m=>`<span class="t u">${m[1]} ${e(m[0])}${m[2]?` · ${e(m[2])} sq ft`:""}</span>`).join("")}</div>`;
   if(!b.resp)return h+`<p class="note">Survey details not yet collected.</p>`;
   return h+`<div style="display:flex;flex-direction:column;gap:6px">${row("Utilities",b.util)}${row("Disability %",b.dis)}</div>`;
 }
@@ -122,8 +122,11 @@ const num=v=>{const n=Number(v);return v!=null&&v!==""&&isFinite(n)?n:null};
 const truthy=v=>v===true||v===1||/^(true|1)$/i.test(String(v).trim());
 const utilN=v=>{v=S(v);if(!v)return null;if(/^full util/i.test(v))return"Full utilities";if(/^tenant paid$/i.test(v))return"Tenant paid";return v.replace(/^Partial[\s-]*(Paid)?:?\s*/,"Partial: ")};
 const disN=v=>{if(v==null||v==="")return null;if(typeof v==="number")return Math.round(v*100)+"%";v=String(v).trim();return/^(none|no|n\/a)$/i.test(v)?"No":v};
+const sqj=v=>{if(v==null||v==="")return null;const s=String(v).trim().toLowerCase().replace(/,/g,"").replace(/\s*(sq\.?\s*ft\.?|sf|square feet)\s*$/,"");
+const m=s.match(/^(\d+(?:\.\d+)?)\s*(?:[-\u2013\u2014]|to)\s*(\d+(?:\.\d+)?)$/)||s.match(/^(\d+(?:\.\d+)?)$/);if(!m)return null;
+let a=Math.floor(+m[1]+0.5),b=Math.floor(+(m[2]||m[1])+0.5);if(a>b)[a,b]=[b,a];if(b===0)return null;if(a<100||b>5000)return null;return a===b?String(a):a+"\u2013"+b};
 function bldN(r){const oth=S(r["Other Amenities"])?String(r["Other Amenities"]).split(",").map(x=>x.trim()).filter(Boolean):[];
-return{phone:S(r["Phone Number"]),total:num(r["Units Total"]),mix:MIXC.filter(([c])=>num(r[c])>0).map(([c,l])=>[l,num(r[c])]),mr:S(r["Market Rate Units"]),ada:S(r["ADA Units"]),dis:disN(r["Disability %"]),util:utilN(r["Utilities"]),sc:S(r["Service Coordinator"]),resp:["Utilities","Service Coordinator","Community Room","Fair Housing Logo"].some(c=>S(r[c])!=null),am:AM.filter(a=>truthy(r[a])),other:oth}}
+return{phone:S(r["Phone Number"]),total:num(r["Units Total"]),mix:MIXC.filter(([c])=>num(r[c])>0).map(([c,l])=>[l,num(r[c]),sqj(r[c.replace("Units","Sq Ft")])]),mr:S(r["Market Rate Units"]),ada:S(r["ADA Units"]),dis:disN(r["Disability %"]),util:utilN(r["Utilities"]),sc:S(r["Service Coordinator"]),resp:["Utilities","Service Coordinator","Community Room","Fair Housing Logo"].some(c=>S(r[c])!=null),am:AM.filter(a=>truthy(r[a])),other:oth}}
 function normalize(rows){const g=new Map();let skipped=0;
 rows.forEach(r0=>{const r={};for(const k in r0)r[k.trim()]=r0[k];const code=S(r["Community Code"]);if(!code||!S(r.Community)){skipped++;return}if(!g.has(code))g.set(code,[]);g.get(code).push(r)});
 const out=[];g.forEach((rs,code)=>{const f=rs[0],addr=S(f.Address)||"",m=addr.match(/\b([A-Z]{2})\b,?\s*\d{5}/);

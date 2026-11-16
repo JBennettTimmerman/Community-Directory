@@ -36,6 +36,9 @@ python scripts/build_communities.py
 
 ## Notes
 - Everything in `public/` is served publicly by Vercel, including `communities.json`. Only put data here that anyone may see.
+- Optional square footage columns: Efficiency Sq Ft, Studio Sq Ft, 1-Bedroom Sq Ft, 2-Bedroom Sq Ft, 3-Bedroom Sq Ft, 4-Bedroom Sq Ft.
+  Each cell can be one number (`575`) or a range (`550-620`), digits only. Leave blank, or enter 0, if unknown or there are no units of that type. Unreadable entries
+  show up as warnings in the Action log and are left off the card. Sizes only appear for unit types that have a unit count.
 - Required columns: Community Code, Community, Phone Number, Site Type, Address, Units Total, plus the 13 amenity columns.
 - Rows that share a Community Code are combined into one card (like Jefferson main and east).
 - Cleanup rules live in the script: Disability % shows as a percentage ("None"/"N/A" become "No"),

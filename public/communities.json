@@ -13,11 +13,13 @@
         "mix": [
           [
             "1-bedroom",
-            59
+            59,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (12)",
@@ -52,7 +54,8 @@
         "mix": [
           [
             "1-bedroom",
-            150
+            150,
+            null
           ]
         ],
         "mr": "None",
@@ -110,7 +113,8 @@
         "mix": [
           [
             "1-bedroom",
-            71
+            71,
+            null
           ]
         ],
         "mr": "Yes (1: unit 202)",
@@ -146,7 +150,8 @@
         "mix": [
           [
             "1-bedroom",
-            24
+            24,
+            null
           ]
         ],
         "mr": "Yes (1:unit 202)",
@@ -182,11 +187,13 @@
         "mix": [
           [
             "1-bedroom",
-            151
+            151,
+            null
           ],
           [
             "2-bedroom",
-            11
+            11,
+            null
           ]
         ],
         "mr": "None",
@@ -220,11 +227,13 @@
         "mix": [
           [
             "1-bedroom",
-            180
+            180,
+            null
           ],
           [
             "2-bedroom",
-            16
+            16,
+            null
           ]
         ],
         "mr": "None",
@@ -288,11 +297,13 @@
         "mix": [
           [
             "1-bedroom",
-            100
+            100,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes",
@@ -329,7 +340,8 @@
         "mix": [
           [
             "1-bedroom",
-            80
+            80,
+            null
           ]
         ],
         "mr": "None",
@@ -364,7 +376,8 @@
         "mix": [
           [
             "1-bedroom",
-            156
+            156,
+            null
           ]
         ],
         "mr": "None",
@@ -401,15 +414,18 @@
         "mix": [
           [
             "Studio",
-            20
+            20,
+            null
           ],
           [
             "1-bedroom",
-            61
+            61,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (1: 104 - 2B)",
@@ -446,7 +462,8 @@
         "mix": [
           [
             "1-bedroom",
-            105
+            105,
+            null
           ]
         ],
         "mr": "Yes (1: unit 101)",
@@ -479,7 +496,8 @@
         "mix": [
           [
             "1-bedroom",
-            61
+            61,
+            null
           ]
         ],
         "mr": "None",
@@ -514,7 +532,8 @@
         "mix": [
           [
             "1-bedroom",
-            69
+            69,
+            null
           ]
         ],
         "mr": "None",
@@ -547,7 +566,8 @@
         "mix": [
           [
             "1-bedroom",
-            24
+            24,
+            null
           ]
         ],
         "mr": "None",
@@ -609,11 +629,13 @@
         "mix": [
           [
             "Studio",
-            104
+            104,
+            null
           ],
           [
             "1-bedroom",
-            39
+            39,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -648,11 +670,13 @@
         "mix": [
           [
             "1-bedroom",
-            151
+            151,
+            null
           ],
           [
             "2-bedroom",
-            9
+            9,
+            null
           ]
         ],
         "mr": "None",
@@ -686,11 +710,13 @@
         "mix": [
           [
             "1-bedroom",
-            79
+            79,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (1: 2B Unit)",
@@ -726,11 +752,13 @@
         "mix": [
           [
             "1-bedroom",
-            56
+            56,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (1: 2B Unit)",
@@ -766,11 +794,13 @@
         "mix": [
           [
             "1-bedroom",
-            54
+            54,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -802,7 +832,8 @@
         "mix": [
           [
             "1-bedroom",
-            100
+            100,
+            null
           ]
         ],
         "mr": "None",
@@ -858,11 +889,13 @@
         "mix": [
           [
             "Studio",
-            71
+            71,
+            null
           ],
           [
             "1-bedroom",
-            154
+            154,
+            null
           ]
         ],
         "mr": "71 Voucher Units",
@@ -898,11 +931,13 @@
         "mix": [
           [
             "Studio",
-            80
+            80,
+            null
           ],
           [
             "1-bedroom",
-            350
+            350,
+            null
           ]
         ],
         "mr": "Yes (1: unit 430)",
@@ -935,15 +970,18 @@
         "mix": [
           [
             "Studio",
-            4
+            4,
+            null
           ],
           [
             "1-bedroom",
-            96
+            96,
+            null
           ],
           [
             "2-bedroom",
-            6
+            6,
+            null
           ]
         ],
         "mr": "Yes (4)",
@@ -977,7 +1015,8 @@
         "mix": [
           [
             "1-bedroom",
-            102
+            102,
+            null
           ]
         ],
         "mr": "None",
@@ -1017,7 +1056,8 @@
         "mix": [
           [
             "1-bedroom",
-            68
+            68,
+            null
           ]
         ],
         "mr": "None",
@@ -1081,11 +1121,13 @@
         "mix": [
           [
             "1-bedroom",
-            174
+            174,
+            null
           ],
           [
             "2-bedroom",
-            6
+            6,
+            null
           ]
         ],
         "mr": "None",
@@ -1121,7 +1163,8 @@
         "mix": [
           [
             "1-bedroom",
-            40
+            40,
+            null
           ]
         ],
         "mr": "None",
@@ -1155,7 +1198,8 @@
         "mix": [
           [
             "1-bedroom",
-            36
+            36,
+            null
           ]
         ],
         "mr": "None",
@@ -1189,7 +1233,8 @@
         "mix": [
           [
             "1-bedroom",
-            146
+            146,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -1225,15 +1270,18 @@
         "mix": [
           [
             "1-bedroom",
-            20
+            20,
+            null
           ],
           [
             "2-bedroom",
-            60
+            60,
+            null
           ],
           [
             "3-bedroom",
-            16
+            16,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -1266,11 +1314,13 @@
         "mix": [
           [
             "1-bedroom",
-            149
+            149,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -1307,15 +1357,18 @@
         "mix": [
           [
             "Studio",
-            38
+            38,
+            null
           ],
           [
             "1-bedroom",
-            112
+            112,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Voucher Unit",
@@ -1373,11 +1426,13 @@
         "mix": [
           [
             "1-bedroom",
-            95
+            95,
+            null
           ],
           [
             "2-bedroom",
-            5
+            5,
+            null
           ]
         ],
         "mr": "None",
@@ -1436,11 +1491,13 @@
         "mix": [
           [
             "Studio",
-            4
+            4,
+            null
           ],
           [
             "1-bedroom",
-            78
+            78,
+            null
           ]
         ],
         "mr": "Yes (1: Unit 202)",
@@ -1475,7 +1532,8 @@
         "mix": [
           [
             "1-bedroom",
-            47
+            47,
+            null
           ]
         ],
         "mr": "None",
@@ -1507,7 +1565,8 @@
         "mix": [
           [
             "1-bedroom",
-            33
+            33,
+            null
           ]
         ],
         "mr": "None",
@@ -1539,11 +1598,13 @@
         "mix": [
           [
             "Studio",
-            122
+            122,
+            null
           ],
           [
             "1-bedroom",
-            55
+            55,
+            null
           ]
         ],
         "mr": "Yes",
@@ -1579,7 +1640,8 @@
         "mix": [
           [
             "1-bedroom",
-            150
+            150,
+            null
           ]
         ],
         "mr": "None",
@@ -1612,7 +1674,8 @@
         "mix": [
           [
             "1-bedroom",
-            105
+            105,
+            null
           ]
         ],
         "mr": "None",
@@ -1649,7 +1712,8 @@
         "mix": [
           [
             "1-bedroom",
-            50
+            50,
+            null
           ]
         ],
         "mr": "None",
@@ -1683,11 +1747,13 @@
         "mix": [
           [
             "1-bedroom",
-            241
+            241,
+            null
           ],
           [
             "2-bedroom",
-            12
+            12,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -1722,11 +1788,13 @@
         "mix": [
           [
             "1-bedroom",
-            100
+            100,
+            null
           ],
           [
             "2-bedroom",
-            2
+            2,
+            null
           ]
         ],
         "mr": "None",
@@ -1763,11 +1831,13 @@
         "mix": [
           [
             "1-bedroom",
-            100
+            100,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -1800,7 +1870,8 @@
         "mix": [
           [
             "1-bedroom",
-            151
+            151,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -1861,7 +1932,8 @@
         "mix": [
           [
             "1-bedroom",
-            101
+            101,
+            null
           ]
         ],
         "mr": "None",
@@ -1894,19 +1966,23 @@
         "mix": [
           [
             "Efficiency",
-            70
+            70,
+            null
           ],
           [
             "1-bedroom",
-            168
+            168,
+            null
           ],
           [
             "2-bedroom",
-            18
+            18,
+            null
           ],
           [
             "3-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (5)",
@@ -1943,15 +2019,18 @@
         "mix": [
           [
             "Studio",
-            16
+            16,
+            null
           ],
           [
             "1-bedroom",
-            48
+            48,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -1984,11 +2063,13 @@
         "mix": [
           [
             "1-bedroom",
-            69
+            69,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -2021,7 +2102,8 @@
         "mix": [
           [
             "1-bedroom",
-            72
+            72,
+            null
           ]
         ],
         "mr": "None",
@@ -2056,11 +2138,13 @@
         "mix": [
           [
             "Studio",
-            30
+            30,
+            null
           ],
           [
             "1-bedroom",
-            62
+            62,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -2117,11 +2201,13 @@
         "mix": [
           [
             "1-bedroom",
-            39
+            39,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes",
@@ -2158,11 +2244,13 @@
         "mix": [
           [
             "Studio",
-            20
+            20,
+            null
           ],
           [
             "1-bedroom",
-            60
+            60,
+            null
           ]
         ],
         "mr": "None",
@@ -2197,7 +2285,8 @@
         "mix": [
           [
             "1-bedroom",
-            87
+            87,
+            null
           ]
         ],
         "mr": "None",
@@ -2230,15 +2319,18 @@
         "mix": [
           [
             "Studio",
-            25
+            25,
+            null
           ],
           [
             "1-bedroom",
-            74
+            74,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -2297,7 +2389,8 @@
         "mix": [
           [
             "1-bedroom",
-            52
+            52,
+            null
           ]
         ],
         "mr": "None",
@@ -2330,15 +2423,18 @@
         "mix": [
           [
             "Studio",
-            18
+            18,
+            null
           ],
           [
             "1-bedroom",
-            54
+            54,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -2372,11 +2468,13 @@
         "mix": [
           [
             "1-bedroom",
-            52
+            52,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes",
@@ -2433,15 +2531,18 @@
         "mix": [
           [
             "Efficiency",
-            92
+            92,
+            null
           ],
           [
             "1-bedroom",
-            68
+            68,
+            null
           ],
           [
             "2-bedroom",
-            4
+            4,
+            null
           ]
         ],
         "mr": "Yes (1: Unit 134)",
@@ -2464,7 +2565,8 @@
         "mix": [
           [
             "1-bedroom",
-            36
+            36,
+            null
           ]
         ],
         "mr": "None",
@@ -2544,7 +2646,8 @@
         "mix": [
           [
             "1-bedroom",
-            101
+            101,
+            null
           ]
         ],
         "mr": "None",
@@ -2579,15 +2682,18 @@
         "mix": [
           [
             "Studio",
-            4
+            4,
+            null
           ],
           [
             "1-bedroom",
-            132
+            132,
+            null
           ],
           [
             "2-bedroom",
-            4
+            4,
+            null
           ]
         ],
         "mr": "None",
@@ -2623,7 +2729,8 @@
         "mix": [
           [
             "1-bedroom",
-            172
+            172,
+            null
           ]
         ],
         "mr": "None",
@@ -2658,15 +2765,18 @@
         "mix": [
           [
             "Studio",
-            4
+            4,
+            null
           ],
           [
             "1-bedroom",
-            112
+            112,
+            null
           ],
           [
             "2-bedroom",
-            13
+            13,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -2702,7 +2812,8 @@
         "mix": [
           [
             "1-bedroom",
-            41
+            41,
+            null
           ]
         ],
         "mr": "None",
@@ -2736,11 +2847,13 @@
         "mix": [
           [
             "1-bedroom",
-            176
+            176,
+            null
           ],
           [
             "2-bedroom",
-            22
+            22,
+            null
           ]
         ],
         "mr": "None",
@@ -2773,7 +2886,8 @@
         "mix": [
           [
             "1-bedroom",
-            55
+            55,
+            null
           ]
         ],
         "mr": "None",
@@ -2806,15 +2920,18 @@
         "mix": [
           [
             "Studio",
-            69
+            69,
+            null
           ],
           [
             "1-bedroom",
-            158
+            158,
+            null
           ],
           [
             "2-bedroom",
-            3
+            3,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -2847,7 +2964,8 @@
         "mix": [
           [
             "1-bedroom",
-            85
+            85,
+            null
           ]
         ],
         "mr": "None",
@@ -2884,19 +3002,23 @@
         "mix": [
           [
             "Studio",
-            16
+            16,
+            null
           ],
           [
             "1-bedroom",
-            195
+            195,
+            null
           ],
           [
             "2-bedroom",
-            48
+            48,
+            null
           ],
           [
             "3-bedroom",
-            8
+            8,
+            null
           ]
         ],
         "mr": "Yes (9)",
@@ -2931,11 +3053,13 @@
         "mix": [
           [
             "1-bedroom",
-            79
+            79,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -2969,11 +3093,13 @@
         "mix": [
           [
             "Efficiency",
-            15
+            15,
+            null
           ],
           [
             "1-bedroom",
-            45
+            45,
+            null
           ]
         ],
         "mr": "None",
@@ -3008,15 +3134,18 @@
         "mix": [
           [
             "Studio",
-            26
+            26,
+            null
           ],
           [
             "1-bedroom",
-            130
+            130,
+            null
           ],
           [
             "2-bedroom",
-            52
+            52,
+            null
           ]
         ],
         "mr": "None",
@@ -3075,11 +3204,13 @@
         "mix": [
           [
             "1-bedroom",
-            51
+            51,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -3161,11 +3292,13 @@
         "mix": [
           [
             "1-bedroom",
-            76
+            76,
+            null
           ],
           [
             "2-bedroom",
-            27
+            27,
+            null
           ]
         ],
         "mr": "None",
@@ -3224,11 +3357,13 @@
         "mix": [
           [
             "Studio",
-            25
+            25,
+            null
           ],
           [
             "1-bedroom",
-            75
+            75,
+            null
           ]
         ],
         "mr": "None",
@@ -3263,11 +3398,13 @@
         "mix": [
           [
             "Studio",
-            30
+            30,
+            null
           ],
           [
             "1-bedroom",
-            169
+            169,
+            null
           ]
         ],
         "mr": "None",
@@ -3300,7 +3437,8 @@
         "mix": [
           [
             "1-bedroom",
-            42
+            42,
+            null
           ]
         ],
         "mr": "None",
@@ -3333,7 +3471,8 @@
         "mix": [
           [
             "1-bedroom",
-            74
+            74,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -3366,19 +3505,23 @@
         "mix": [
           [
             "1-bedroom",
-            16
+            16,
+            null
           ],
           [
             "2-bedroom",
-            70
+            70,
+            null
           ],
           [
             "3-bedroom",
-            48
+            48,
+            null
           ],
           [
             "4-bedroom",
-            16
+            16,
+            null
           ]
         ],
         "mr": "None",
@@ -3412,7 +3555,8 @@
         "mix": [
           [
             "1-bedroom",
-            52
+            52,
+            null
           ]
         ],
         "mr": "None",
@@ -3469,11 +3613,13 @@
         "mix": [
           [
             "1-bedroom",
-            74
+            74,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (1: 2B)",
@@ -3531,7 +3677,8 @@
         "mix": [
           [
             "1-bedroom",
-            140
+            140,
+            null
           ]
         ],
         "mr": "None",
@@ -3564,11 +3711,13 @@
         "mix": [
           [
             "1-bedroom",
-            125
+            125,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -3602,7 +3751,8 @@
         "mix": [
           [
             "1-bedroom",
-            100
+            100,
+            null
           ]
         ],
         "mr": "None",
@@ -3640,7 +3790,8 @@
         "mix": [
           [
             "1-bedroom",
-            100
+            100,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -3674,7 +3825,8 @@
         "mix": [
           [
             "1-bedroom",
-            85
+            85,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -3710,11 +3862,13 @@
         "mix": [
           [
             "Efficiency",
-            25
+            25,
+            null
           ],
           [
             "1-bedroom",
-            73
+            73,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -3748,11 +3902,13 @@
         "mix": [
           [
             "1-bedroom",
-            116
+            116,
+            null
           ],
           [
             "2-bedroom",
-            8
+            8,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -3812,19 +3968,23 @@
         "mix": [
           [
             "Efficiency",
-            11
+            11,
+            null
           ],
           [
             "1-bedroom",
-            179
+            179,
+            null
           ],
           [
             "2-bedroom",
-            7
+            7,
+            null
           ],
           [
             "3-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -3858,11 +4018,13 @@
         "mix": [
           [
             "1-bedroom",
-            146
+            146,
+            null
           ],
           [
             "2-bedroom",
-            32
+            32,
+            null
           ]
         ],
         "mr": "Yes (2: 1 1B & 1 2B)",
@@ -3895,15 +4057,18 @@
         "mix": [
           [
             "Efficiency",
-            189
+            189,
+            null
           ],
           [
             "Studio",
-            23
+            23,
+            null
           ],
           [
             "1-bedroom",
-            66
+            66,
+            null
           ]
         ],
         "mr": "None",
@@ -3936,11 +4101,13 @@
         "mix": [
           [
             "1-bedroom",
-            149
+            149,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -3975,7 +4142,8 @@
         "mix": [
           [
             "1-bedroom",
-            216
+            216,
+            null
           ]
         ],
         "mr": "Yes (2: 1A & 1B)",
@@ -4036,19 +4204,23 @@
         "mix": [
           [
             "1-bedroom",
-            48
+            48,
+            null
           ],
           [
             "2-bedroom",
-            82
+            82,
+            null
           ],
           [
             "3-bedroom",
-            16
+            16,
+            null
           ],
           [
             "4-bedroom",
-            4
+            4,
+            null
           ]
         ],
         "mr": "None",
@@ -4083,7 +4255,8 @@
         "mix": [
           [
             "1-bedroom",
-            150
+            150,
+            null
           ]
         ],
         "mr": "None",
@@ -4119,11 +4292,13 @@
         "mix": [
           [
             "1-bedroom",
-            260
+            260,
+            null
           ],
           [
             "2-bedroom",
-            2
+            2,
+            null
           ]
         ],
         "mr": "Yes (2: 2B)",
@@ -4156,11 +4331,13 @@
         "mix": [
           [
             "1-bedroom",
-            359
+            359,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -4252,11 +4429,13 @@
         "mix": [
           [
             "1-bedroom",
-            59
+            59,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "None",
@@ -4291,11 +4470,13 @@
         "mix": [
           [
             "Studio",
-            24
+            24,
+            null
           ],
           [
             "1-bedroom",
-            69
+            69,
+            null
           ]
         ],
         "mr": "Yes (1)",
@@ -4330,19 +4511,23 @@
         "mix": [
           [
             "Studio",
-            75
+            75,
+            null
           ],
           [
             "1-bedroom",
-            212
+            212,
+            null
           ],
           [
             "2-bedroom",
-            1
+            1,
+            null
           ],
           [
             "3-bedroom",
-            1
+            1,
+            null
           ]
         ],
         "mr": "Yes",
@@ -4378,11 +4563,13 @@
         "mix": [
           [
             "1-bedroom",
-            117
+            117,
+            null
           ],
           [
             "2-bedroom",
-            8
+            8,
+            null
           ]
         ],
         "mr": "None",
@@ -4439,15 +4626,18 @@
         "mix": [
           [
             "1-bedroom",
-            48
+            48,
+            null
           ],
           [
             "2-bedroom",
-            119
+            119,
+            null
           ],
           [
             "3-bedroom",
-            32
+            32,
+            null
           ]
         ],
         "mr": "None",
@@ -4483,7 +4673,8 @@
         "mix": [
           [
             "1-bedroom",
-            75
+            75,
+            null
           ]
         ],
         "mr": "None",
@@ -4540,11 +4731,13 @@
         "mix": [
           [
             "Efficiency",
-            10
+            10,
+            null
           ],
           [
             "1-bedroom",
-            30
+            30,
+            null
           ]
         ],
         "mr": "None",
@@ -4579,15 +4772,18 @@
         "mix": [
           [
             "Efficiency",
-            18
+            18,
+            null
           ],
           [
             "1-bedroom",
-            83
+            83,
+            null
           ],
           [
             "2-bedroom",
-            19
+            19,
+            null
           ]
         ],
         "mr": "Yes (13)",
@@ -4620,11 +4816,13 @@
         "mix": [
           [
             "1-bedroom",
-            126
+            126,
+            null
           ],
           [
             "2-bedroom",
-            5
+            5,
+            null
           ]
         ],
         "mr": "Yes (1: 2B Unit)",
@@ -4658,7 +4856,8 @@
         "mix": [
           [
             "1-bedroom",
-            100
+            100,
+            null
           ]
         ],
         "mr": "Yes (1: Unit 122)",
@@ -4764,7 +4963,8 @@
         "mix": [
           [
             "1-bedroom",
-            44
+            44,
+            null
           ]
         ],
         "mr": "Yes (2)",
@@ -4848,7 +5048,8 @@
         "mix": [
           [
             "1-bedroom",
-            41
+            41,
+            null
           ]
         ],
         "mr": "None",
@@ -4881,11 +5082,13 @@
         "mix": [
           [
             "Studio",
-            36
+            36,
+            null
           ],
           [
             "1-bedroom",
-            28
+            28,
+            null
           ]
         ],
         "mr": "Yes (31)",
@@ -4919,11 +5122,13 @@
         "mix": [
           [
             "Studio",
-            44
+            44,
+            null
           ],
           [
             "1-bedroom",
-            4
+            4,
+            null
           ]
         ],
         "mr": "None",
@@ -4957,7 +5162,8 @@
         "mix": [
           [
             "1-bedroom",
-            126
+            126,
+            null
           ]
         ],
         "mr": "None",
@@ -4991,7 +5197,8 @@
         "mix": [
           [
             "1-bedroom",
-            100
+            100,
+            null
           ]
         ],
         "mr": "None",

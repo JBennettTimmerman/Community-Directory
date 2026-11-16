@@ -5,6 +5,9 @@
                                 Community Code are combined). This is what the directory page uses.
   public/communities-flat.json  one record per spreadsheet row, for other tools to read.
 
+Optional square footage columns: Efficiency Sq Ft, Studio Sq Ft, 1-Bedroom Sq Ft ... 4-Bedroom Sq Ft.
+Each cell can hold one number (575) or a range (550-620).
+
 Hard problems (missing columns, no rows) stop the script with an error.
 Softer problems are printed as WARNING lines and do not stop the build.
 """
@@ -13,7 +16,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "data" / "Communities_List.xlsx"
+SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "data" / "Communities_List.xlsx"
 OUT = ROOT / "public"
 
 REQUIRED = ["Community Code", "Community", "Phone Number", "Site Type", "Address", "Units Total"]
@@ -22,6 +25,7 @@ AMENITIES = ["Community Room", "Laundry Room", "Off-Street Parking", "On-Site Li
              "Computer/Business Room", "Activity/Craft Room", "Controlled Access"]
 MIX = [("Efficiency Units", "Efficiency"), ("Studio Units", "Studio"), ("1-Bedroom Units", "1-bedroom"),
        ("2-Bedroom Units", "2-bedroom"), ("3-Bedroom Units", "3-bedroom"), ("4-Bedroom Units", "4-bedroom")]
+SQFT_COLS = {label: col.replace("Units", "Sq Ft") for col, label in MIX}  # optional columns, e.g. "1-Bedroom Sq Ft"
 STATE_NAMES = {"New York": "NY", "Texas": "TX"}  # addresses that spell the state out
 warnings = []
 
@@ -39,6 +43,36 @@ def text(v):
         v = int(v)
     v = str(v).strip()
     return v or None
+
+
+def parse_sqft(v):
+    """Cell -> (low, high) in whole sq ft, or None if blank. Accepts 575, "575", "550-620", "550 to 620", "575 sq ft".
+    Raises ValueError if it can't be read."""
+    if v is None or (not isinstance(v, str) and pd.isna(v)):
+        return None
+    s = re.sub(r"\s*(sq\.?\s*ft\.?|sf|square feet)\s*$", "", str(v).strip().lower().replace(",", ""))
+    m = re.fullmatch(r"(\d+(?:\.\d+)?)\s*(?:[-\u2013\u2014]|to)\s*(\d+(?:\.\d+)?)", s) or re.fullmatch(r"(\d+(?:\.\d+)?)", s)
+    if not m:
+        raise ValueError(f"can't read '{v}'")
+    lo = int(float(m.group(1)) + 0.5)
+    hi = int(float(m.group(2) if m.lastindex == 2 else m.group(1)) + 0.5)
+    if lo > hi:
+        lo, hi = hi, lo
+    if hi == 0:  # 0 means "no units of this type", same as blank
+        return None
+    if lo < 100 or hi > 5000:
+        raise ValueError(f"'{v}' is outside the expected 100-5000 sq ft range")
+    return lo, hi
+
+
+def sqft_text(v):
+    try:
+        r = parse_sqft(v)
+    except ValueError:
+        return None
+    if not r:
+        return None
+    return str(r[0]) if r[0] == r[1] else f"{r[0]}\u2013{r[1]}"
 
 
 def utilities(v):
@@ -74,7 +108,7 @@ def building(r):
     return {
         "phone": text(r["Phone Number"]),
         "total": int(r["Units Total"]) if pd.notna(r["Units Total"]) else None,
-        "mix": [[label, int(r[col])] for col, label in MIX if pd.notna(r[col]) and r[col] > 0],
+        "mix": [[label, int(r[col]), sqft_text(r.get(SQFT_COLS[label]))] for col, label in MIX if pd.notna(r[col]) and r[col] > 0],
         "mr": text(r["Market Rate Units"]),
         "ada": text(r["ADA Units"]),
         "dis": disability(r["Disability %"]),
@@ -116,16 +150,27 @@ def main():
 
         b = building(r)
         addr = text(r["Address"]) or ""
+        sq = {}
+        for label, col in SQFT_COLS.items():
+            try:
+                rng = parse_sqft(r.get(col))
+            except ValueError as err:
+                warn(f"{r['Community']}: {col}: {err}")
+                continue
+            if rng:
+                sq[label] = {"min": rng[0], "max": rng[1]}
+                if label not in [m[0] for m in b["mix"]]:
+                    warn(f"{r['Community']}: has {col} but no {label} unit count")
         flat.append({
             "code": code, "name": str(r["Community"]).strip(), "site_type": text(r["Site Type"]),
             "address": addr, "state": state_of(addr), "phone": b["phone"], "units_total": b["total"],
-            "unit_mix": {label: n for label, n in b["mix"]}, "market_rate_units": b["mr"],
+            "unit_mix": {label: n for label, n, _ in b["mix"]}, "unit_sqft": sq, "market_rate_units": b["mr"],
             "ada_units": b["ada"], "disability_pct": b["dis"], "utilities": b["util"],
             "service_coordinator": b["sc"], "fair_housing_logo": text(r["Fair Housing Logo"]),
             "amenities": b["am"], "other_amenities": b["other"], "survey_completed": b["resp"],
         })
-        if b["resp"] and b["mix"] and b["total"] != sum(n for _, n in b["mix"]):
-            warn(f"{r['Community']}: units total {b['total']} but unit types add up to {sum(n for _, n in b['mix'])}")
+        if b["resp"] and b["mix"] and b["total"] != sum(n for _, n, _s in b["mix"]):
+            warn(f"{r['Community']}: units total {b['total']} but unit types add up to {sum(n for _, n, _s in b['mix'])}")
         if b["resp"] and not b["mix"]:
             warn(f"{r['Community']}: has a total but no unit type breakdown")
         if addr and not state_of(addr):

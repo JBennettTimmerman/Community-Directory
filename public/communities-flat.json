@@ -11,6 +11,7 @@
       "1-bedroom": 59,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (12)",
     "ada_units": "3",
     "disability_pct": "No",
@@ -38,6 +39,7 @@
     "unit_mix": {
       "1-bedroom": 150
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -62,6 +64,7 @@
     "phone": "417-887-7460",
     "units_total": 92,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -83,6 +86,7 @@
     "unit_mix": {
       "1-bedroom": 71
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: unit 202)",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -111,6 +115,7 @@
     "unit_mix": {
       "1-bedroom": 24
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1:unit 202)",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -140,6 +145,7 @@
       "1-bedroom": 151,
       "2-bedroom": 11
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "15",
     "disability_pct": "10%",
@@ -167,6 +173,7 @@
       "1-bedroom": 117,
       "2-bedroom": 8
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "9",
     "disability_pct": "No",
@@ -193,6 +200,7 @@
       "1-bedroom": 180,
       "2-bedroom": 16
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "12",
     "disability_pct": "No",
@@ -219,6 +227,7 @@
     "phone": "412-257-4844",
     "units_total": 50,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -245,6 +254,7 @@
       "1-bedroom": 100,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes",
     "ada_units": "11",
     "disability_pct": "No",
@@ -274,6 +284,7 @@
     "unit_mix": {
       "1-bedroom": 80
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "10%",
@@ -301,6 +312,7 @@
     "unit_mix": {
       "1-bedroom": 156
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "13",
     "disability_pct": "No",
@@ -332,6 +344,7 @@
       "1-bedroom": 61,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: 104 - 2B)",
     "ada_units": "6",
     "disability_pct": "1%",
@@ -361,6 +374,7 @@
     "unit_mix": {
       "1-bedroom": 105
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: unit 101)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -386,6 +400,7 @@
     "unit_mix": {
       "1-bedroom": 61
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": null,
@@ -413,6 +428,7 @@
     "unit_mix": {
       "1-bedroom": 69
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -438,6 +454,7 @@
     "unit_mix": {
       "1-bedroom": 24
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -461,6 +478,7 @@
     "phone": "323-721-9668",
     "units_total": 130,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes (2: 1B)",
     "disability_pct": "No",
@@ -488,6 +506,7 @@
       "Studio": 104,
       "1-bedroom": 39
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -516,6 +535,7 @@
       "1-bedroom": 151,
       "2-bedroom": 9
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "9",
     "disability_pct": "No",
@@ -543,6 +563,7 @@
       "1-bedroom": 79,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: 2B Unit)",
     "ada_units": "8",
     "disability_pct": "No",
@@ -572,6 +593,7 @@
       "1-bedroom": 56,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: 2B Unit)",
     "ada_units": "7",
     "disability_pct": "No",
@@ -601,6 +623,7 @@
       "1-bedroom": 54,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -625,6 +648,7 @@
     "unit_mix": {
       "1-bedroom": 100
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "7",
     "disability_pct": "No",
@@ -647,6 +671,7 @@
     "phone": "325-949-8575",
     "units_total": 150,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -669,6 +694,7 @@
       "Studio": 71,
       "1-bedroom": 154
     },
+    "unit_sqft": {},
     "market_rate_units": "71 Voucher Units",
     "ada_units": "None",
     "disability_pct": "No",
@@ -698,6 +724,7 @@
       "Studio": 80,
       "1-bedroom": 350
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: unit 430)",
     "ada_units": "20",
     "disability_pct": "10%",
@@ -725,6 +752,7 @@
       "1-bedroom": 96,
       "2-bedroom": 6
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (4)",
     "ada_units": "10",
     "disability_pct": "10%",
@@ -751,6 +779,7 @@
     "unit_mix": {
       "1-bedroom": 102
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes (One on each floor)",
     "disability_pct": "No",
@@ -783,6 +812,7 @@
     "unit_mix": {
       "1-bedroom": 68
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes (One on each floor)",
     "disability_pct": "No",
@@ -813,6 +843,7 @@
     "phone": "309-762-1414",
     "units_total": 153,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -835,6 +866,7 @@
       "1-bedroom": 174,
       "2-bedroom": 6
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "10%",
@@ -863,6 +895,7 @@
     "unit_mix": {
       "1-bedroom": 40
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -889,6 +922,7 @@
     "unit_mix": {
       "1-bedroom": 36
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -915,6 +949,7 @@
     "unit_mix": {
       "1-bedroom": 146
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "18",
     "disability_pct": "10%",
@@ -945,6 +980,7 @@
       "2-bedroom": 60,
       "3-bedroom": 16
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -971,6 +1007,7 @@
       "1-bedroom": 149,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "11",
     "disability_pct": "No",
@@ -1002,6 +1039,7 @@
       "1-bedroom": 112,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Voucher Unit",
     "ada_units": "14",
     "disability_pct": "No",
@@ -1026,6 +1064,7 @@
     "phone": "314-773-6674",
     "units_total": 104,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1048,6 +1087,7 @@
       "1-bedroom": 95,
       "2-bedroom": 5
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -1073,6 +1113,7 @@
     "phone": "412-856-7480",
     "units_total": 101,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1095,6 +1136,7 @@
       "Studio": 4,
       "1-bedroom": 78
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: Unit 202)",
     "ada_units": "Yes (8: units ending in 8 or 10)",
     "disability_pct": "10%",
@@ -1122,6 +1164,7 @@
     "unit_mix": {
       "1-bedroom": 47
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -1146,6 +1189,7 @@
     "unit_mix": {
       "1-bedroom": 33
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "4",
     "disability_pct": "No",
@@ -1171,6 +1215,7 @@
       "Studio": 122,
       "1-bedroom": 55
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -1199,6 +1244,7 @@
     "unit_mix": {
       "1-bedroom": 150
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -1224,6 +1270,7 @@
     "unit_mix": {
       "1-bedroom": 105
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "11",
     "disability_pct": "No",
@@ -1253,6 +1300,7 @@
     "unit_mix": {
       "1-bedroom": 50
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -1280,6 +1328,7 @@
       "1-bedroom": 241,
       "2-bedroom": 12
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "12",
     "disability_pct": "0%",
@@ -1308,6 +1357,7 @@
       "1-bedroom": 100,
       "2-bedroom": 2
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "11",
     "disability_pct": "Yes",
@@ -1338,6 +1388,7 @@
       "1-bedroom": 100,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "8",
     "disability_pct": "10%",
@@ -1363,6 +1414,7 @@
     "unit_mix": {
       "1-bedroom": 151
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "16",
     "disability_pct": "No",
@@ -1390,6 +1442,7 @@
     "phone": "636-207-3720",
     "units_total": 296,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1411,6 +1464,7 @@
     "unit_mix": {
       "1-bedroom": 101
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "10",
     "disability_pct": "10%",
@@ -1439,6 +1493,7 @@
       "2-bedroom": 18,
       "3-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (5)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -1470,6 +1525,7 @@
       "1-bedroom": 48,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -1496,6 +1552,7 @@
       "1-bedroom": 69,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -1521,6 +1578,7 @@
     "unit_mix": {
       "1-bedroom": 72
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -1549,6 +1607,7 @@
       "Studio": 30,
       "1-bedroom": 62
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "8",
     "disability_pct": "10%",
@@ -1572,6 +1631,7 @@
     "phone": "970-313-8637",
     "units_total": 128,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1594,6 +1654,7 @@
       "1-bedroom": 39,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes",
     "ada_units": "2",
     "disability_pct": "No",
@@ -1624,6 +1685,7 @@
       "Studio": 20,
       "1-bedroom": 60
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "2",
     "disability_pct": "No",
@@ -1651,6 +1713,7 @@
     "unit_mix": {
       "1-bedroom": 87
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "9",
     "disability_pct": "No",
@@ -1678,6 +1741,7 @@
       "1-bedroom": 74,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "100",
     "disability_pct": "5%",
@@ -1703,6 +1767,7 @@
     "phone": "770-992-4393",
     "units_total": 125,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1724,6 +1789,7 @@
     "unit_mix": {
       "1-bedroom": 52
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "2",
     "disability_pct": "No",
@@ -1751,6 +1817,7 @@
       "1-bedroom": 54,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -1778,6 +1845,7 @@
       "1-bedroom": 52,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes",
     "ada_units": "4",
     "disability_pct": "No",
@@ -1801,6 +1869,7 @@
     "phone": "973-374-1702",
     "units_total": 135,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1824,6 +1893,7 @@
       "1-bedroom": 68,
       "2-bedroom": 4
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: Unit 134)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -1849,6 +1919,7 @@
     "unit_mix": {
       "1-bedroom": 36
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -1871,6 +1942,7 @@
     "phone": "813-870-1830",
     "units_total": 199,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1890,6 +1962,7 @@
     "phone": "318-227-2591",
     "units_total": 170,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -1911,6 +1984,7 @@
     "unit_mix": {
       "1-bedroom": 101
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "10",
     "disability_pct": "10%",
@@ -1940,6 +2014,7 @@
       "1-bedroom": 132,
       "2-bedroom": 4
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "10%",
@@ -1968,6 +2043,7 @@
     "unit_mix": {
       "1-bedroom": 172
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "11",
     "disability_pct": "10%",
@@ -1997,6 +2073,7 @@
       "1-bedroom": 112,
       "2-bedroom": 13
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "14",
     "disability_pct": "10%",
@@ -2025,6 +2102,7 @@
     "unit_mix": {
       "1-bedroom": 41
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "5",
     "disability_pct": "No",
@@ -2052,6 +2130,7 @@
       "1-bedroom": 176,
       "2-bedroom": 22
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "25",
     "disability_pct": "30%",
@@ -2077,6 +2156,7 @@
     "unit_mix": {
       "1-bedroom": 55
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "80%",
@@ -2104,6 +2184,7 @@
       "1-bedroom": 158,
       "2-bedroom": 3
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "None",
     "disability_pct": "10%",
@@ -2129,6 +2210,7 @@
     "unit_mix": {
       "1-bedroom": 85
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes (9: 101-107, 208 & 209)",
     "disability_pct": "No",
@@ -2161,6 +2243,7 @@
       "2-bedroom": 48,
       "3-bedroom": 8
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (9)",
     "ada_units": "N/A",
     "disability_pct": "No",
@@ -2189,6 +2272,7 @@
       "1-bedroom": 79,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "4",
     "disability_pct": "No",
@@ -2216,6 +2300,7 @@
       "Efficiency": 15,
       "1-bedroom": 45
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "10%",
@@ -2244,6 +2329,7 @@
       "1-bedroom": 59,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "5",
     "disability_pct": "No",
@@ -2273,6 +2359,7 @@
       "1-bedroom": 130,
       "2-bedroom": 52
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -2298,6 +2385,7 @@
     "phone": "406-228-4306",
     "units_total": 100,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2320,6 +2408,7 @@
       "1-bedroom": 51,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "3",
     "disability_pct": "No",
@@ -2344,6 +2433,7 @@
     "phone": "818-897-7571",
     "units_total": 100,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2363,6 +2453,7 @@
     "phone": "325-223-0700",
     "units_total": 142,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2385,6 +2476,7 @@
       "1-bedroom": 76,
       "2-bedroom": 27
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "10",
     "disability_pct": "10%",
@@ -2410,6 +2502,7 @@
     "phone": "818-833-0298",
     "units_total": 81,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2432,6 +2525,7 @@
       "Studio": 25,
       "1-bedroom": 75
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -2460,6 +2554,7 @@
       "Studio": 30,
       "1-bedroom": 169
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -2485,6 +2580,7 @@
     "unit_mix": {
       "1-bedroom": 42
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "4",
     "disability_pct": "No",
@@ -2510,6 +2606,7 @@
     "unit_mix": {
       "1-bedroom": 74
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "8",
     "disability_pct": "No",
@@ -2538,6 +2635,7 @@
       "3-bedroom": 48,
       "4-bedroom": 16
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -2564,6 +2662,7 @@
     "unit_mix": {
       "1-bedroom": 52
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -2587,6 +2686,7 @@
     "phone": "413-534-7636",
     "units_total": 101,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2609,6 +2709,7 @@
       "1-bedroom": 74,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: 2B)",
     "ada_units": "74",
     "disability_pct": "No",
@@ -2633,6 +2734,7 @@
     "phone": "408-947-1818",
     "units_total": 140,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2654,6 +2756,7 @@
     "unit_mix": {
       "1-bedroom": 140
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "10",
     "disability_pct": "No",
@@ -2680,6 +2783,7 @@
       "1-bedroom": 125,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "13",
     "disability_pct": "No",
@@ -2706,6 +2810,7 @@
     "unit_mix": {
       "1-bedroom": 100
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "6",
     "disability_pct": "No",
@@ -2736,6 +2841,7 @@
     "unit_mix": {
       "1-bedroom": 100
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "none",
     "disability_pct": "No",
@@ -2763,6 +2869,7 @@
       "Efficiency": 25,
       "1-bedroom": 73
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "10",
     "disability_pct": "No",
@@ -2790,6 +2897,7 @@
       "1-bedroom": 116,
       "2-bedroom": 8
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "17",
     "disability_pct": "No",
@@ -2816,6 +2924,7 @@
     "phone": "904-506-4142",
     "units_total": 112,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -2840,6 +2949,7 @@
       "2-bedroom": 7,
       "3-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -2867,6 +2977,7 @@
       "1-bedroom": 146,
       "2-bedroom": 32
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (2: 1 1B & 1 2B)",
     "ada_units": "Yes (5: 1B, 14 2B)",
     "disability_pct": "No",
@@ -2892,6 +3003,7 @@
     "unit_mix": {
       "1-bedroom": 85
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "7",
     "disability_pct": "No",
@@ -2922,6 +3034,7 @@
       "Studio": 23,
       "1-bedroom": 66
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -2948,6 +3061,7 @@
       "1-bedroom": 149,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "18",
     "disability_pct": "No",
@@ -2975,6 +3089,7 @@
     "unit_mix": {
       "1-bedroom": 216
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (2: 1A & 1B)",
     "ada_units": "21",
     "disability_pct": "5%",
@@ -2998,6 +3113,7 @@
     "phone": "412-257-4180",
     "units_total": 50,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "2",
     "disability_pct": "No",
@@ -3026,6 +3142,7 @@
       "3-bedroom": 16,
       "4-bedroom": 4
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3053,6 +3170,7 @@
     "unit_mix": {
       "1-bedroom": 150
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3082,6 +3200,7 @@
       "1-bedroom": 260,
       "2-bedroom": 2
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (2: 2B)",
     "ada_units": "Yes (27: 1x1, 2 2x1)",
     "disability_pct": "No",
@@ -3108,6 +3227,7 @@
       "1-bedroom": 359,
       "2-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "10%",
@@ -3133,6 +3253,7 @@
     "phone": "412-257-4844",
     "units_total": 8,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "1",
     "disability_pct": "100%",
@@ -3156,6 +3277,7 @@
     "phone": "718-633-7345",
     "units_total": 81,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3183,6 +3305,7 @@
       "Studio": 24,
       "1-bedroom": 69
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1)",
     "ada_units": "5",
     "disability_pct": "No",
@@ -3213,6 +3336,7 @@
       "2-bedroom": 1,
       "3-bedroom": 1
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes",
     "ada_units": "None",
     "disability_pct": "No",
@@ -3239,6 +3363,7 @@
     "phone": "415-435-4450",
     "units_total": 102,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3262,6 +3387,7 @@
       "2-bedroom": 119,
       "3-bedroom": 32
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "12",
     "disability_pct": "No",
@@ -3290,6 +3416,7 @@
     "unit_mix": {
       "1-bedroom": 75
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "8",
     "disability_pct": "No",
@@ -3313,6 +3440,7 @@
     "phone": "215-365-1828",
     "units_total": 165,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3335,6 +3463,7 @@
       "Efficiency": 10,
       "1-bedroom": 30
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "Yes",
     "disability_pct": "No",
@@ -3364,6 +3493,7 @@
       "1-bedroom": 83,
       "2-bedroom": 19
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (13)",
     "ada_units": "9",
     "disability_pct": "10%",
@@ -3390,6 +3520,7 @@
       "1-bedroom": 126,
       "2-bedroom": 5
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: 2B Unit)",
     "ada_units": "Yes (12: 1B, 1: 2B)",
     "disability_pct": "No",
@@ -3416,6 +3547,7 @@
     "unit_mix": {
       "1-bedroom": 100
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (1: Unit 122)",
     "ada_units": "10",
     "disability_pct": "No",
@@ -3440,6 +3572,7 @@
     "phone": "225-567-9021",
     "units_total": 27,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3459,6 +3592,7 @@
     "phone": "985-345-5010",
     "units_total": 54,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3478,6 +3612,7 @@
     "phone": "337-824-9835",
     "units_total": 54,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3499,6 +3634,7 @@
     "unit_mix": {
       "1-bedroom": 44
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (2)",
     "ada_units": "Yes (3: Units A6, B4, & D4)",
     "disability_pct": "No",
@@ -3525,6 +3661,7 @@
     "phone": "225-774-2525",
     "units_total": 70,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3544,6 +3681,7 @@
     "phone": "504-469-4056",
     "units_total": 282,
     "unit_mix": {},
+    "unit_sqft": {},
     "market_rate_units": null,
     "ada_units": null,
     "disability_pct": null,
@@ -3565,6 +3703,7 @@
     "unit_mix": {
       "1-bedroom": 41
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "2",
     "disability_pct": "No",
@@ -3591,6 +3730,7 @@
       "Studio": 36,
       "1-bedroom": 28
     },
+    "unit_sqft": {},
     "market_rate_units": "Yes (31)",
     "ada_units": "0",
     "disability_pct": "No",
@@ -3618,6 +3758,7 @@
       "Studio": 44,
       "1-bedroom": 4
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "5",
     "disability_pct": "No",
@@ -3644,6 +3785,7 @@
     "unit_mix": {
       "1-bedroom": 126
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "14",
     "disability_pct": "No",
@@ -3670,6 +3812,7 @@
     "unit_mix": {
       "1-bedroom": 100
     },
+    "unit_sqft": {},
     "market_rate_units": "None",
     "ada_units": "None",
     "disability_pct": "No",
