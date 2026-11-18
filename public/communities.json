@@ -81,7 +81,7 @@
     "addr": "1451 E. Woodland Street, Springfield, MO 65804",
     "state": "MO",
     "type": "Senior Site",
-    "logo": null,
+    "logo": "House Only",
     "b": [
       {
         "phone": "417-887-7460",
@@ -93,13 +93,17 @@
             "580"
           ]
         ],
-        "mr": null,
-        "ada": null,
-        "dis": null,
-        "util": null,
-        "sc": null,
-        "resp": false,
-        "am": [],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Paid Utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
         "other": [],
         "label": "Main"
       }
@@ -890,7 +894,7 @@
     "addr": "4225 Billie Bolin Dr., San Angelo, TX 76904",
     "state": "TX",
     "type": "Senior Site",
-    "logo": null,
+    "logo": "House Only",
     "b": [
       {
         "phone": "325-949-8575",
@@ -907,13 +911,22 @@
             "985"
           ]
         ],
-        "mr": null,
-        "ada": null,
-        "dis": null,
-        "util": null,
-        "sc": null,
-        "resp": false,
-        "am": [],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Paid Utilities",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Media Room",
+          "Outdoor Space",
+          "Beauty Salon",
+          "Computer/Business Room"
+        ],
         "other": [],
         "label": "Main"
       }
@@ -1133,7 +1146,7 @@
     "addr": "54 41st Ave., East Moline IL 61244",
     "state": "IL",
     "type": "Senior Site",
-    "logo": null,
+    "logo": "House Only",
     "b": [
       {
         "phone": "309-762-1414",
@@ -1150,13 +1163,20 @@
             "1000"
           ]
         ],
-        "mr": null,
-        "ada": null,
-        "dis": null,
-        "util": null,
-        "sc": null,
-        "resp": false,
-        "am": [],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Partial: ",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Fitness Center",
+          "Bus Access"
+        ],
         "other": [],
         "label": "Main"
       }
@@ -1449,7 +1469,7 @@
     "addr": "2700 Henrietta Avenue, St. Louis, MO 63104",
     "state": "MO",
     "type": "Senior Site",
-    "logo": null,
+    "logo": "House Only",
     "b": [
       {
         "phone": "314-773-6674",
@@ -1461,13 +1481,18 @@
             "500"
           ]
         ],
-        "mr": null,
-        "ada": null,
-        "dis": null,
-        "util": null,
-        "sc": null,
-        "resp": false,
-        "am": [],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Paid Utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "Outdoor Space"
+        ],
         "other": [],
         "label": "Main"
       }
@@ -2376,7 +2401,7 @@
     "addr": "5613 2nd Ave, Brooklyn, NY, 11220",
     "state": "NY",
     "type": "Senior Site",
-    "logo": "Wheelchair & House",
+    "logo": "Active Wheelchair & House",
     "b": [
       {
         "phone": "718-223-5751",
@@ -3385,19 +3410,35 @@
     "addr": "9551 Laurel Canyon Blvd, Pacoima, CA 91331",
     "state": "CA",
     "type": "Senior Site",
-    "logo": null,
+    "logo": "House Only",
     "b": [
       {
         "phone": "818-897-7571",
         "total": 100,
-        "mix": [],
-        "mr": null,
-        "ada": null,
-        "dis": null,
-        "util": null,
-        "sc": null,
-        "resp": false,
-        "am": [],
+        "mix": [
+          [
+            "1-bedroom",
+            100,
+            null
+          ]
+        ],
+        "mr": "None",
+        "ada": "None",
+        "dis": "No",
+        "util": "Paid Utilities",
+        "sc": "No",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Game Room",
+          "Media Room",
+          "Outdoor Space",
+          "Fitness Center",
+          "Bus Access"
+        ],
         "other": [],
         "label": "Main"
       }

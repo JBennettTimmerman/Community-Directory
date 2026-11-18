@@ -86,15 +86,19 @@
         "max": 580
       }
     },
-    "market_rate_units": null,
-    "ada_units": null,
-    "disability_pct": null,
-    "utilities": null,
-    "service_coordinator": null,
-    "fair_housing_logo": null,
-    "amenities": [],
+    "market_rate_units": "None",
+    "ada_units": "None",
+    "disability_pct": "No",
+    "utilities": "Paid Utilities",
+    "service_coordinator": "No",
+    "fair_housing_logo": "House Only",
+    "amenities": [
+      "Community Room",
+      "Laundry Room",
+      "Off-Street Parking"
+    ],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "BET1",
@@ -868,15 +872,24 @@
         "max": 985
       }
     },
-    "market_rate_units": null,
-    "ada_units": null,
-    "disability_pct": null,
-    "utilities": null,
-    "service_coordinator": null,
-    "fair_housing_logo": null,
-    "amenities": [],
+    "market_rate_units": "None",
+    "ada_units": "None",
+    "disability_pct": "No",
+    "utilities": "Paid Utilities",
+    "service_coordinator": "Yes",
+    "fair_housing_logo": "House Only",
+    "amenities": [
+      "Community Room",
+      "Laundry Room",
+      "Off-Street Parking",
+      "On-Site Library",
+      "Media Room",
+      "Outdoor Space",
+      "Beauty Salon",
+      "Computer/Business Room"
+    ],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "CRT",
@@ -1093,15 +1106,22 @@
         "max": 1000
       }
     },
-    "market_rate_units": null,
-    "ada_units": null,
-    "disability_pct": null,
-    "utilities": null,
-    "service_coordinator": null,
-    "fair_housing_logo": null,
-    "amenities": [],
+    "market_rate_units": "None",
+    "ada_units": "None",
+    "disability_pct": "No",
+    "utilities": "Partial: ",
+    "service_coordinator": "No",
+    "fair_housing_logo": "House Only",
+    "amenities": [
+      "Community Room",
+      "Laundry Room",
+      "Off-Street Parking",
+      "On-Site Library",
+      "Fitness Center",
+      "Bus Access"
+    ],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "COR1",
@@ -1380,15 +1400,20 @@
         "max": 500
       }
     },
-    "market_rate_units": null,
-    "ada_units": null,
-    "disability_pct": null,
-    "utilities": null,
-    "service_coordinator": null,
-    "fair_housing_logo": null,
-    "amenities": [],
+    "market_rate_units": "None",
+    "ada_units": "None",
+    "disability_pct": "No",
+    "utilities": "Paid Utilities",
+    "service_coordinator": "No",
+    "fair_housing_logo": "House Only",
+    "amenities": [
+      "Community Room",
+      "Laundry Room",
+      "Off-Street Parking",
+      "Outdoor Space"
+    ],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "EAS",
@@ -2240,7 +2265,7 @@
     "disability_pct": "No",
     "utilities": "Partial: Gas included. Electricity Utility Allowance ($74)",
     "service_coordinator": "Yes",
-    "fair_housing_logo": "Wheelchair & House",
+    "fair_housing_logo": "Active Wheelchair & House",
     "amenities": [
       "Community Room",
       "Laundry Room",
@@ -3191,17 +3216,29 @@
     "state": "CA",
     "phone": "818-897-7571",
     "units_total": 100,
-    "unit_mix": {},
+    "unit_mix": {
+      "1-bedroom": 100
+    },
     "unit_sqft": {},
-    "market_rate_units": null,
-    "ada_units": null,
-    "disability_pct": null,
-    "utilities": null,
-    "service_coordinator": null,
-    "fair_housing_logo": null,
-    "amenities": [],
+    "market_rate_units": "None",
+    "ada_units": "None",
+    "disability_pct": "No",
+    "utilities": "Paid Utilities",
+    "service_coordinator": "No",
+    "fair_housing_logo": "House Only",
+    "amenities": [
+      "Community Room",
+      "Laundry Room",
+      "Off-Street Parking",
+      "On-Site Library",
+      "Game Room",
+      "Media Room",
+      "Outdoor Space",
+      "Fitness Center",
+      "Bus Access"
+    ],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "OG",
