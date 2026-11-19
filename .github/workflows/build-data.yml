@@ -1,5 +1,5 @@
 yaml
-name: Build community data
+name: build community data
 
 on:
   push:
