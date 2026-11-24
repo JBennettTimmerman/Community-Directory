@@ -1,6 +1,7 @@
 [
   {
     "code": "EST",
+    "group": null,
     "name": "1490 Estates",
     "site_type": "Senior Site",
     "address": "1500 Jefferson Avenue, Buffalo, NY 14208",
@@ -39,6 +40,7 @@
   },
   {
     "code": "AMH",
+    "group": null,
     "name": "Amherst",
     "site_type": "Senior Site",
     "address": "467 John James Audubon Pkwy., Amherst, NY 14228",
@@ -71,6 +73,7 @@
   },
   {
     "code": "BAT",
+    "group": null,
     "name": "Battlefield Tower",
     "site_type": "Senior Site",
     "address": "1451 E. Woodland Street, Springfield, MO 65804",
@@ -102,6 +105,7 @@
   },
   {
     "code": "BET1",
+    "group": "Bet Shalom",
     "name": "Bet Shalom 1",
     "site_type": "Senior Site",
     "address": "475 Chandler Street, Worcester, MA 01602",
@@ -136,9 +140,10 @@
   },
   {
     "code": "BET2",
+    "group": "Bet Shalom",
     "name": "Bet Shalom 2",
     "site_type": "Senior Site",
-    "address": "476 Chandler Street, Worcester, MA 01602",
+    "address": "475 Chandler Street, Worcester, MA 01602",
     "state": "MA",
     "phone": "508-791-1189",
     "units_total": 24,
@@ -170,6 +175,7 @@
   },
   {
     "code": "BIR",
+    "group": null,
     "name": "Birchwood Manor",
     "site_type": "Senior Site",
     "address": "2830 W. 27th Street Lane, Greeley, CO 80634",
@@ -207,6 +213,7 @@
   },
   {
     "code": "TBO",
+    "group": null,
     "name": "The Birmingham Overlook",
     "site_type": "Senior Site",
     "address": "2712 31st Avenue North, Birmingham, AL 35207-4595",
@@ -243,6 +250,7 @@
   },
   {
     "code": "BT",
+    "group": null,
     "name": "Brashear Tower",
     "site_type": "Senior Site",
     "address": "17841 North Laurel Park Dr., Livonia, MI 48152",
@@ -282,6 +290,7 @@
   },
   {
     "code": "BRM",
+    "group": null,
     "name": "Bridgeville Manor",
     "site_type": "Senior Site",
     "address": "601 McMillen St, Bridgeville, PA 15017",
@@ -318,6 +327,7 @@
   },
   {
     "code": "BROD",
+    "group": null,
     "name": "Broadview Senior Apartments",
     "site_type": "Senior Site",
     "address": "2915 W. 8th Street, Greeley, CO 80634",
@@ -358,6 +368,7 @@
   },
   {
     "code": "BM",
+    "group": null,
     "name": "Burton Manor",
     "site_type": "Senior Site",
     "address": "601 Cornell St., Aberdeen, MD 21001",
@@ -391,6 +402,7 @@
   },
   {
     "code": "CAL",
+    "group": null,
     "name": "Calvary Tower",
     "site_type": "Senior Site",
     "address": "1099 Clay St, Winter Park, FL 32789",
@@ -426,6 +438,7 @@
   },
   {
     "code": "CC",
+    "group": null,
     "name": "Campbell Court",
     "site_type": "Senior Site",
     "address": "16650 Van Aken Blvd, Shaker Heights, OH 44120",
@@ -471,6 +484,7 @@
   },
   {
     "code": "CVT",
+    "group": null,
     "name": "Capitol View Tower",
     "site_type": "Senior Site",
     "address": "1700 J Street, Lincoln, NE 68508",
@@ -502,6 +516,7 @@
   },
   {
     "code": "AMS",
+    "group": null,
     "name": "Casa De Amistad",
     "site_type": "Senior Site",
     "address": "155 De Chantle Rd, San Antonio, TX 78201",
@@ -530,6 +545,7 @@
   },
   {
     "code": "ESP",
+    "group": null,
     "name": "Casa De Esperanza",
     "site_type": "Senior Site",
     "address": "8886 Abe Lincoln Rd, San Antonio, TX 78240",
@@ -561,6 +577,7 @@
   },
   {
     "code": "CDPL",
+    "group": null,
     "name": "Casa De Palma",
     "site_type": "Senior Site",
     "address": "302 E Palm Avenue, Tampa, FL 33602",
@@ -592,6 +609,7 @@
   },
   {
     "code": "CLM",
+    "group": null,
     "name": "Casa La Merced",
     "site_type": "Senior Site",
     "address": "140 N. Montebello Blvd., Montebello, CA 90640",
@@ -634,6 +652,7 @@
   },
   {
     "code": "CH",
+    "group": null,
     "name": "Cedar Hills",
     "site_type": "Senior Site",
     "address": "7401 Saint Vincent Avenue, Shreveport, LA 71106",
@@ -672,6 +691,7 @@
   },
   {
     "code": "CP",
+    "group": null,
     "name": "Center Place",
     "site_type": "Senior Site",
     "address": "101 Center Place, Dundalk, MD 21222",
@@ -709,6 +729,7 @@
   },
   {
     "code": "CMH1",
+    "group": "Christian Manor",
     "name": "Christian Manor 1",
     "site_type": "Senior Site",
     "address": "100 Riviera Drive, Hendersonville, TN 37075",
@@ -748,6 +769,7 @@
   },
   {
     "code": "CMH2",
+    "group": "Christian Manor",
     "name": "Christian Manor 2",
     "site_type": "Senior Site",
     "address": "100 Trident Place, Hendersonville, TN 37075",
@@ -787,6 +809,7 @@
   },
   {
     "code": "GAL",
+    "group": "Christian Manor of Gallatin / Christian Towers of Gallatin",
     "name": "Christian Manor of Gallatin",
     "site_type": "Senior Site",
     "address": "143 Prince Street, Gallatin, TN 37066",
@@ -822,6 +845,7 @@
   },
   {
     "code": "CTG",
+    "group": "Christian Manor of Gallatin / Christian Towers of Gallatin",
     "name": "Christian Towers of Gallatin",
     "site_type": "Senior Site",
     "address": "139 E. Franklin Street, Gallatin, TN 37066",
@@ -852,6 +876,7 @@
   },
   {
     "code": "CHR",
+    "group": null,
     "name": "Christian Village",
     "site_type": "Senior Site",
     "address": "4225 Billie Bolin Dr., San Angelo, TX 76904",
@@ -893,6 +918,7 @@
   },
   {
     "code": "CRT",
+    "group": null,
     "name": "Christopher Towers",
     "site_type": "Senior Site",
     "address": "1805 Devine Street, Columbia, SC 29201",
@@ -932,6 +958,7 @@
   },
   {
     "code": "CTY",
+    "group": null,
     "name": "City View Towers",
     "site_type": "Senior Site",
     "address": "256 South Camilla St, Memphis, TN 38104",
@@ -968,6 +995,7 @@
   },
   {
     "code": "COHV",
+    "group": null,
     "name": "Coastal Haven Senior Apartments",
     "site_type": "Senior Site",
     "address": "4710 Middlecoff Road, Corpus Christi, TX 78413",
@@ -1010,6 +1038,7 @@
   },
   {
     "code": "CPT1",
+    "group": "College Park Towers",
     "name": "College Park Towers 1",
     "site_type": "Senior Site",
     "address": "5200 Eggleston Ave, Orlando, FL 32810",
@@ -1048,6 +1077,7 @@
   },
   {
     "code": "CPT2",
+    "group": "College Park Towers",
     "name": "College Park Towers 2",
     "site_type": "Senior Site",
     "address": "5201 Eggleston Ave, Orlando, FL 32810",
@@ -1086,6 +1116,7 @@
   },
   {
     "code": "COL",
+    "group": null,
     "name": "Colona House",
     "site_type": "Senior Site",
     "address": "54 41st Ave., East Moline IL 61244",
@@ -1125,6 +1156,7 @@
   },
   {
     "code": "COR1",
+    "group": "Corinthian Senior",
     "name": "Corinthian Senior 1 & 2",
     "site_type": "Senior Site",
     "address": "3601 Lemay Ferry Road, St. Louis, MO 63125",
@@ -1164,6 +1196,7 @@
   },
   {
     "code": "COR3",
+    "group": "Corinthian Senior",
     "name": "Corinthian Senior 3",
     "site_type": "Senior Site",
     "address": "1762 Lemay Ferry Rd, St Louis, MO 63125",
@@ -1196,6 +1229,7 @@
   },
   {
     "code": "COR4",
+    "group": "Corinthian Senior",
     "name": "Corinthian Senior 4",
     "site_type": "Senior Site",
     "address": "11120 Tesson Ferry Rd, St. Louis, MO 63123",
@@ -1228,6 +1262,7 @@
   },
   {
     "code": "COV",
+    "group": null,
     "name": "Coventry",
     "site_type": "Senior Site",
     "address": "1900 6th Ave, Rock Island, IL 61201",
@@ -1262,6 +1297,7 @@
   },
   {
     "code": "COE",
+    "group": null,
     "name": "Crown Oak Estates",
     "site_type": "Family Site",
     "address": "5 Crown Oak Drive, Penfield, New York, 14526",
@@ -1303,6 +1339,7 @@
   },
   {
     "code": "CMB",
+    "group": null,
     "name": "Cumberland View",
     "site_type": "Senior Site",
     "address": "1201 Cheyenne Boulevard, Madison, TN 37115",
@@ -1343,6 +1380,7 @@
   },
   {
     "code": "DGM",
+    "group": null,
     "name": "Daniel Gilmartin",
     "site_type": "Senior Site",
     "address": "53-11 99th Street, Corona, NY 11368",
@@ -1385,6 +1423,7 @@
   },
   {
     "code": "EADS",
+    "group": null,
     "name": "Eads Square",
     "site_type": "Senior Site",
     "address": "2700 Henrietta Avenue, St. Louis, MO 63104",
@@ -1417,6 +1456,7 @@
   },
   {
     "code": "EAS",
+    "group": null,
     "name": "Easehouse",
     "site_type": "Senior Site",
     "address": "1300 Commerce Drive Auburn, AL 36830",
@@ -1455,6 +1495,7 @@
   },
   {
     "code": "EB",
+    "group": null,
     "name": "East Boros",
     "site_type": "Senior Site",
     "address": "4165 Ivanhoe Dr., Monroeville, PA 15146",
@@ -1482,6 +1523,7 @@
   },
   {
     "code": "ES",
+    "group": null,
     "name": "East Side",
     "site_type": "Senior Site",
     "address": "83 Doyle Ave, Providence, RI 02906",
@@ -1520,6 +1562,7 @@
   },
   {
     "code": "RED1",
+    "group": "El Redentor",
     "name": "El Redentor 1",
     "site_type": "Senior Site",
     "address": "8808 Frey Road, Houston, TX 77034",
@@ -1550,9 +1593,10 @@
   },
   {
     "code": "RED2",
+    "group": "El Redentor",
     "name": "El Redentor 2",
     "site_type": "Senior Site",
-    "address": "8809 Frey Road, Houston, TX 77034",
+    "address": "8808 Frey Road, Houston, TX 77034",
     "state": "TX",
     "phone": "713-910-0102",
     "units_total": 33,
@@ -1580,6 +1624,7 @@
   },
   {
     "code": "EMC",
+    "group": null,
     "name": "Emerson Center",
     "site_type": "Senior Site",
     "address": "2050 Garden Springs Dr, Lexington, KY 40504",
@@ -1619,6 +1664,7 @@
   },
   {
     "code": "FAN",
+    "group": null,
     "name": "Fannie Taylor",
     "site_type": "Senior Site",
     "address": "6701 Chester Avenue, Jacksonville, FL 32217",
@@ -1650,6 +1696,7 @@
   },
   {
     "code": "FT1",
+    "group": "Farmdale Tower",
     "name": "Farmdale Tower 1",
     "site_type": "Senior Site",
     "address": "6440 Outer Loop, Louisville, KY 40228",
@@ -1685,6 +1732,7 @@
   },
   {
     "code": "FT2",
+    "group": "Farmdale Tower",
     "name": "Farmdale Tower 2",
     "site_type": "Senior Site",
     "address": "6500 Vandre Ave, Louisville, KY 40228",
@@ -1717,6 +1765,7 @@
   },
   {
     "code": "FGM",
+    "group": null,
     "name": "Forest Green Manor",
     "site_type": "Senior Site",
     "address": "9730 Shepherd Rd, Dallas, TX 75243",
@@ -1755,6 +1804,7 @@
   },
   {
     "code": "FP",
+    "group": null,
     "name": "Fountain Place",
     "site_type": "Senior Site",
     "address": "701 S. Fountain Street, Connersville, IN 47331",
@@ -1795,6 +1845,7 @@
   },
   {
     "code": "FTC",
+    "group": null,
     "name": "Friendship Tower Corsicana",
     "site_type": "Senior Site",
     "address": "2512 W 7th Ave, Corsicana, TX 75110",
@@ -1831,6 +1882,7 @@
   },
   {
     "code": "FTD",
+    "group": null,
     "name": "Friendship Tower Dallas",
     "site_type": "Senior Site",
     "address": "3033 S Cockrell Hill Rd, Dallas, TX 75236",
@@ -1871,6 +1923,7 @@
   },
   {
     "code": "GG",
+    "group": null,
     "name": "Gambrill Gardens",
     "site_type": "Senior Site",
     "address": "1 Strecker Road, Ellisville, MO 63011",
@@ -1908,6 +1961,7 @@
   },
   {
     "code": "GT",
+    "group": null,
     "name": "Garden Terrace",
     "site_type": "Senior Site",
     "address": "730 Bloom St, Johnstown, PA 15902",
@@ -1939,6 +1993,7 @@
   },
   {
     "code": "GWT",
+    "group": null,
     "name": "Gateway Terrace",
     "site_type": "Senior Site",
     "address": "1943 NE Sixth Court, N106, Ft. Lauderdale, FL 33304",
@@ -1989,6 +2044,7 @@
   },
   {
     "code": "GLD",
+    "group": null,
     "name": "Glades Diamond",
     "site_type": "Senior Site",
     "address": "100 Downs Circle, Belle Glade, FL 33430",
@@ -2030,6 +2086,7 @@
   },
   {
     "code": "GLP1",
+    "group": null,
     "name": "Glades Pioneer",
     "site_type": "Senior Site",
     "address": "200 Dorothy Wilford Circle, Belle Glade, FL 33430",
@@ -2066,6 +2123,7 @@
   },
   {
     "code": "GISH",
+    "group": null,
     "name": "Grand Isle Senior Homes",
     "site_type": "Senior Site",
     "address": "2807 W Faidley Avenue, Grand Island, NE 68803",
@@ -2099,6 +2157,7 @@
   },
   {
     "code": "GS",
+    "group": null,
     "name": "Grant Street",
     "site_type": "Senior Site",
     "address": "430 Grant Street, Bridgeport, CT 06610",
@@ -2135,6 +2194,7 @@
   },
   {
     "code": "GRLM",
+    "group": null,
     "name": "Greeley Manor",
     "site_type": "Senior Site",
     "address": "1000 13th Street, Greeley, CO 80631",
@@ -2167,6 +2227,7 @@
   },
   {
     "code": "GRSH",
+    "group": null,
     "name": "Greeley Senior Housing",
     "site_type": "Senior Site",
     "address": "1717 30th Street, Greeley, CO 80631",
@@ -2207,6 +2268,7 @@
   },
   {
     "code": "HKT",
+    "group": null,
     "name": "Hackettstown",
     "site_type": "Senior Site",
     "address": "681 Willow Grove St., Hackettstown, NJ 07840",
@@ -2245,6 +2307,7 @@
   },
   {
     "code": "HAR",
+    "group": null,
     "name": "Harbor Hill",
     "site_type": "Senior Site",
     "address": "5613 2nd Ave, Brooklyn, NY, 11220",
@@ -2276,6 +2339,7 @@
   },
   {
     "code": "HRBV",
+    "group": null,
     "name": "Harborview",
     "site_type": "Senior Site",
     "address": "145 Ocean Avenue, Jersey City, NJ 07305",
@@ -2319,6 +2383,7 @@
   },
   {
     "code": "HT",
+    "group": null,
     "name": "Hellenic Tower",
     "site_type": "Senior Site",
     "address": "8450 Roswell Rd Nw, Atlanta, GA 30350",
@@ -2346,6 +2411,7 @@
   },
   {
     "code": "HRT",
+    "group": null,
     "name": "Highland Rim Terrace",
     "site_type": "Senior Site",
     "address": "100 Woodland Dr, Portland, TN 37148",
@@ -2377,6 +2443,7 @@
   },
   {
     "code": "HIL",
+    "group": null,
     "name": "Hillsboro Plaza",
     "site_type": "Senior Site",
     "address": "612 Hillsboro St, Pittsburgh, PA 15204",
@@ -2419,6 +2486,7 @@
   },
   {
     "code": "HSV",
+    "group": null,
     "name": "Hopewell Senior Village",
     "site_type": "Senior Site",
     "address": "4558 McMillan Avenue, St. Louis, MO 63108",
@@ -2455,6 +2523,7 @@
   },
   {
     "code": "IRV",
+    "group": null,
     "name": "Irvington",
     "site_type": "Senior Site",
     "address": "1 Linden Ave., Irvington, NJ 07111",
@@ -2487,6 +2556,7 @@
   },
   {
     "code": "JFNO",
+    "group": "Jefferson Senior Apartments",
     "name": "Jefferson Senior Apartments",
     "site_type": "Senior Site",
     "address": "1514 W Marshall Street, Norristown, PA 19403",
@@ -2528,6 +2598,7 @@
   },
   {
     "code": "JFNO",
+    "group": "Jefferson Senior Apartments",
     "name": "Jefferson Senior Apartments (East)",
     "site_type": "Senior Site",
     "address": "1514 W Marshall Street, Norristown, PA 19403",
@@ -2558,6 +2629,7 @@
   },
   {
     "code": "JCT",
+    "group": null,
     "name": "Jewish Center Tower",
     "site_type": "Senior Site",
     "address": "3001 West DeLeon Street, Tampa, FL 33609",
@@ -2590,6 +2662,7 @@
   },
   {
     "code": "JSA",
+    "group": null,
     "name": "Jordan Square",
     "site_type": "Senior Site",
     "address": "625 Jordan Street, Shreveport, LA 71101",
@@ -2627,6 +2700,7 @@
   },
   {
     "code": "KEN",
+    "group": null,
     "name": "Ken Mar",
     "site_type": "Senior Site",
     "address": "210 W Pike Street, Martinsville, IN 46151",
@@ -2660,6 +2734,7 @@
   },
   {
     "code": "KW",
+    "group": null,
     "name": "Kirkwood",
     "site_type": "Senior Site",
     "address": "2710 Langston Drive, Goldsboro, NC 27534",
@@ -2704,6 +2779,7 @@
   },
   {
     "code": "LAM",
+    "group": null,
     "name": "Lakeland Manor",
     "site_type": "Senior Site",
     "address": "3105 Peavy Road, Dallas, TX 75228",
@@ -2742,6 +2818,7 @@
   },
   {
     "code": "LAS",
+    "group": null,
     "name": "Lakeland Seniors",
     "site_type": "Senior Site",
     "address": "848 Lakeland Drive, Jackson, MS 39216",
@@ -2786,6 +2863,7 @@
   },
   {
     "code": "LAN",
+    "group": null,
     "name": "Lancelot",
     "site_type": "Senior Site",
     "address": "1269 E Guinevere St, Springfield, MO 65804",
@@ -2818,6 +2896,7 @@
   },
   {
     "code": "MAG",
+    "group": null,
     "name": "Magnolia Heights",
     "site_type": "Senior Site",
     "address": "333 Mill St, Lake Charles, LA 70601",
@@ -2845,6 +2924,7 @@
   },
   {
     "code": "MALV",
+    "group": null,
     "name": "Malvern Hill",
     "site_type": "Senior Site",
     "address": "426 King Street, Portsmouth, VA 23704",
@@ -2876,6 +2956,7 @@
   },
   {
     "code": "MBL",
+    "group": null,
     "name": "Marlborough",
     "site_type": "Senior Site",
     "address": "1701 Eutaw Place, Baltimore, MD 21217",
@@ -2917,6 +2998,7 @@
   },
   {
     "code": "MW",
+    "group": null,
     "name": "Mary Walker",
     "site_type": "Senior Site",
     "address": "4912 E Linebaugh Ave., Tampa, FL 33617",
@@ -2952,6 +3034,7 @@
   },
   {
     "code": "MBP",
+    "group": null,
     "name": "Meadowbrook",
     "site_type": "Family Site",
     "address": "191 W 2nd Street, San Bernardino, CA 92408",
@@ -3000,6 +3083,7 @@
   },
   {
     "code": "MVH",
+    "group": null,
     "name": "Melrose Villa Hermosa",
     "site_type": "Senior Site",
     "address": "825 Melrose Ave, Bronx, NY 10451",
@@ -3037,9 +3121,10 @@
   },
   {
     "code": "MMB",
+    "group": "Molly & Max",
     "name": "Mollie & Max",
     "site_type": "Senior Site",
-    "address": "6565 Dan Danciger Road, Fort Worth, TX 76133",
+    "address": "6555 Dan Danciger Road, Fort Worth, TX 76133",
     "state": "TX",
     "phone": "817-292-9018",
     "units_total": 60,
@@ -3075,9 +3160,10 @@
   },
   {
     "code": "TCLP",
+    "group": "Molly & Max",
     "name": "Tarrant County B'nai B'rith (Molly & Max)",
     "site_type": "Senior Site",
-    "address": "6556 Dan Danciger Rd, Fort Worth, TX 76133",
+    "address": "6565 Dan Danciger Rd, Fort Worth, TX 76133",
     "state": "TX",
     "phone": "817-292-9018",
     "units_total": 59,
@@ -3108,6 +3194,7 @@
   },
   {
     "code": "NAZ",
+    "group": null,
     "name": "Nazareth Towers",
     "site_type": "Senior Site",
     "address": "300 E Rich Street, Columbus, OH 43215",
@@ -3151,6 +3238,7 @@
   },
   {
     "code": "NEM",
+    "group": null,
     "name": "Nemont",
     "site_type": "Senior Site",
     "address": "1100 4th Ave S, Glasgow, MT 59230",
@@ -3178,6 +3266,7 @@
   },
   {
     "code": "NNV",
+    "group": null,
     "name": "New Northside Village",
     "site_type": "Senior Site",
     "address": "2054 Nemnich Road, St. Louis, MO 63136",
@@ -3210,6 +3299,7 @@
   },
   {
     "code": "NV",
+    "group": null,
     "name": "Nikkei Village",
     "site_type": "Senior Site",
     "address": "9551 Laurel Canyon Blvd, Pacoima, CA 91331",
@@ -3242,6 +3332,7 @@
   },
   {
     "code": "OG",
+    "group": null,
     "name": "Oak Grove",
     "site_type": "Senior Site",
     "address": "4375 Oak Grove Blvd, San Angelo, Texas 76904",
@@ -3280,6 +3371,7 @@
   },
   {
     "code": "OK",
+    "group": null,
     "name": "Olde Kensington Pavilion",
     "site_type": "Senior Site",
     "address": "1250 North 3rd Street, Philadelphia, PA 19122",
@@ -3318,6 +3410,7 @@
   },
   {
     "code": "OLV",
+    "group": null,
     "name": "Olive Manor",
     "site_type": "Senior Site",
     "address": "13115 Bromont Avenue, Sylmar, CA 91342",
@@ -3350,6 +3443,7 @@
   },
   {
     "code": "OWL",
+    "group": null,
     "name": "Ollie Langhorst Apartments",
     "site_type": "Senior Site",
     "address": "5800 Arsenal Street, St. Louis, MO 63139",
@@ -3388,6 +3482,7 @@
   },
   {
     "code": "PABT",
+    "group": null,
     "name": "Palm Avenue Baptist Tower",
     "site_type": "Senior Site",
     "address": "215 E Palm Avenue, Tampa, FL 33602",
@@ -3424,6 +3519,7 @@
   },
   {
     "code": "PCLP",
+    "group": null,
     "name": "Plant City Living Center",
     "site_type": "Senior Site",
     "address": "405 E Damon Street, Plant City, FL 33563",
@@ -3455,6 +3551,7 @@
   },
   {
     "code": "PCT",
+    "group": null,
     "name": "Plant City Towers",
     "site_type": "Senior Site",
     "address": "103 W Mahoney Street, Plant City, FL 33563",
@@ -3486,6 +3583,7 @@
   },
   {
     "code": "PMV",
+    "group": null,
     "name": "Plymouth Village",
     "site_type": "Family Site",
     "address": "5080 Helbig Road, Beaumont, TX 77708",
@@ -3533,6 +3631,7 @@
   },
   {
     "code": "PTB",
+    "group": null,
     "name": "PT Bosley Estates",
     "site_type": "Senior Site",
     "address": "4301 Warne Avenue, St. Louis, MO 63107",
@@ -3564,6 +3663,7 @@
   },
   {
     "code": "PUL",
+    "group": null,
     "name": "Pulaski Heights",
     "site_type": "Senior Site",
     "address": "76 Maple Street, Holyoke, MA 01040",
@@ -3591,6 +3691,7 @@
   },
   {
     "code": "RBLP",
+    "group": null,
     "name": "Reba Brown",
     "site_type": "Senior Site",
     "address": "1450 S. 50th Street, Philadelphia, PA 19143",
@@ -3623,6 +3724,7 @@
   },
   {
     "code": "RWS",
+    "group": null,
     "name": "Redwood",
     "site_type": "Senior Site",
     "address": "814 St. Elizabeth Dr., San Jose, CA 95126",
@@ -3660,6 +3762,7 @@
   },
   {
     "code": "RBT",
+    "group": null,
     "name": "Riverbend Terrace",
     "site_type": "Senior Site",
     "address": "3705 9th Street, Rock Island, IL 61201",
@@ -3691,6 +3794,7 @@
   },
   {
     "code": "RWV",
+    "group": null,
     "name": "Rockwood Village",
     "site_type": "Senior Site",
     "address": "601 S Chamberlain Ave, Rockwood, TN 37854",
@@ -3728,6 +3832,7 @@
   },
   {
     "code": "SEA",
+    "group": null,
     "name": "Seaview Plaza",
     "site_type": "Senior Site",
     "address": "2800 Pacific View Dr, Corona Del Mar, CA 92625",
@@ -3764,6 +3869,7 @@
   },
   {
     "code": "SET",
+    "group": null,
     "name": "Seton Haven",
     "site_type": "Senior Site",
     "address": "3721 Wares Ferry Road, Montgomery, AL 36109",
@@ -3796,6 +3902,7 @@
   },
   {
     "code": "SSA",
+    "group": null,
     "name": "Silvertree Seniors Atlanta",
     "site_type": "Senior Site",
     "address": "359 West Lake Avenue NW, Atlanta, GA 30318",
@@ -3833,12 +3940,13 @@
   },
   {
     "code": "SSC",
+    "group": null,
     "name": "Silvertree Seniors Chattanooga",
     "site_type": "Senior Site",
     "address": "5465 Highway 58, Chattanooga, TN 37416",
     "state": "TN",
     "phone": "423-344-8361",
-    "units_total": 125,
+    "units_total": 124,
     "unit_mix": {
       "1-bedroom": 116,
       "2-bedroom": 8
@@ -3872,6 +3980,7 @@
   },
   {
     "code": "SSJ",
+    "group": null,
     "name": "Silvertree Seniors Jacksonville",
     "site_type": "Senior Site",
     "address": "3937 Spring Park Road, Jacksonville, FL 32207",
@@ -3899,6 +4008,7 @@
   },
   {
     "code": "JAM",
+    "group": null,
     "name": "Silvertree Seniors Jamestown",
     "site_type": "Senior Site",
     "address": "145 Chandler Street, Jamestown, NY 14701",
@@ -3946,6 +4056,7 @@
   },
   {
     "code": "SSP",
+    "group": null,
     "name": "Silvertree Seniors Portsmouth",
     "site_type": "Senior Site",
     "address": "715 Madison Street, Portsmouth, VA 23704",
@@ -3982,6 +4093,7 @@
   },
   {
     "code": "SST",
+    "group": null,
     "name": "Silvertree Senior Apartments Tampa",
     "site_type": "Senior Site",
     "address": "11113 N. Nebraska Ave., Tampa, FL 33612",
@@ -4016,6 +4128,7 @@
   },
   {
     "code": "ST",
+    "group": null,
     "name": "Skyline Tower",
     "site_type": "Senior Site",
     "address": "2250 Community College Ave, Cleveland, OH 44115",
@@ -4057,6 +4170,7 @@
   },
   {
     "code": "SMY",
+    "group": null,
     "name": "Smyrna Tower",
     "site_type": "Senior Site",
     "address": "4000 South Cobb Drive, Smyrna, GA 30080",
@@ -4086,6 +4200,7 @@
   },
   {
     "code": "SAT",
+    "group": null,
     "name": "St. Andrews Towers",
     "site_type": "Senior Site",
     "address": "24 Harrison Ave Panama City, FL 32401",
@@ -4117,6 +4232,7 @@
   },
   {
     "code": "SCV",
+    "group": null,
     "name": "St. Clair Villa",
     "site_type": "Senior Site",
     "address": "617 McMillen St, Bridgeville, PA 15017",
@@ -4148,6 +4264,7 @@
   },
   {
     "code": "STJ",
+    "group": null,
     "name": "St. James Village",
     "site_type": "Family Site",
     "address": "3815 West Fuqua Street, Houston TX, 77045",
@@ -4196,6 +4313,7 @@
   },
   {
     "code": "SMT",
+    "group": null,
     "name": "St. Mark's Towers",
     "site_type": "Senior Site",
     "address": "1 Towers Plaza, Brunswick, GA 31520",
@@ -4230,6 +4348,7 @@
   },
   {
     "code": "SMV",
+    "group": null,
     "name": "St. Martha's Village",
     "site_type": "Senior Site",
     "address": "7555 Bishop Ott Dr, Baton Rouge, LA 70806",
@@ -4266,6 +4385,7 @@
   },
   {
     "code": "SMRY",
+    "group": null,
     "name": "St. Mary’s Villa",
     "site_type": "Senior Site",
     "address": "425 Sanford Avenue, Newark, NJ 07106",
@@ -4304,6 +4424,7 @@
   },
   {
     "code": "SUM",
+    "group": null,
     "name": "Summerdale Court",
     "site_type": "Family Site",
     "address": "745 Tamarack Drive, Clairton, PA 15025",
@@ -4340,6 +4461,7 @@
   },
   {
     "code": "SUN",
+    "group": null,
     "name": "Sunset Gardens",
     "site_type": "Senior Site",
     "address": "405 44th St, Brooklyn, NY, 11220",
@@ -4372,6 +4494,7 @@
   },
   {
     "code": "TEM",
+    "group": null,
     "name": "Temple Apartments",
     "site_type": "Senior Site",
     "address": "5 Heisz Street, Kingston, PA 18704",
@@ -4410,6 +4533,7 @@
   },
   {
     "code": "TH1",
+    "group": null,
     "name": "Temple Heights",
     "site_type": "Senior Site",
     "address": "5420 Blue Ridge Cutoff, Kansas City, MO 64133",
@@ -4459,6 +4583,7 @@
   },
   {
     "code": "HRTA",
+    "group": null,
     "name": "The Hilarita Apartments",
     "site_type": "Senior Site",
     "address": "100 Ned’s Way, Tiburon, CA 94920",
@@ -4501,6 +4626,7 @@
   },
   {
     "code": "TRAV",
+    "group": null,
     "name": "Travis Park",
     "site_type": "Family Site",
     "address": "1100 East Oltorf St., Austin, TX 78704",
@@ -4545,6 +4671,7 @@
   },
   {
     "code": "TUL",
+    "group": null,
     "name": "Tulipwood",
     "site_type": "Senior Site",
     "address": "120 E Swan Street, Centerville, TN 37033",
@@ -4576,6 +4703,7 @@
   },
   {
     "code": "UV",
+    "group": null,
     "name": "Unico Village",
     "site_type": "Senior Site",
     "address": "7199 Brant Place, Philadelphia, PA 19153",
@@ -4608,6 +4736,7 @@
   },
   {
     "code": "VIL",
+    "group": null,
     "name": "Villa Alegre",
     "site_type": "Senior Site",
     "address": "6902 Marbach Rd, San Antonio, TX 78227",
@@ -4637,6 +4766,7 @@
   },
   {
     "code": "WHB",
+    "group": null,
     "name": "Washington Heights",
     "site_type": "Senior Site",
     "address": "115 Washington Ave, Bridgeport, CT 06604",
@@ -4678,6 +4808,7 @@
   },
   {
     "code": "WT",
+    "group": null,
     "name": "Washington Towers",
     "site_type": "Senior Site",
     "address": "1 State St, Batavia, NY 14020",
@@ -4715,6 +4846,7 @@
   },
   {
     "code": "WST",
+    "group": null,
     "name": "Westminster",
     "site_type": "Senior Site",
     "address": "107 E. 20th Street, Anniston, AL 36201",
@@ -4747,6 +4879,7 @@
   },
   {
     "code": "WALB",
+    "group": null,
     "name": "Westminster Albany",
     "site_type": "Senior Site",
     "address": "29955 West Street, Albany, LA 70711",
@@ -4774,15 +4907,16 @@
   },
   {
     "code": "WG1",
-    "name": "Westminster Gardens",
+    "group": "Westminster Gardens",
+    "name": "Westminster Gardens 1",
     "site_type": "Senior Site",
     "address": "501 Edwin Neill Way, Hammond, LA 70403",
     "state": "LA",
     "phone": "985-345-5010",
-    "units_total": 54,
+    "units_total": 40,
     "unit_mix": {
       "Studio": 10,
-      "1-bedroom": 44
+      "1-bedroom": 30
     },
     "unit_sqft": {
       "Studio": {
@@ -4805,16 +4939,45 @@
     "survey_completed": false
   },
   {
+    "code": "WG2",
+    "group": "Westminster Gardens",
+    "name": "Westminster Gardens 2",
+    "site_type": "Senior Site",
+    "address": "501 Edwin Neill Way, Hammond, LA 70403",
+    "state": "LA",
+    "phone": "985-345-5010",
+    "units_total": 14,
+    "unit_mix": {
+      "1-bedroom": 14
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 535,
+        "max": 535
+      }
+    },
+    "market_rate_units": null,
+    "ada_units": null,
+    "disability_pct": null,
+    "utilities": null,
+    "service_coordinator": null,
+    "fair_housing_logo": null,
+    "amenities": [],
+    "other_amenities": [],
+    "survey_completed": false
+  },
+  {
     "code": "WH1",
-    "name": "Westminster Homes",
+    "group": "Westminster Homes",
+    "name": "Westminster Homes 1",
     "site_type": "Senior Site",
     "address": "1810 N Cary Avenue, Jennings, LA 70546",
     "state": "LA",
     "phone": "337-824-9835",
-    "units_total": 55,
+    "units_total": 40,
     "unit_mix": {
       "Studio": 10,
-      "1-bedroom": 45
+      "1-bedroom": 30
     },
     "unit_sqft": {
       "Studio": {
@@ -4823,6 +4986,34 @@
       },
       "1-bedroom": {
         "min": 535,
+        "max": 535
+      }
+    },
+    "market_rate_units": null,
+    "ada_units": null,
+    "disability_pct": null,
+    "utilities": null,
+    "service_coordinator": null,
+    "fair_housing_logo": null,
+    "amenities": [],
+    "other_amenities": [],
+    "survey_completed": false
+  },
+  {
+    "code": "WH2",
+    "group": "Westminster Homes",
+    "name": "Westminster Homes 2",
+    "site_type": "Senior Site",
+    "address": "1810 N Cary Avenue, Jennings, LA 70546",
+    "state": "LA",
+    "phone": "337-824-9835",
+    "units_total": 15,
+    "unit_mix": {
+      "1-bedroom": 15
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 566,
         "max": 566
       }
     },
@@ -4838,6 +5029,7 @@
   },
   {
     "code": "WPL",
+    "group": null,
     "name": "Westminster Place",
     "site_type": "Senior Site",
     "address": "250 S. 1st Street, Ponchatoula, LA 70454",
@@ -4872,6 +5064,7 @@
   },
   {
     "code": "WSCT",
+    "group": null,
     "name": "Westminster Scotlandville",
     "site_type": "Senior Site",
     "address": "1800 Rosenwald Road, Baton Rouge, LA 70807",
@@ -4899,15 +5092,16 @@
   },
   {
     "code": "WT1",
-    "name": "Westminster Tower",
+    "group": "Westminster Tower",
+    "name": "Westminster Tower 1",
     "site_type": "Senior Site",
     "address": "2301 Idaho Avenue, Kenner, LA 70062",
     "state": "LA",
     "phone": "504-469-4056",
-    "units_total": 282,
+    "units_total": 200,
     "unit_mix": {
       "Studio": 100,
-      "1-bedroom": 182
+      "1-bedroom": 100
     },
     "unit_sqft": {
       "Studio": {
@@ -4930,19 +5124,48 @@
     "survey_completed": false
   },
   {
-    "code": "WWDS",
-    "name": "Westminster Woods",
+    "code": "WT2",
+    "group": "Westminster Tower",
+    "name": "Westminster Tower 2",
     "site_type": "Senior Site",
-    "address": "1600 Avenue F, Bogalusa, LA 70427",
+    "address": "2301 Idaho Avenue, Kenner, LA 70062",
     "state": "LA",
-    "phone": "985-735-5007",
-    "units_total": 41,
+    "phone": "504-469-4056",
+    "units_total": 82,
     "unit_mix": {
-      "1-bedroom": 41
+      "1-bedroom": 82
     },
     "unit_sqft": {
       "1-bedroom": {
         "min": 535,
+        "max": 535
+      }
+    },
+    "market_rate_units": null,
+    "ada_units": null,
+    "disability_pct": null,
+    "utilities": null,
+    "service_coordinator": null,
+    "fair_housing_logo": null,
+    "amenities": [],
+    "other_amenities": [],
+    "survey_completed": false
+  },
+  {
+    "code": "WW1",
+    "group": "Westminster Woods",
+    "name": "Westminster Woods 1",
+    "site_type": "Senior Site",
+    "address": "1600 Avenue F, Bogalusa, LA 70427",
+    "state": "LA",
+    "phone": "985-735-5007",
+    "units_total": 21,
+    "unit_mix": {
+      "1-bedroom": 21
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 540,
         "max": 540
       }
     },
@@ -4961,7 +5184,36 @@
     "survey_completed": true
   },
   {
+    "code": "WW2",
+    "group": "Westminster Woods",
+    "name": "Westminster Woods 2",
+    "site_type": "Senior Site",
+    "address": "1600 Avenue F, Bogalusa, LA 70427",
+    "state": "LA",
+    "phone": "985-735-5007",
+    "units_total": 20,
+    "unit_mix": {
+      "1-bedroom": 20
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 535,
+        "max": 535
+      }
+    },
+    "market_rate_units": null,
+    "ada_units": null,
+    "disability_pct": null,
+    "utilities": null,
+    "service_coordinator": null,
+    "fair_housing_logo": null,
+    "amenities": [],
+    "other_amenities": [],
+    "survey_completed": false
+  },
+  {
     "code": "WIN1",
+    "group": "Winslow Village",
     "name": "Winslow Village 1",
     "site_type": "Senior Site",
     "address": "1520 Ocean Street, Marshfield, MA, 02050",
@@ -4999,6 +5251,7 @@
   },
   {
     "code": "WIN2",
+    "group": "Winslow Village",
     "name": "Winslow Village 2",
     "site_type": "Senior Site",
     "address": "1554 Ocean Street, Marshfield, MA, 02050",
@@ -5036,6 +5289,7 @@
   },
   {
     "code": "WHM",
+    "group": null,
     "name": "Winter Haven Manor",
     "site_type": "Senior Site",
     "address": "140 Ave A SW, Winter Haven, FL 33880",
@@ -5068,6 +5322,7 @@
   },
   {
     "code": "WDM",
+    "group": null,
     "name": "Woodman Manor",
     "site_type": "Senior Site",
     "address": "6712 Woodman Ave Van Nuys, CA 91401",

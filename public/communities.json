@@ -110,8 +110,8 @@
     ]
   },
   {
-    "code": "BET1",
-    "name": "Bet Shalom 1",
+    "code": "BET1, BET2",
+    "name": "Bet Shalom",
     "addr": "475 Chandler Street, Worcester, MA 01602",
     "state": "MA",
     "type": "Senior Site",
@@ -142,18 +142,9 @@
           "Beauty Salon"
         ],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "BET2",
-    "name": "Bet Shalom 2",
-    "addr": "476 Chandler Street, Worcester, MA 01602",
-    "state": "MA",
-    "type": "Senior Site",
-    "logo": "Wheelchair & House",
-    "b": [
+        "addr": "475 Chandler Street, Worcester, MA 01602",
+        "label": "1"
+      },
       {
         "phone": "508-791-1189",
         "total": 24,
@@ -179,7 +170,8 @@
           "Beauty Salon"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "475 Chandler Street, Worcester, MA 01602",
+        "label": "2"
       }
     ]
   },
@@ -734,8 +726,8 @@
     ]
   },
   {
-    "code": "CMH1",
-    "name": "Christian Manor 1",
+    "code": "CMH1, CMH2",
+    "name": "Christian Manor",
     "addr": "100 Riviera Drive, Hendersonville, TN 37075",
     "state": "TN",
     "type": "Senior Site",
@@ -771,18 +763,9 @@
           "Fitness Center"
         ],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "CMH2",
-    "name": "Christian Manor 2",
-    "addr": "100 Trident Place, Hendersonville, TN 37075",
-    "state": "TN",
-    "type": "Senior Site",
-    "logo": "Wheelchair & House",
-    "b": [
+        "addr": "100 Riviera Drive, Hendersonville, TN 37075",
+        "label": "1"
+      },
       {
         "phone": "615-824-9266",
         "total": 57,
@@ -813,13 +796,14 @@
           "Fitness Center"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "100 Trident Place, Hendersonville, TN 37075",
+        "label": "2"
       }
     ]
   },
   {
-    "code": "GAL",
-    "name": "Christian Manor of Gallatin",
+    "code": "GAL, CTG",
+    "name": "Christian Manor of Gallatin / Christian Towers of Gallatin",
     "addr": "143 Prince Street, Gallatin, TN 37066",
     "state": "TN",
     "type": "Senior Site",
@@ -851,18 +835,9 @@
           "Laundry Room"
         ],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "CTG",
-    "name": "Christian Towers of Gallatin",
-    "addr": "139 E. Franklin Street, Gallatin, TN 37066",
-    "state": "TN",
-    "type": "Senior Site",
-    "logo": "House Only",
-    "b": [
+        "addr": "143 Prince Street, Gallatin, TN 37066",
+        "label": "Christian Manor of Gallatin"
+      },
       {
         "phone": "615-452-9364",
         "total": 100,
@@ -884,7 +859,8 @@
           "Laundry Room"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "139 E. Franklin Street, Gallatin, TN 37066",
+        "label": "Christian Towers of Gallatin"
       }
     ]
   },
@@ -1059,8 +1035,8 @@
     ]
   },
   {
-    "code": "CPT1",
-    "name": "College Park Towers 1",
+    "code": "CPT1, CPT2",
+    "name": "College Park Towers",
     "addr": "5200 Eggleston Ave, Orlando, FL 32810",
     "state": "FL",
     "type": "Senior Site",
@@ -1095,18 +1071,9 @@
         "other": [
           "Dog Park"
         ],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "CPT2",
-    "name": "College Park Towers 2",
-    "addr": "5201 Eggleston Ave, Orlando, FL 32810",
-    "state": "FL",
-    "type": "Senior Site",
-    "logo": "Wheelchair & House",
-    "b": [
+        "addr": "5200 Eggleston Ave, Orlando, FL 32810",
+        "label": "1"
+      },
       {
         "phone": "407-291-1543",
         "total": 68,
@@ -1136,7 +1103,8 @@
         "other": [
           "Dog Park"
         ],
-        "label": "Main"
+        "addr": "5201 Eggleston Ave, Orlando, FL 32810",
+        "label": "2"
       }
     ]
   },
@@ -1183,8 +1151,8 @@
     ]
   },
   {
-    "code": "COR1",
-    "name": "Corinthian Senior 1 & 2",
+    "code": "COR1, COR3, COR4",
+    "name": "Corinthian Senior",
     "addr": "3601 Lemay Ferry Road, St. Louis, MO 63125",
     "state": "MO",
     "type": "Senior Site",
@@ -1220,18 +1188,9 @@
           "Fitness Center"
         ],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "COR3",
-    "name": "Corinthian Senior 3",
-    "addr": "1762 Lemay Ferry Rd, St Louis, MO 63125",
-    "state": "MO",
-    "type": "Senior Site",
-    "logo": "Wheelchair & House",
-    "b": [
+        "addr": "3601 Lemay Ferry Road, St. Louis, MO 63125",
+        "label": "1 & 2"
+      },
       {
         "phone": "314-487-5554",
         "total": 40,
@@ -1255,18 +1214,9 @@
           "Fitness Center"
         ],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "COR4",
-    "name": "Corinthian Senior 4",
-    "addr": "11120 Tesson Ferry Rd, St. Louis, MO 63123",
-    "state": "MO",
-    "type": "Senior Site",
-    "logo": "Wheelchair & House",
-    "b": [
+        "addr": "1762 Lemay Ferry Rd, St Louis, MO 63125",
+        "label": "3"
+      },
       {
         "phone": "314-487-5555",
         "total": 36,
@@ -1290,7 +1240,8 @@
           "Fitness Center"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "11120 Tesson Ferry Rd, St. Louis, MO 63123",
+        "label": "4"
       }
     ]
   },
@@ -1611,8 +1562,8 @@
     ]
   },
   {
-    "code": "RED1",
-    "name": "El Redentor 1",
+    "code": "RED1, RED2",
+    "name": "El Redentor",
     "addr": "8808 Frey Road, Houston, TX 77034",
     "state": "TX",
     "type": "Senior Site",
@@ -1639,18 +1590,9 @@
           "Laundry Room"
         ],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "RED2",
-    "name": "El Redentor 2",
-    "addr": "8809 Frey Road, Houston, TX 77034",
-    "state": "TX",
-    "type": "Senior Site",
-    "logo": "Wheelchair & House",
-    "b": [
+        "addr": "8808 Frey Road, Houston, TX 77034",
+        "label": "1"
+      },
       {
         "phone": "713-910-0102",
         "total": 33,
@@ -1672,7 +1614,8 @@
           "Laundry Room"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "8808 Frey Road, Houston, TX 77034",
+        "label": "2"
       }
     ]
   },
@@ -1753,8 +1696,8 @@
     ]
   },
   {
-    "code": "FT1",
-    "name": "Farmdale Tower 1",
+    "code": "FT1, FT2",
+    "name": "Farmdale Tower",
     "addr": "6440 Outer Loop, Louisville, KY 40228",
     "state": "KY",
     "type": "Senior Site",
@@ -1786,18 +1729,9 @@
           "Beauty Salon"
         ],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "FT2",
-    "name": "Farmdale Tower 2",
-    "addr": "6500 Vandre Ave, Louisville, KY 40228",
-    "state": "KY",
-    "type": "Senior Site",
-    "logo": "House Only",
-    "b": [
+        "addr": "6440 Outer Loop, Louisville, KY 40228",
+        "label": "1"
+      },
       {
         "phone": "502-961-0062",
         "total": 50,
@@ -1821,7 +1755,8 @@
           "Media Room"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "6500 Vandre Ave, Louisville, KY 40228",
+        "label": "2"
       }
     ]
   },
@@ -2698,6 +2633,7 @@
           "On-Site Library"
         ],
         "other": [],
+        "addr": "1514 W Marshall Street, Norristown, PA 19403",
         "label": "Main"
       },
       {
@@ -2721,6 +2657,7 @@
           "Laundry Room"
         ],
         "other": [],
+        "addr": "1514 W Marshall Street, Norristown, PA 19403",
         "label": "East"
       }
     ]
@@ -3253,9 +3190,9 @@
     ]
   },
   {
-    "code": "MMB",
-    "name": "Mollie & Max",
-    "addr": "6565 Dan Danciger Road, Fort Worth, TX 76133",
+    "code": "MMB, TCLP",
+    "name": "Molly & Max",
+    "addr": "6555 Dan Danciger Road, Fort Worth, TX 76133",
     "state": "TX",
     "type": "Senior Site",
     "logo": "House Only",
@@ -3289,7 +3226,35 @@
           "Controlled Access"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "6555 Dan Danciger Road, Fort Worth, TX 76133",
+        "label": "Mollie & Max"
+      },
+      {
+        "phone": "817-292-9018",
+        "total": 59,
+        "mix": [
+          [
+            "1-bedroom",
+            59,
+            "540"
+          ]
+        ],
+        "mr": "None",
+        "ada": "5",
+        "dis": "No",
+        "util": "Partial: Electric is tenant",
+        "sc": "Yes",
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking",
+          "On-Site Library",
+          "Controlled Access"
+        ],
+        "other": [],
+        "addr": "6565 Dan Danciger Rd, Fort Worth, TX 76133",
+        "label": "Tarrant County B'nai B'rith"
       }
     ]
   },
@@ -4133,7 +4098,7 @@
     "b": [
       {
         "phone": "423-344-8361",
-        "total": 125,
+        "total": 124,
         "mix": [
           [
             "1-bedroom",
@@ -4680,42 +4645,6 @@
     ]
   },
   {
-    "code": "TCLP",
-    "name": "Tarrant County B’nai B’rith (Molly & Max)",
-    "addr": "6556 Dan Danciger Rd, Fort Worth, TX 76133",
-    "state": "TX",
-    "type": "Senior Site",
-    "logo": "Wheelchair & House",
-    "b": [
-      {
-        "phone": "817-292-9018",
-        "total": 59,
-        "mix": [
-          [
-            "1-bedroom",
-            59,
-            "540"
-          ]
-        ],
-        "mr": "None",
-        "ada": "5",
-        "dis": "No",
-        "util": "Partial: Electric is tenant",
-        "sc": "Yes",
-        "resp": true,
-        "am": [
-          "Community Room",
-          "Laundry Room",
-          "Off-Street Parking",
-          "On-Site Library",
-          "Controlled Access"
-        ],
-        "other": [],
-        "label": "Molly & Max"
-      }
-    ]
-  },
-  {
     "code": "TEM",
     "name": "Temple Apartments",
     "addr": "5 Heisz Street, Kingston, PA 18704",
@@ -5199,7 +5128,7 @@
     ]
   },
   {
-    "code": "WG1",
+    "code": "WG1, WG2",
     "name": "Westminster Gardens",
     "addr": "501 Edwin Neill Way, Hammond, LA 70403",
     "state": "LA",
@@ -5208,7 +5137,7 @@
     "b": [
       {
         "phone": "985-345-5010",
-        "total": 54,
+        "total": 40,
         "mix": [
           [
             "Studio",
@@ -5217,7 +5146,7 @@
           ],
           [
             "1-bedroom",
-            44,
+            30,
             "535"
           ]
         ],
@@ -5229,31 +5158,17 @@
         "resp": false,
         "am": [],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "WH1",
-    "name": "Westminster Homes",
-    "addr": "1810 N Cary Avenue, Jennings, LA 70546",
-    "state": "LA",
-    "type": "Senior Site",
-    "logo": null,
-    "b": [
+        "addr": "501 Edwin Neill Way, Hammond, LA 70403",
+        "label": "1"
+      },
       {
-        "phone": "337-824-9835",
-        "total": 55,
+        "phone": "985-345-5010",
+        "total": 14,
         "mix": [
           [
-            "Studio",
-            10,
-            "415"
-          ],
-          [
             "1-bedroom",
-            45,
-            "535–566"
+            14,
+            "535"
           ]
         ],
         "mr": null,
@@ -5264,7 +5179,65 @@
         "resp": false,
         "am": [],
         "other": [],
-        "label": "Main"
+        "addr": "501 Edwin Neill Way, Hammond, LA 70403",
+        "label": "2"
+      }
+    ]
+  },
+  {
+    "code": "WH1, WH2",
+    "name": "Westminster Homes",
+    "addr": "1810 N Cary Avenue, Jennings, LA 70546",
+    "state": "LA",
+    "type": "Senior Site",
+    "logo": null,
+    "b": [
+      {
+        "phone": "337-824-9835",
+        "total": 40,
+        "mix": [
+          [
+            "Studio",
+            10,
+            "415"
+          ],
+          [
+            "1-bedroom",
+            30,
+            "535"
+          ]
+        ],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "addr": "1810 N Cary Avenue, Jennings, LA 70546",
+        "label": "1"
+      },
+      {
+        "phone": "337-824-9835",
+        "total": 15,
+        "mix": [
+          [
+            "1-bedroom",
+            15,
+            "566"
+          ]
+        ],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "addr": "1810 N Cary Avenue, Jennings, LA 70546",
+        "label": "2"
       }
     ]
   },
@@ -5336,7 +5309,7 @@
     ]
   },
   {
-    "code": "WT1",
+    "code": "WT1, WT2",
     "name": "Westminster Tower",
     "addr": "2301 Idaho Avenue, Kenner, LA 70062",
     "state": "LA",
@@ -5345,7 +5318,7 @@
     "b": [
       {
         "phone": "504-469-4056",
-        "total": 282,
+        "total": 200,
         "mix": [
           [
             "Studio",
@@ -5354,7 +5327,7 @@
           ],
           [
             "1-bedroom",
-            182,
+            100,
             "535"
           ]
         ],
@@ -5366,12 +5339,34 @@
         "resp": false,
         "am": [],
         "other": [],
-        "label": "Main"
+        "addr": "2301 Idaho Avenue, Kenner, LA 70062",
+        "label": "1"
+      },
+      {
+        "phone": "504-469-4056",
+        "total": 82,
+        "mix": [
+          [
+            "1-bedroom",
+            82,
+            "535"
+          ]
+        ],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "addr": "2301 Idaho Avenue, Kenner, LA 70062",
+        "label": "2"
       }
     ]
   },
   {
-    "code": "WWDS",
+    "code": "WW1, WW2",
     "name": "Westminster Woods",
     "addr": "1600 Avenue F, Bogalusa, LA 70427",
     "state": "LA",
@@ -5380,12 +5375,12 @@
     "b": [
       {
         "phone": "985-735-5007",
-        "total": 41,
+        "total": 21,
         "mix": [
           [
             "1-bedroom",
-            41,
-            "535–540"
+            21,
+            "540"
           ]
         ],
         "mr": "None",
@@ -5400,13 +5395,35 @@
           "Off-Street Parking"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "1600 Avenue F, Bogalusa, LA 70427",
+        "label": "1"
+      },
+      {
+        "phone": "985-735-5007",
+        "total": 20,
+        "mix": [
+          [
+            "1-bedroom",
+            20,
+            "535"
+          ]
+        ],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": null,
+        "sc": null,
+        "resp": false,
+        "am": [],
+        "other": [],
+        "addr": "1600 Avenue F, Bogalusa, LA 70427",
+        "label": "2"
       }
     ]
   },
   {
-    "code": "WIN1",
-    "name": "Winslow Village 1",
+    "code": "WIN1, WIN2",
+    "name": "Winslow Village",
     "addr": "1520 Ocean Street, Marshfield, MA, 02050",
     "state": "MA",
     "type": "Senior Site",
@@ -5440,18 +5457,9 @@
           "Bus Access"
         ],
         "other": [],
-        "label": "Main"
-      }
-    ]
-  },
-  {
-    "code": "WIN2",
-    "name": "Winslow Village 2",
-    "addr": "1554 Ocean Street, Marshfield, MA, 02050",
-    "state": "MA",
-    "type": "Senior Site",
-    "logo": "Wheelchair & House",
-    "b": [
+        "addr": "1520 Ocean Street, Marshfield, MA, 02050",
+        "label": "1"
+      },
       {
         "phone": "781-837-5999",
         "total": 48,
@@ -5480,7 +5488,8 @@
           "Bus Access"
         ],
         "other": [],
-        "label": "Main"
+        "addr": "1554 Ocean Street, Marshfield, MA, 02050",
+        "label": "2"
       }
     ]
   },
