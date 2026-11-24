@@ -5,6 +5,10 @@
                                 Community Code are combined). This is what the directory page uses.
   public/communities-flat.json  one record per spreadsheet row, for other tools to read.
 
+Grouping: neighbouring rows that are grouped in Excel (Data > Group, same outline level) become one card,
+and so do rows with the same value in an optional "Group" column (which wins if both are used).
+Rows that share a Community Code are also combined.
+
 Optional square footage columns: Efficiency Sq Ft, Studio Sq Ft, 1-Bedroom Sq Ft ... 4-Bedroom Sq Ft.
 Each cell can hold one number (575) or a range (550-620).
 
@@ -14,6 +18,7 @@ Softer problems are printed as WARNING lines and do not stop the build.
 import json, re, sys
 from pathlib import Path
 import pandas as pd
+from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "data" / "Communities_List.xlsx"
@@ -73,6 +78,50 @@ def sqft_text(v):
     if not r:
         return None
     return str(r[0]) if r[0] == r[1] else f"{r[0]}\u2013{r[1]}"
+
+
+def derive_group_name(names):
+    """Short name for a set of rows: the words they share ("Bet Shalom 1", "Bet Shalom 2" -> "Bet Shalom")."""
+    cleaned = [re.sub(r"\s+\d[\d\s&,]*$", "", re.sub(r"\s*\(.*?\)\s*", " ", n).strip()).strip() for n in names]
+    words = [c.split() for c in cleaned]
+    k = 0
+    while k < len(words[0]) and all(len(w) > k and w[k].lower() == words[0][k].lower() for w in words):
+        k += 1
+    if k >= 2 or (len({c.lower() for c in cleaned}) == 1 and k >= 1):
+        return " ".join(words[0][:k])
+    for n in names:  # e.g. "Tarrant County B'nai B'rith (Molly & Max)" -> "Molly & Max"
+        p = re.search(r"\((.*?)\)", n)
+        if p and len(p.group(1).split()) >= 2:
+            return p.group(1).strip()
+    warn("couldn't pick a short name for the grouped rows " + ", ".join(names) + " - add a Group column value to name them")
+    return " / ".join(n.strip() for n in names)
+
+
+def outline_groups(df, path, sheet):
+    """Excel row groups (Data > Group): neighbouring rows with the same outline level form one group.
+    Returns {dataframe index: group name}."""
+    try:
+        ws = load_workbook(path)[sheet]
+    except Exception as err:
+        warn(f"could not read row groups: {err}")
+        return {}
+    levels = [ws.row_dimensions[i + 2].outlineLevel or 0 for i in range(len(df))]
+    out, i = {}, 0
+    while i < len(levels):
+        if levels[i] > 0:
+            j = i
+            while j + 1 < len(levels) and levels[j + 1] == levels[i]:
+                j += 1
+            if j > i:
+                names = [str(df.iloc[k]["Community"]).strip() for k in range(i, j + 1)]
+                gname = derive_group_name(names)
+                for k in range(i, j + 1):
+                    out[df.index[k]] = gname
+                print(f"GROUP (rows {i + 2}-{j + 2}): {gname} <- " + ", ".join(str(df.iloc[k]["Community Code"]).strip() for k in range(i, j + 1)))
+            i = j + 1
+        else:
+            i += 1
+    return out
 
 
 def utilities(v):
@@ -136,7 +185,8 @@ def main():
     if df.empty:
         sys.exit("ERROR: the spreadsheet has no rows")
 
-    groups, flat = {}, []
+    auto = outline_groups(df, SRC, sheet)
+    groups, flat, gnames = {}, [], {}
     for i, r in df.iterrows():
         row_no = i + 2
         raw_code = r["Community Code"]
@@ -146,7 +196,10 @@ def main():
             continue
         if str(raw_code) != code:
             warn(f"row {row_no} ({r['Community']}): code '{raw_code}' has extra spaces, trimmed to '{code}'")
-        groups.setdefault(code, []).append(r)
+        gname = text(r.get("Group")) or auto.get(i)
+        key = "G:" + gname.lower() if gname else "C:" + code
+        groups.setdefault(key, []).append(r)
+        gnames.setdefault(key, gname)
 
         b = building(r)
         addr = text(r["Address"]) or ""
@@ -162,7 +215,7 @@ def main():
                 if label not in [m[0] for m in b["mix"]]:
                     warn(f"{r['Community']}: has {col} but no {label} unit count")
         flat.append({
-            "code": code, "name": str(r["Community"]).strip(), "site_type": text(r["Site Type"]),
+            "code": code, "group": gname, "name": str(r["Community"]).strip(), "site_type": text(r["Site Type"]),
             "address": addr, "state": state_of(addr), "phone": b["phone"], "units_total": b["total"],
             "unit_mix": {label: n for label, n, _ in b["mix"]}, "unit_sqft": sq, "market_rate_units": b["mr"],
             "ada_units": b["ada"], "disability_pct": b["dis"], "utilities": b["util"],
@@ -177,20 +230,36 @@ def main():
             warn(f"{r['Community']}: could not read a state from the address '{addr}'")
 
     cards = []
-    for code, rows in groups.items():
+    for key, rows in groups.items():
         f = rows[0]
+        gname = gnames.get(key)
+        multi = len(rows) > 1
         addr = text(f["Address"]) or ""
         buildings = []
         for r in rows:
             b = building(r)
-            p = re.search(r"\((.*?)\)", str(r["Community"]))
-            b["label"] = p.group(1).strip().title() if p else "Main"
+            if multi:
+                b["addr"] = text(r["Address"]) or ""
+            rest = str(r["Community"]).strip()
+            if gname:  # label = what is left of the name once the group name is removed ("Bet Shalom 1" -> "1")
+                rest = re.sub(r"\(\s*\)", "", re.sub(re.escape(gname), "", rest, flags=re.I))
+                p = re.search(r"\((.*?)\)", rest)
+                b["label"] = (p.group(1) if p else rest).strip(" -\u2013:,\t") or "Main"
+            else:
+                p = re.search(r"\((.*?)\)", rest)
+                b["label"] = p.group(1).strip().title() if p else "Main"
             buildings.append(b)
-        name = str(f["Community"]).strip()
-        if len(rows) > 1:
+        name = gname or str(f["Community"]).strip()
+        if multi and not gname:
             name = re.sub(r"\s*\(.*?\)\s*", "", name).strip()
-        cards.append({"code": code, "name": name.replace("'", "\u2019"), "addr": addr, "state": state_of(addr),
-                      "type": text(f["Site Type"]) or "", "logo": text(f["Fair Housing Logo"]), "b": buildings})
+        if gname and not multi:
+            warn(f"Group '{gname}' has only one row ({f['Community']})")
+        if gname and len({text(r["Site Type"]) for r in rows}) > 1:
+            warn(f"Group '{gname}' mixes site types")
+        codes = ", ".join(dict.fromkeys(text(r["Community Code"]) for r in rows))
+        logo = next((text(r["Fair Housing Logo"]) for r in rows if text(r["Fair Housing Logo"])), None)
+        cards.append({"code": codes, "name": name.strip().replace("'", "\u2019"), "addr": addr, "state": state_of(addr),
+                      "type": text(f["Site Type"]) or "", "logo": logo, "b": buildings})
     cards.sort(key=lambda c: c["name"].lower())
 
     OUT.mkdir(exist_ok=True)
