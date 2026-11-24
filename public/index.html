@@ -83,6 +83,8 @@ let D=[];const WHEEL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAABMBAMA
 const AM=["Community Room","Laundry Room","Off-Street Parking","On-Site Library","Game Room","Media Room","Outdoor Space","Fitness Center","Bus Access","Beauty Salon","Computer/Business Room","Activity/Craft Room","Controlled Access"];
 const $=s=>document.querySelector(s),e=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const sel=new Set();
+const lab=l=>/^\d+$/.test(l)?"Building "+l:/^\d[\d&,\s]*$/.test(l)?"Buildings "+l:l.trim().split(/\s+/).length>1?l:l+" building";
+const subOf=c=>{const a=c.b.map(b=>b.addr||c.addr);if(c.b.length<2||a.every(x=>x===a[0]))return c.code+" \u00b7 "+c.addr;const t=a.map(x=>x.split(",").slice(1).join(",").trim());return c.code+" \u00b7 "+(t[0]&&t.every(x=>x===t[0])?t[0]:a[0])};
 const utCat=u=>!u?"":/^full/i.test(u)?"Full":/^partial/i.test(u)?"Partial":/^tenant/i.test(u)?"Tenant":"";
 const stat=(l,v,n)=>v?`<div class="stat"><span>${l}</span><b>${v}</b>${n?`<i>${n}</i>`:""}</div>`:"";
 const tags=a=>a.length?`<div class="tags">${a.map(x=>`<span class="t">${e(x)}</span>`).join("")}</div>`:"";
@@ -98,23 +100,23 @@ function card(c){
   const bs=c.b,multi=bs.length>1;
   const lg=c.logo||"",logo=/active/i.test(lg)?ACTIVE:/wheelchair/i.test(lg)?WHEEL:/house only/i.test(lg)?HOUSE:"";
   const fam=c.type==="Family Site";
-  let h=`<article class="card"><div class="top"><div><p class="name">${e(c.name)}</p><p class="sub">${e(c.code)} · ${e(c.addr)}</p>
+  let h=`<article class="card"><div class="top"><div><p class="name">${e(c.name)}</p><p class="sub">${e(subOf(c))}</p>
   <div class="badges"><span class="b" style="background:var(--${fam?"fbg":"sbg"});color:var(--${fam?"ffg":"sfg"})">${e(c.type)}</span>${bs.some(b=>b.sc==="Yes")?`<span class="b" style="background:var(--okbg);color:var(--okfg)">Service coordinator</span>`:""}</div></div>
   ${logo?`<div class="logo"><img src="${logo}" alt="Equal housing opportunity logo"></div>`:""}</div>`;
-  if(multi)h+=`<div class="panels">${bs.map(b=>`<div class="panel"><h3>${e(b.label)} building</h3>${bld(b)}</div>`).join("")}</div>`;
+  if(multi)h+=`<div class="panels">${bs.map(b=>`<div class="panel"><h3>${e(lab(b.label))}</h3>${bs.some(x=>x.addr!==bs[0].addr)&&b.addr?`<p class="note">${e(b.addr)}</p>`:""}${bld(b)}</div>`).join("")}</div>`;
   else h+=bld(bs[0]);
   const L=bs.map(b=>b.am.concat(b.other));
   if(bs.some(b=>b.resp)){
     const com=L[0].filter(a=>L.every(l=>l.includes(a)));
     h+=`<div class="sec"><div><p class="lbl">${multi?"Amenities in all buildings":"Amenities"}</p>${tags(com)||`<p class="note">None listed</p>`}</div>`;
-    if(multi)bs.forEach((b,i)=>{const x=L[i].filter(a=>!com.includes(a));if(x.length)h+=`<div><p class="lbl">${e(b.label)} building only</p>${tags(x)}</div>`});
+    if(multi)bs.forEach((b,i)=>{const x=L[i].filter(a=>!com.includes(a));if(x.length)h+=`<div><p class="lbl">${e(lab(b.label))} only</p>${tags(x)}</div>`});
     h+=`</div>`;
   }
   return h+`</article>`;
 }
 function render(){
   const q=$("#q").value.trim().toLowerCase(),ty=$("#ty").value,st=$("#st").value,ut=$("#ut").value;
-  const r=D.filter(c=>(!q||(c.name+" "+c.code+" "+c.addr).toLowerCase().includes(q))&&(!ty||c.type===ty)&&(!st||c.state===st)&&(!ut||c.b.some(b=>utCat(b.util)===ut))&&[...sel].every(a=>c.b.some(b=>b.am.includes(a))));
+  const r=D.filter(c=>(!q||(c.name+" "+c.code+" "+c.addr+" "+c.b.map(b=>(b.addr||"")+" "+(b.label||"")).join(" ")).toLowerCase().includes(q))&&(!ty||c.type===ty)&&(!st||c.state===st)&&(!ut||c.b.some(b=>utCat(b.util)===ut))&&[...sel].every(a=>c.b.some(b=>b.am.includes(a))));
   $("#count").textContent=`${r.length} of ${D.length} communities`;
   $("#grid").innerHTML=r.length?r.map(card).join(""):`<p class="note">No communities match these filters.</p>`;
 }
@@ -136,12 +138,23 @@ const m=s.match(/^(\d+(?:\.\d+)?)\s*(?:[-\u2013\u2014]|to)\s*(\d+(?:\.\d+)?)$/)|
 let a=Math.floor(+m[1]+0.5),b=Math.floor(+(m[2]||m[1])+0.5);if(a>b)[a,b]=[b,a];if(b===0)return null;if(a<100||b>5000)return null;return a===b?String(a):a+"\u2013"+b};
 function bldN(r){const oth=S(r["Other Amenities"])?String(r["Other Amenities"]).split(",").map(x=>x.trim()).filter(Boolean):[];
 return{phone:S(r["Phone Number"]),total:num(r["Units Total"]),mix:MIXC.filter(([c])=>num(r[c])>0).map(([c,l])=>[l,num(r[c]),sqj(r[c.replace("Units","Sq Ft")])]),mr:S(r["Market Rate Units"]),ada:S(r["ADA Units"]),dis:disN(r["Disability %"]),util:utilN(r["Utilities"]),sc:S(r["Service Coordinator"]),resp:["Utilities","Service Coordinator","Community Room","Fair Housing Logo"].some(c=>S(r[c])!=null),am:AM.filter(a=>truthy(r[a])),other:oth}}
-function normalize(rows){const g=new Map();let skipped=0;
-rows.forEach(r0=>{const r={};for(const k in r0)r[k.trim()]=r0[k];const code=S(r["Community Code"]);if(!code||!S(r.Community)){skipped++;return}if(!g.has(code))g.set(code,[]);g.get(code).push(r)});
-const out=[];g.forEach((rs,code)=>{const f=rs[0],addr=S(f.Address)||"",m=addr.match(/\b([A-Z]{2})\b,?\s*\d{5}/);
-const bs=rs.map(r=>{const b=bldN(r),p=String(r.Community).match(/\((.*?)\)/);b.label=p?p[1].trim().replace(/\w\S*/g,w=>w[0].toUpperCase()+w.slice(1).toLowerCase()):"Main";return b});
-const nm=(rs.length>1?String(f.Community).replace(/\s*\(.*?\)\s*/g,""):String(f.Community)).trim().replace(/'/g,"\u2019");
-out.push({code,name:nm,addr,state:m?m[1]:/New York/.test(addr)?"NY":/Texas/.test(addr)?"TX":"",type:S(f["Site Type"])||"",logo:S(f["Fair Housing Logo"]),b:bs})});
+const deriveGroup=names=>{const cl=names.map(n=>String(n).replace(/\s*\(.*?\)\s*/g," ").trim().replace(/\s+\d[\d\s&,]*$/,"").trim()),w=cl.map(x=>x.split(/\s+/));let k=0;
+while(k<w[0].length&&w.every(a=>a.length>k&&a[k].toLowerCase()===w[0][k].toLowerCase()))k++;
+if(k>=2||(new Set(cl.map(x=>x.toLowerCase())).size===1&&k>=1))return w[0].slice(0,k).join(" ");
+for(const n of names){const p=String(n).match(/\((.*?)\)/);if(p&&p[1].trim().split(/\s+/).length>=2)return p[1].trim()}
+return names.map(n=>String(n).trim()).join(" / ")};
+function normalize(rows,lv){const g=new Map();let skipped=0;const auto={};
+if(lv){let i=0;while(i<rows.length){const L=lv[i]||0;if(L>0){let j=i;while(j+1<rows.length&&(lv[j+1]||0)===L)j++;if(j>i){const nm=deriveGroup(rows.slice(i,j+1).map(r=>r.Community==null?"":r.Community));for(let k=i;k<=j;k++)auto[k]=nm}i=j+1}else i++}}
+rows.forEach((r0,i)=>{const r={};for(const k in r0)r[k.trim()]=r0[k];const code=S(r["Community Code"]);if(!code||!S(r.Community)){skipped++;return}
+const gn=S(r.Group)||auto[i],key=gn?"G:"+gn.toLowerCase():"C:"+code;if(!g.has(key))g.set(key,[]);g.get(key).push({r,code,gn})});
+const out=[];g.forEach((items,key)=>{const rs=items.map(x=>x.r),f=rs[0],gname=key[0]==="G"?items[0].gn:null,multi=rs.length>1,addr=S(f.Address)||"",m=addr.match(/\b([A-Z]{2})\b,?\s*\d{5}/);
+const esc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+const bs=rs.map(r=>{const b=bldN(r);if(multi)b.addr=S(r.Address)||"";let rest=String(r.Community).trim();
+if(gname){rest=rest.replace(new RegExp(esc(gname),"ig"),"").replace(/\(\s*\)/g,"");const p=rest.match(/\((.*?)\)/);rest=(p?p[1]:rest).replace(/^[-\u2013:,\s]+|[-\u2013:,\s]+$/g,"");b.label=rest||"Main"}
+else{const p=rest.match(/\((.*?)\)/);b.label=p?p[1].trim().replace(/\w\S*/g,w=>w[0].toUpperCase()+w.slice(1).toLowerCase()):"Main"}return b});
+const nm=(gname||(multi?String(f.Community).replace(/\s*\(.*?\)\s*/g,""):String(f.Community))).trim().replace(/'/g,"\u2019");
+const codes=[...new Set(items.map(x=>x.code))].join(", "),lg=rs.map(r=>S(r["Fair Housing Logo"])).find(Boolean)||null;
+out.push({code:codes,name:nm,addr,state:m?m[1]:/New York/.test(addr)?"NY":/Texas/.test(addr)?"TX":"",type:S(f["Site Type"])||"",logo:lg,b:bs})});
 out.sort((a,b)=>a.name.toLowerCase()<b.name.toLowerCase()?-1:1);return{out,skipped}}
 //NORM-END
 const st=o=>JSON.stringify(o,(k,v)=>v&&typeof v==="object"&&!Array.isArray(v)?Object.keys(v).sort().reduce((a,x)=>(a[x]=v[x],a),{}):v);
@@ -153,10 +166,10 @@ function dlg(title,html,canSave){$("#dt").textContent=title;$("#dbd").innerHTML=
 $("#upb").onclick=()=>$("#fi").click();
 $("#fi").onchange=async ev=>{const f=ev.target.files[0];ev.target.value="";if(!f)return;pend=null;
 try{if(!window.XLSX)throw new Error("The spreadsheet reader didn’t load. Check your connection and try again.");
-const wb=XLSX.read(await f.arrayBuffer(),{type:"array"}),ws=wb.Sheets["Communities"]||wb.Sheets[wb.SheetNames[0]],rows=XLSX.utils.sheet_to_json(ws,{defval:null});
+const wb=XLSX.read(await f.arrayBuffer(),{type:"array",cellStyles:true}),ws=wb.Sheets["Communities"]||wb.Sheets[wb.SheetNames[0]],rows=XLSX.utils.sheet_to_json(ws,{defval:null,blankrows:true}),lv=(ws["!rows"]||[]).slice(1).map(x=>x&&x.level||0);
 const cols=new Set(Object.keys(rows[0]||{}).map(k=>k.trim())),miss=REQ.filter(c=>!cols.has(c));
 if(miss.length)throw new Error("Missing columns: "+miss.join(", "));
-const{out,skipped}=normalize(rows);if(!out.length)throw new Error("No communities with a code were found.");
+const{out,skipped}=normalize(rows,lv);if(!out.length)throw new Error("No communities with a code were found.");
 const o=new Map(D.map(c=>[c.code,st(c)])),n=new Map(out.map(c=>[c.code,st(c)])),nm=new Map(out.map(c=>[c.code,c.name]));
 const add=[...n.keys()].filter(k=>!o.has(k)),rem=[...o.keys()].filter(k=>!n.has(k)),chg=[...n.keys()].filter(k=>o.has(k)&&o.get(k)!==n.get(k));
 const li=(l,a)=>a.length?`<li>${l}: ${a.length}${a.length<=6?" ("+a.map(k=>e(nm.get(k)||k)).join(", ")+")":""}</li>`:"";
