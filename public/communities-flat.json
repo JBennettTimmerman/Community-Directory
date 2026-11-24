@@ -1443,7 +1443,7 @@
     "ada_units": "None",
     "disability_pct": "No",
     "utilities": "Paid Utilities",
-    "service_coordinator": "No",
+    "service_coordinator": "Yes",
     "fair_housing_logo": "House Only",
     "amenities": [
       "Community Room",
@@ -1953,11 +1953,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "GT",
@@ -2219,11 +2219,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "GRSH",
@@ -2403,11 +2403,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "HRT",
@@ -2548,11 +2548,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "JFNO",
@@ -2654,11 +2654,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "JSA",
@@ -3314,7 +3314,7 @@
     "ada_units": "None",
     "disability_pct": "No",
     "utilities": "Paid Utilities",
-    "service_coordinator": "No",
+    "service_coordinator": "Yes",
     "fair_housing_logo": "House Only",
     "amenities": [
       "Community Room",
@@ -3435,11 +3435,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "OWL",
@@ -4932,11 +4932,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "WG2",
@@ -4960,11 +4960,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "WH1",
@@ -4993,11 +4993,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "WH2",
@@ -5021,11 +5021,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "WPL",
@@ -5084,11 +5084,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "WT1",
@@ -5117,11 +5117,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "WT2",
@@ -5145,11 +5145,11 @@
     "ada_units": null,
     "disability_pct": null,
     "utilities": null,
-    "service_coordinator": null,
+    "service_coordinator": "Yes",
     "fair_housing_logo": null,
     "amenities": [],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "WW1",
@@ -5201,15 +5201,19 @@
         "max": 535
       }
     },
-    "market_rate_units": null,
-    "ada_units": null,
-    "disability_pct": null,
-    "utilities": null,
-    "service_coordinator": null,
-    "fair_housing_logo": null,
-    "amenities": [],
+    "market_rate_units": "None",
+    "ada_units": "0",
+    "disability_pct": "No",
+    "utilities": "Full utilities",
+    "service_coordinator": "Yes",
+    "fair_housing_logo": "Wheelchair & House",
+    "amenities": [
+      "Community Room",
+      "Laundry Room",
+      "Off-Street Parking"
+    ],
     "other_amenities": [],
-    "survey_completed": false
+    "survey_completed": true
   },
   {
     "code": "WIN1",
