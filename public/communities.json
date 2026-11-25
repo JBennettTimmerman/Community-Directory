@@ -2944,6 +2944,40 @@
     ]
   },
   {
+    "code": "LRID",
+    "name": "Laurel Ridge Tower",
+    "addr": "1700 Veil Avenue, Windber, PA 15963",
+    "state": "PA",
+    "type": "Senior Site",
+    "logo": "House Only",
+    "b": [
+      {
+        "phone": "814-467-5041",
+        "total": 102,
+        "mix": [
+          [
+            "1-bedroom",
+            102,
+            "521"
+          ]
+        ],
+        "mr": null,
+        "ada": null,
+        "dis": null,
+        "util": "Full utilities",
+        "sc": null,
+        "resp": true,
+        "am": [
+          "Community Room",
+          "Laundry Room",
+          "Off-Street Parking"
+        ],
+        "other": [],
+        "label": "Main"
+      }
+    ]
+  },
+  {
     "code": "MAG",
     "name": "Magnolia Heights",
     "addr": "333 Mill St, Lake Charles, LA 70601",

@@ -2895,6 +2895,38 @@
     "survey_completed": true
   },
   {
+    "code": "LRID",
+    "group": null,
+    "name": "Laurel Ridge Tower",
+    "site_type": "Senior Site",
+    "address": "1700 Veil Avenue, Windber, PA 15963",
+    "state": "PA",
+    "phone": "814-467-5041",
+    "units_total": 102,
+    "unit_mix": {
+      "1-bedroom": 102
+    },
+    "unit_sqft": {
+      "1-bedroom": {
+        "min": 521,
+        "max": 521
+      }
+    },
+    "market_rate_units": null,
+    "ada_units": null,
+    "disability_pct": null,
+    "utilities": "Full utilities",
+    "service_coordinator": null,
+    "fair_housing_logo": "House Only",
+    "amenities": [
+      "Community Room",
+      "Laundry Room",
+      "Off-Street Parking"
+    ],
+    "other_amenities": [],
+    "survey_completed": true
+  },
+  {
     "code": "MAG",
     "group": null,
     "name": "Magnolia Heights",
